@@ -1,13 +1,28 @@
 UNDER ARBETE
 
 ## Skapa ny - Agent: organisation
-Exempel: , Voyager AuktID
+Exempel: 10-gruppen, Voyager AuktID 409156
 
 ### Adminmetadata
-* Skapad av
-* Katalogiseringsregler
-* Katalogiseringsspråk
+
+* Kontrollnummer  
+  AuktID. Ska inte ändras.  
+  ```Exempel: 409156```
+  
+* Skapad av/Organisation/Namn (040 ‡a)  
+  Förval: den sigel som skapat posten. Ska inte ändras.  
+  ```Exempel: S```
+    
+* Katalogiseringsregler (040 ‡e)  
+  För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
+  ```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
+
+* Katalogiseringsspråk (040 ‡b)  
+  Länka till entitet.  
+  ```Exempel: svenska (swe)```
+
 * Beskrivningsnivå
+
 * Auktoritetskontrollnivå
 * 
 
