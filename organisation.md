@@ -6,7 +6,7 @@ Exempel: 10-gruppen, Voyager AuktID 409156
 ### Adminmetadata
 
 * Kontrollnummer  
-  AuktID. Ska inte ändras.  
+  AuktID från Voyager. Ska inte ändras.  
   ```Exempel: 409156```
   
 * Skapad av/Organisation/Namn (040 ‡a)  
