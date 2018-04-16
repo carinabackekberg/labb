@@ -36,12 +36,12 @@ Exempel: 10-gruppen, Voyager AuktID 409156
 * Nationalitet (043 ‡a)
 
 
-### Övriga fält som är möjliga att lägga till i Organisation
+### Övriga fält som är möjliga att lägga till
 
 * Tid för grundande (establishDate, 046 ‡q)
 * Tid för upphörande (terminateDate, 046 ‡r)
 * Verksamhetsområde (fieldOfActivity, 372 ‡a ‡2)
-* Identifikator
+* Typ
 * Plats (place, 370 ‡a ‡b ‡c ‡e ‡f ‡s ‡t)
 
     
