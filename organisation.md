@@ -6,23 +6,23 @@ Exemplen är hämtade från olika poster
 ### Adminmetadata
 
 * Kontrollnummer (controllNumber) 
-  <br/>AuktID från Voyager. Kan inte ändras.  
+  AuktID från Voyager. Kan inte ändras.  
   ```Exempel: 409156```
   
 * Skapad av (descriptionCreator) (040 ‡a)  
-  <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
+  Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```
   
  * Senast ändrad av (descriptionLastModifier) (040 ‡d)  
-  <br/>Ange den sigel som ändrat posten.  
+  Ange den sigel som ändrat posten.  
   ```Exempel: NB```
     
 * Katalogiseringsregler (descriptionConventions) (040 ‡e)  
-  <br/>För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
+  För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
   ```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
 
 * Katalogiseringsspråk (descriptionLanguage) (040 ‡b)  
-  <br/>Länka till entitet.  
+  Länka till entitet.  
   ```Exempel: svenska (swe)```
 
 * Katalogisatörens anmärkning (cataloguersNote) (667 #a)
