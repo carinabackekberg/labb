@@ -27,27 +27,41 @@ Exempel: 10-gruppen, Voyager AuktID 409156
 * 
 
 ### Fält i mall
-* Namn (110 ‡a ‡b)
-* Exakt match (ExaktMatch, 410 ‡a ‡b)
-* Verksamhetens starttid (activityStartDate, 046 ‡s)
-* Verksamhetens sluttid (activityEndDate, 046 ‡t)
 
+* Namn (110 ‡a ‡b)
+
+
+* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
+  <br/>```Exempel: 1886```
+    
+* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
+  <br/>```Exempel: 1999```
+  
+* Exakt match/har variant (exaktMatch, 410 ‡a ‡b)
+  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
+  <br/>```Exempel: Släktforskarförbundet```
+  <br/>```Exempel: Federation of Swedish Genealogical Societies```
+  
 * Administativ historik (has Historical Data) (678 ‡a)
-  Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
-  ```Riksförbund för svenska släktforskare```
+  <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
+  <br/>```Exempel: Riksförbund för svenska släktforskare```
 
 * Identifikator (identifiedBy) (024 ‡a ‡2)
-  Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
-  ```Exempel:  ISNI, 156982904```
+  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
+  <br/>```Exempel:  ISNI, 0000000104839039```
     
 * Nationalitet (nationality) (043 ‡a)
-  Välj nationalitet i rullmeny? 
-  ```Exempel: e-sw---```
+  <br/>Välj nationalitet i rullmeny?/Välj nationalitet genom att länka. Sök på landets namn. 
+  <br/>```Exempel: e-sw---```
 
 ### Övriga fält som är möjliga att lägga till
 
-* Tid för grundande (establishDate, 046 ‡q)
-* Tid för upphörande (terminateDate, 046 ‡r)
+* Tid för grundande/Startdatum (establishDate, 046 ‡q)
+  <br/>```Exempel: 1965```
+
+* Tid för upphörande/Slutdatum (terminateDate, 046 ‡r)
+  <br/>```Exempel: 2003```
+  
 * Verksamhetsområde (fieldOfActivity, 372 ‡a ‡2)
 * Typ
 * Plats (place, 370 ‡a ‡b ‡c ‡e ‡f ‡s ‡t)
