@@ -7,15 +7,15 @@ Exemplen är hämtade från olika poster
 
 * Kontrollnummer (controllNumber) 
   <br/>AuktID från Voyager. Kan inte ändras.  
-  <br/>```Exempel: 409156```
+  ```Exempel: 409156```
   
 * Skapad av (descriptionCreator) (040 ‡a)  
   <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
-  <br/>```Exempel: S```
+  ```Exempel: S```
   
   * Senast ändrad av (descriptionLastModifier) (040 ‡d)  
   <br/>Ange den sigel som ändrat posten.  
-  <br/>```Exempel: NB```
+  ```Exempel: NB```
     
 * Katalogiseringsregler (descriptionConventions) (040 ‡e)  
   <br/>För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
