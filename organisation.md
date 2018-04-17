@@ -76,7 +76,7 @@ Exemplen är hämtade från olika poster
   <br/>```Exempel: e-sw---```
   
   
-### Valbara fält som inte ingår i mallen
+### Valbara fält som saknas i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
 * Tid för grundande/Startdatum (establishDate, 046 ‡q)
