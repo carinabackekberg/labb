@@ -1,7 +1,7 @@
 UNDER ARBETE
 
 ## Skapa - Agent: organisation
-Exemplen är hämtade från olika auktoritetsposter
+Exemplen är hämtade från olika poster
 
 ### Adminmetadata
 
