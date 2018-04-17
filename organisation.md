@@ -98,10 +98,13 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   <br/>Ange språk som organisation använder vid behov. Länka till entitet.
   <br/>```Exempel: Engelska```
   
- * Typ (?) (368)
+* Typ (?) (368)
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
   <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel: Herrgårdar```
+  <br/>```Exempel: Herrgårdar``` 
   
+* Organisatorisk tilhörighet (hasAffiliation) (373 ‡a)
+  <br/>Här är det möjligt att ange en samhörande institution.
+  <br/>```Exempel: Uppsala universitet```
 
     
