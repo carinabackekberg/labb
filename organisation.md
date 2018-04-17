@@ -27,12 +27,12 @@ Exemplen är hämtade från olika poster
 
 * Katalogisatörens anmärkning (cataloguersNote) (667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  ```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
+  ```Exempel: . 2018-04-12/S/NB/carbac```
 
 * Konsulterad källa (sourceConsulted) (670 #a)
   <br/>Källa vid belagd uppgift.
-  ```Exempel: NE (2018-04-11)```
-  ```Exempel: LC i VIAF (2018-04-11)```
+   <br/>```Exempel: NE (2018-04-11)```
+   <br/>```Exempel: LC i VIAF (2018-04-11)```
   
 * Beskrivningsnivå (encodingLevel) (000/Leader/?)
 
