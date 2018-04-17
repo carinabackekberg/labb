@@ -99,6 +99,7 @@ Följande fält är möjliga att lägga till för Organisation. Nya fält läggs
 * Typ
   <br/>```Exempel:```
   
+  
 
 * Plats (place, 370 ‡a ‡b ‡c ‡e ‡f ‡s ‡t)
   <br/>```Exempel:```
