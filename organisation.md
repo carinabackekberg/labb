@@ -23,7 +23,7 @@ Exemplen är hämtade från olika poster
 
 * Katalogiseringsspråk (descriptionLanguage) (040 ‡b)  
   Länka till entitet.  
-  ```Exempel: svenska (swe)```
+  ```Exempel: Svenska```
 
 * Katalogisatörens anmärkning (cataloguersNote) (667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
@@ -77,7 +77,7 @@ Exemplen är hämtade från olika poster
   
   
 ### Valbara fält som inte ingår i mallen
-Följande fält är möjliga att lägga till för Organisation. Nya fält läggs till med hjälp av +Fält-ikonen
+Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
 * Tid för grundande/Startdatum (establishDate, 046 ‡q)
   <br/>```Exempel: 1965```
@@ -86,23 +86,23 @@ Följande fält är möjliga att lägga till för Organisation. Nya fält läggs
   <br/>```Exempel: 2003```
   
 * Verksamhetsområde (fieldOfActivity) (372 ‡a ‡2)
-  <br/>
+  <br/>Ange verksamhetsområde för en organisation vid behov.
+  <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel: Släktforskning``` 
   
-* Har yrke eller sysselsättning (hasOccupation = 374)
-   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. 
-   <br/>Lägg till ytterligare yrke eller sysselsättning genom att klicka på ```+Koncept ```
-  <br/>Sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. 
-   <br/>```Exempel: Romanförfattare ```
-   <br/>```Exempel: Översättare```
 
-* Typ
+* Typ (368)
+  <br/>Ange typ av organisation vid behov. Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel:```
-  
-  
+    
 
-* Plats (place, 370 ‡a ‡b ‡c ‡e ‡f ‡s ‡t)
+* Förknippad plats (associatedLocal) (370 ‡a ‡b ‡c ‡e ‡f ‡s ‡t)
   <br/>```Exempel:```
+ 
+ 
+* Språk (associatedLanguage) (377 ‡a)
+  <br/>Ange språk som organisation använder vid behov. Länka till entitet.
+  <br/>```Exempel: Engelska```
   
 
     
