@@ -35,7 +35,7 @@ Exemplen är hämtade från olika poster
   <br/>```Exempel: Uppsala Universitet```
   
 * Namn på underordnad enhet (marc/subordinateUnit) (110 ‡b)
-  <br/>Här anges underordnade och relaterade institutioner som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera institutionen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
+  <br/>Här anges underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
   <br/>```Exempel: Engelska institutionen```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
@@ -45,7 +45,7 @@ Exemplen är hämtade från olika poster
   <br/>```Exempel: 1999```
   
 * Exakt match/har variant (exaktMatch, 410 ‡a ‡b?)
-  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till. Underordnad institution anges???
+  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till. Variantnamn med underordnad enhet anges???
   <br/>```Exempel: Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
   
