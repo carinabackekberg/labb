@@ -5,27 +5,44 @@ Exemplen är hämtade från olika poster
 
 ### Adminmetadata
 
-* Kontrollnummer  
-  AuktID från Voyager. Ska inte ändras.  
-  ```Exempel: 409156```
+* Kontrollnummer (controllNumber) 
+  <br/>AuktID från Voyager. Kan inte ändras.  
+  <br/>```Exempel: 409156```
   
-* Skapad av/Organisation/Namn (040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: S```
+* Skapad av (descriptionCreator) (040 ‡a)  
+  <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
+  <br/>```Exempel: S```
+  
+  * Senast ändrad av (descriptionLastModifier) (040 ‡d)  
+  <br/>Ange den sigel som ändrat posten.  
+  <br/>```Exempel: NB```
     
-* Katalogiseringsregler (040 ‡e)  
-  För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
-  ```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
+* Katalogiseringsregler (descriptionConventions) (040 ‡e)  
+  <br/>För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
+  <br/>```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
 
-* Katalogiseringsspråk (040 ‡b)  
-  Länka till entitet.  
-  ```Exempel: svenska (swe)```
+* Katalogiseringsspråk (descriptionLanguage) (040 ‡b)  
+  <br/>Länka till entitet.  
+  <br/>```Exempel: svenska (swe)```
 
-* Beskrivningsnivå
+* Katalogisatörens anmärkning (cataloguersNote) (667 #a)
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+  <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
 
-* Auktoritetskontrollnivå
+* Konsulterad källa (sourceConsulted) (670 #a)
+  <br/>Källa vid belagd uppgift.
+  ```Exempel: NE (2018-04-11)```
+  ```Exempel: LC i VIAF (2018-04-11)```
+  
+* Beskrivningsnivå (encodingLevel) (000/Leader/?)
 
-* 
+* Auktoritetskontrollnivå (marc:level)
+  
+* Poststatus (recordStatus = = 000/Leader/?)
+
+
+
+
 
 ### Fält i mall
 
@@ -60,8 +77,10 @@ Exemplen är hämtade från olika poster
 * Nationalitet (nationality) (043 ‡a)
   <br/>Välj nationalitet i rullmeny?/Välj nationalitet genom att länka. Sök på landets namn. 
   <br/>```Exempel: e-sw---```
+  
 
-### Övriga fält som är möjliga att lägga till
+### Valbara fält som inte ingår i mallen
+<br/>Följande fält är möjliga att lägga till för Organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
 * Tid för grundande/Startdatum (establishDate, 046 ‡q)
   <br/>```Exempel: 1965```
