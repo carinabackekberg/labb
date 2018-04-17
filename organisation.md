@@ -1,7 +1,7 @@
 UNDER ARBETE
 
 ## Skapa - Agent: organisation
-Exempel: 10-gruppen, Voyager AuktID 409156
+Exemplen är hämtade från olika auktoritetsposter
 
 ### Adminmetadata
 
@@ -24,12 +24,19 @@ Exempel: 10-gruppen, Voyager AuktID 409156
 * Beskrivningsnivå
 
 * Auktoritetskontrollnivå
+
 * 
 
 ### Fält i mall
 
-* Namn (110 ‡a ‡b)
-
+* Namn (name) (110 ‡a)
+  <br/>Föredragen namnform som utgör den auktoriseade namnformen
+  <br/>```Exempel: Sveriges släktforskarförbund```
+  <br/>```Exempel: Uppsala Universitet```
+  
+* Namn på underordnad enhet (marc/subordinateUnit) (110 ‡b)
+  <br/>Här anges underordnade och relaterade institutioner som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera institutionen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
+  <br/>```Exempel: Engelska institutionen```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
   <br/>```Exempel: 1886```
@@ -37,8 +44,8 @@ Exempel: 10-gruppen, Voyager AuktID 409156
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
   <br/>```Exempel: 1999```
   
-* Exakt match/har variant (exaktMatch, 410 ‡a ‡b)
-  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
+* Exakt match/har variant (exaktMatch, 410 ‡a ‡b?)
+  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till. Underordnad institution anges???
   <br/>```Exempel: Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
   
@@ -63,7 +70,9 @@ Exempel: 10-gruppen, Voyager AuktID 409156
   <br/>```Exempel: 2003```
   
 * Verksamhetsområde (fieldOfActivity, 372 ‡a ‡2)
+
 * Typ
+
 * Plats (place, 370 ‡a ‡b ‡c ‡e ‡f ‡s ‡t)
 
     
