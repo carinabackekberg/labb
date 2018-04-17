@@ -91,18 +91,19 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   <br/>```Exempel: Släktforskning``` 
   
 
-* Typ (368)
-  <br/>Ange typ av organisation vid behov. Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel:```
-    
-
-* Förknippad plats (associatedLocal) (370 ‡a ‡b ‡c ‡e ‡f ‡s ‡t)
-  <br/>```Exempel:```
+* Förknippad plats (associatedLocal) (370 ‡c)
+  <br/>Vid plats: länka till entitet.
+  <br/>```Exempel: Sverige```
  
  
 * Språk (associatedLanguage) (377 ‡a)
   <br/>Ange språk som organisation använder vid behov. Länka till entitet.
   <br/>```Exempel: Engelska```
+  
+  * Typ (?) (368)
+  <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
+  <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
+  <br/>```Exempel: Herrgårdar```
   
 
     
