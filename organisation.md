@@ -77,7 +77,8 @@ Exemplen är hämtade från olika poster
 * Nationalitet (nationality) (043 ‡a)
   <br/>Välj nationalitet i rullmeny?/Välj nationalitet genom att länka. Sök på landets namn. 
   <br/>```Exempel: e-sw---```
-  
+ 
+ 
 
 ### Valbara fält som inte ingår i mallen
 <br/>Följande fält är möjliga att lägga till för Organisation. Nya fält läggs till med hjälp av +Fält-ikonen
