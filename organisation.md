@@ -88,19 +88,17 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
 * Verksamhetsområde (fieldOfActivity) (372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel: Släktforskning``` 
-  
+  <br/>```Exempel: Släktforskning```  
 
 * Förknippad plats (associatedLocal) (370 ‡c)
   <br/>Vid plats: länka till entitet.
   <br/>```Exempel: Sverige```
  
- 
 * Språk (associatedLanguage) (377 ‡a)
   <br/>Ange språk som organisation använder vid behov. Länka till entitet.
   <br/>```Exempel: Engelska```
   
-  * Typ (?) (368)
+ * Typ (?) (368)
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
   <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel: Herrgårdar```
