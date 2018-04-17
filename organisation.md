@@ -88,6 +88,13 @@ Följande fält är möjliga att lägga till för Organisation. Nya fält läggs
 * Verksamhetsområde (fieldOfActivity) (372 ‡a ‡2)
   <br/>
   <br/>```Exempel: Släktforskning``` 
+  
+* Har yrke eller sysselsättning (hasOccupation = 374)
+   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. 
+   <br/>Lägg till ytterligare yrke eller sysselsättning genom att klicka på ```+Koncept ```
+  <br/>Sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. 
+   <br/>```Exempel: Romanförfattare ```
+   <br/>```Exempel: Översättare```
 
 * Typ
   <br/>```Exempel:```
