@@ -4,8 +4,8 @@ UNDER ARBETE
 Exemplen är hämtade från olika poster
 
 [Adminmetadata](#adminmetadata)  
-[Fält i mall](#Fält i mall)  
-[Valbara fält som inte ingår i mall](#Valbara fält som inte ingår i mall)  
+[Fält i mall](#fält i mall)  
+[Valbara fält som inte ingår i mallen](#valbara fält som inte ingår i mallen)  
 
 ### Adminmetadata
 
