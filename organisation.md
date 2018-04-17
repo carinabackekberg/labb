@@ -31,10 +31,18 @@ Exempel: 10-gruppen, Voyager AuktID 409156
 * Exakt match (ExaktMatch, 410 ‡a ‡b)
 * Verksamhetens starttid (activityStartDate, 046 ‡s)
 * Verksamhetens sluttid (activityEndDate, 046 ‡t)
-* Administativ historik (678 ‡a)
-* Identifikator (024 ‡a ‡2)
-* Nationalitet (043 ‡a)
 
+* Administativ historik (has Historical Data) (678 ‡a)
+  Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
+  ```Riksförbund för svenska släktforskare```
+
+* Identifikator (identifiedBy) (024 ‡a ‡2)
+  Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
+  ```Exempel:  ISNI, 156982904```
+    
+* Nationalitet (nationality) (043 ‡a)
+  Välj nationalitet i rullmeny? 
+  ```Exempel: e-sw---```
 
 ### Övriga fält som är möjliga att lägga till
 
