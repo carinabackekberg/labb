@@ -49,7 +49,7 @@ Exemplen är hämtade från olika poster
   <br/>```Exempel: Uppsala Universitet```
   
 * Namn på underordnad enhet (marc/subordinateUnit) (110 ‡b)
-  <br/>Här anges underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
+  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
   <br/>```Exempel: Engelska institutionen```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
