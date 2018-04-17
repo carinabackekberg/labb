@@ -30,7 +30,7 @@ Exemplen är hämtade från olika poster
 ### Fält i mall
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriseade namnformen
+  <br/>Föredragen namnform som utgör den auktoriseade namnformen eller del av den auktoriserade namnformen
   <br/>```Exempel: Sveriges släktforskarförbund```
   <br/>```Exempel: Uppsala Universitet```
   
