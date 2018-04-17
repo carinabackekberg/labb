@@ -40,7 +40,7 @@ Exemplen är hämtade från olika poster
   
 * Poststatus (recordStatus = = 000/Leader/?)
 
-<br/>
+
 ### Fält i mall
 
 * Namn (name) (110 ‡a)
@@ -75,7 +75,7 @@ Exemplen är hämtade från olika poster
   <br/>Välj nationalitet i rullmeny?/Välj nationalitet genom att länka. Sök på landets namn. 
   <br/>```Exempel: e-sw---```
   
-<br/>  
+  
 ### Valbara fält som inte ingår i mallen
 Följande fält är möjliga att lägga till för Organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
