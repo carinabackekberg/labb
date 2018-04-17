@@ -3,10 +3,6 @@ UNDER ARBETE
 ## Skapa - Agent: organisation
 Exemplen är hämtade från olika poster
 
-[Adminmetadata](#adminmetadata)  
-[Fält i mall](#fält i mall)  
-[Valbara fält som inte ingår i mallen](#valbara fält som inte ingår i mallen)  
-
 ### Adminmetadata
 
 * Kontrollnummer (controllNumber) 
