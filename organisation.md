@@ -85,10 +85,16 @@ Följande fält är möjliga att lägga till för Organisation. Nya fält läggs
 * Tid för upphörande/Slutdatum (terminateDate, 046 ‡r)
   <br/>```Exempel: 2003```
   
-* Verksamhetsområde (fieldOfActivity, 372 ‡a ‡2)
+* Verksamhetsområde (fieldOfActivity) (372 ‡a ‡2)
+  <br/>
+  <br/>```Exempel: Släktforskning``` 
 
 * Typ
+  <br/>```Exempel:```
+  
 
 * Plats (place, 370 ‡a ‡b ‡c ‡e ‡f ‡s ‡t)
+  <br/>```Exempel:```
+  
 
     
