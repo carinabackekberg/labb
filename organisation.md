@@ -13,21 +13,21 @@ Exemplen är hämtade från olika poster
   <br/>Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```
   
-  * Senast ändrad av (descriptionLastModifier) (040 ‡d)  
+ * Senast ändrad av (descriptionLastModifier) (040 ‡d)  
   <br/>Ange den sigel som ändrat posten.  
   ```Exempel: NB```
     
 * Katalogiseringsregler (descriptionConventions) (040 ‡e)  
   <br/>För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
-  <br/>```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
+  ```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
 
 * Katalogiseringsspråk (descriptionLanguage) (040 ‡b)  
   <br/>Länka till entitet.  
-  <br/>```Exempel: svenska (swe)```
+  ```Exempel: svenska (swe)```
 
 * Katalogisatörens anmärkning (cataloguersNote) (667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
+  ```Exempel: Författaren vill inte ha sitt födelseår i auktoritetsposten. Enligt e-post 2017-05-12, S/NB/annbjo```
 
 * Konsulterad källa (sourceConsulted) (670 #a)
   <br/>Källa vid belagd uppgift.
