@@ -7,28 +7,27 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 ### Fält i mall
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriseade namnformen eller del av den auktoriserade namnformen
+  <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer i ett led.
   <br/>```Exempel: Sveriges släktforskarförbund```
-  <br/>```Exempel: Uppsala Universitet```
-  
-* Namn på underordnad enhet (marc/subordinateUnit) (110 ‡b)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
-  <br/>```Exempel: Engelska institutionen```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
   <br/>```Exempel: 1886```
     
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
-  <br/>```Exempel: 1999```
-  
-* Exakt match/har variant (exaktMatch, 410 ‡a ‡b?)
-  <br/>I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till. Variantnamn med underordnad enhet anges???
-  <br/>```Exempel: Släktforskarförbundet```
-  <br/>```Exempel: Federation of Swedish Genealogical Societies```
-  
+  <br/>```Exempel: 1999``` 
+   
 * Administativ historik (has Historical Data) (678 ‡a)
   <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
   <br/>```Exempel: Riksförbund för svenska släktforskare```
+  
+* Variant (hasVariant = 410 ‡a)
+  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på plustecknet under "Variant" och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
+  <br/>```Exempel:Släktforskarförbundet```
+  <br/>```Exempel: Federation of Swedish Genealogical Societies```
+  
+* Se även (seeAlso = 510 ‡a)
+  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på plustecknet under "Se även" och länka agent genom att söka på agentens namn.
+  <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
 
 * Identifikator (identifiedBy) (024 ‡a ‡2)
   <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
@@ -44,7 +43,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
       
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
  <br/>Förval: rda. Ändra vid behov.
- <br/>Exempel: Kod: rda
+ <br/>```Exempel: Kod: rda```
   
  * Skapad av (descriptionCreator = 040 ‡a)
  <br/>Förval: inloggad sigel. Ändras ej.
@@ -90,6 +89,15 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   
 ### Valbara fält som saknas i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
+
+* Namn (name) (110 ‡a)
+  <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer i ett led. eller del av den auktoriserade namnformen
+  <br/>```Exempel: Sveriges släktforskarförbund```
+  <br/>```Exempel: Uppsala Universitet```
+  
+* Namn på underordnad enhet (marc/subordinateUnit) (110 ‡b)
+  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
+  <br/>```Exempel: Engelska institutionen```
 
 * Tid för grundande/Startdatum (establishDate, 046 ‡q)
   <br/>```Exempel: 1965```
