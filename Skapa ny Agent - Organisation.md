@@ -1,24 +1,17 @@
 UNDER ARBETE
 
 ## Skapa ny - Agent: organisation
+Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält behövs om man ska skapa organisationer med namn i två led.
 
 ### Adminmetadata
-
-* Kontrollnummer (controllNumber) 
-  AuktID från Voyager. Kan inte ändras.  
-  ```Exempel: 409156```
-  
-* Skapad av (descriptionCreator) (040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: S```
-  
- * Senast ändrad av (descriptionLastModifier) (040 ‡d)  
-  Ange den sigel som ändrat posten.  
-  ```Exempel: NB```
     
 * Katalogiseringsregler (descriptionConventions) (040 ‡e)  
   För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
   ```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
+  
+  * Skapad av (descriptionCreator) (040 ‡a)  
+  Förval: den sigel som skapat posten. Ska inte ändras.  
+  ```Exempel: S```
 
 * Katalogiseringsspråk (descriptionLanguage) (040 ‡b)  
   Länka till entitet.  
