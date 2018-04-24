@@ -48,7 +48,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   
  * Skapad av (descriptionCreator = 040 ‡a)
  <br/>Förval: inloggad sigel. Ändras ej.
- <br/>```Exempel: S```
+ <br/>```Exempel: library/S```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>Förval: language/swe. Ändras ej.
@@ -57,14 +57,14 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  <br/>Val i meny?/Ändras ej?
 
 * Translitterering (marc:romanization = 008/07)
- <br/>Ändras ej
+ <br/>marc/NationalStandard. Ändras ej
 
 * Poststatus (recordStatus = = 000/?)
   <br/>Val i meny?/Ändras ej?
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Ändrad auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+  <br/>```Exempel: Ändrad auktoriserad namnform från Xxx till Yyy 2018-01-03/S/NB/carbac```
 
 * Konsulterad källa (sourceConsulted = 670 ‡a ‡b)
   <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som vilken information som är hämtad från källan.
@@ -78,13 +78,13 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Årsberättelse, 1971```
    
 * Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej
+  <br/>marc/RecordCanBeUsed. Ändras ej
     
 * Differentiering av posten (marc:personalName = 008/32)
-  <br/>Ändras ej
+  <br/>marc/DifferentiatedPersonalName. Ändras ej
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej
+  <br/>marc/FullyEstablishedHeading. Ändras ej
   
    
   
