@@ -105,6 +105,12 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   
 * Organisatorisk tilhörighet (hasAffiliation) (373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
-  <br/>```Exempel: Uppsala universitet```
+  <br/>```Exempel: Uppsala universitet```  <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
+  <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
+  <br/>```Exempel: Herrgårdar``` 
+  
+* Organisatorisk tilhörighet (hasAffiliation) (373 ‡a)
+  <br/>Här är det möjligt att ange en samhörande institution.
+  
 
     
