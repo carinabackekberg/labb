@@ -21,12 +21,12 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
   <br/>```Exempel: Riksförbund för svenska släktforskare```
   
 * Variant (hasVariant = 410 ‡a)
-  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på plustecknet under "Variant" och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
+  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på +ikonen under egenskapen Variant och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
   <br/>```Exempel:Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
   
 * Se även (seeAlso = 510 ‡a)
-  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på plustecknet under "Se även" och länka agent genom att söka på agentens namn.
+  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka agent genom att söka på agentens namn.
   <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
@@ -65,8 +65,8 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrad auktoriserad namnform från Xxx till Yyy 2018-01-03/S/NB/carbac```
 
-* Konsulterad källa (sourceConsulted = 670 ‡a ‡b)
-  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som vilken information som är hämtad från källan.
+* Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
+  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
    <br/>```Exempel:```
    <br/>```Uppgift från källa: Startår 1886```
    <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
@@ -90,66 +90,39 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 ### Valbara fält som saknas i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
-* Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer i ett led. eller del av den auktoriserade namnformen
-  <br/>```Exempel: Sveriges släktforskarförbund```
+* Är del av (isPartOf) samt Namn (name) = 110 ‡a)
+  <br/>Överordnat led i en namnform som består av underavdelning. 
   <br/>```Exempel: Uppsala Universitet```
   
-* Namn på underordnad enhet (marc/subordinateUnit) (110 ‡b)
+* Namn på underordnad enhet (marc/subordinateUnit =110 ‡b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
   <br/>```Exempel: Engelska institutionen```
 
-* Tid för grundande/Startdatum (establishDate, 046 ‡q)
+* Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
 
-* Tid för upphörande/Slutdatum (terminateDate, 046 ‡r)
+* Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
   
-* Verksamhetsområde (fieldOfActivity) (372 ‡a ‡2)
-  <br/>Ange verksamhetsområde för en organisation vid behov.
-  <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
+* Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
+  <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +-ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel: Släktforskning```  
 
-* Förknippad plats (associatedLocal) (370 ‡c)
+* Förknippad plats (associatedLocal = 370 ‡c)
   <br/>Vid plats: länka till entitet.
   <br/>```Exempel: Sverige```
  
-* Språk (associatedLanguage) (377 ‡a)
+* Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov. Länka till entitet.
   <br/>```Exempel: Engelska```
   
-* Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes) (368 ‡a ‡2)
+* Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
   <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel: Herrgårdar``` 
   
-* Organisatorisk tilhörighet (hasAffiliation) (373 ‡a)
+* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
   <br/>```Exempel: Uppsala universitet``` 
-  
-
-
-  
-  Skapa ny Agent - Person
-
-Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
-
-    
-
-    Variant (hasVariant = 400 #a #d)
-    I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
-    Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa
-    Exempel: Efternamn: Lagerlœf Förnamn: Selma
-    För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person under Skapa lokal entitet. Klicka på +-ikonen till höger om det nytillagda Person-fältet, sök efter och lägg till fält (Efternamn, Förnamn och Födelse- och/eller dödstid ELLER Namn och Födelse- och/eller dödstid) för att ange information.
-
-    Se även (seeAlso = 500 #a #d)
-    I detta fält anges se även-hänvisning till en annan auktoritetspost, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
-    Exempel: Efternamn: Smith Förnamn: Rosamond Födelse- och/eller dödstid: 1938- som se-hänvisning från auktoritetsposten för Oates, Joyce Carol, 1938-
-    För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person som typ och sök i rutan till vänster. Välj auktoriserad entitet (Person) att länka till och och klicka på Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
-
-    Verksamhetsområde (fieldOfActivity = 372)
-    Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
-    För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
-    Exempel: Fågelskådning
-
+   
     
