@@ -47,7 +47,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  <br/>Exempel: Kod: rda
   
  * Skapad av (descriptionCreator = 040 ‡a)
- <br/>Förval: inloggad sigel. Ändras ej.  
+ <br/>Förval: inloggad sigel. Ändras ej.
  <br/>```Exempel: S```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
@@ -67,15 +67,15 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Ändrad auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
 * Konsulterad källa (sourceConsulted = 670 #a #b)
-  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som vilken information som är hämtad från från källan.
+  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som vilken information som är hämtad från källan.
    <br/>```Exempel:```
    <br/>```Uppgift från källa: Startår 1886```
    <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
   
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-   <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
-eller
-   <br/>```Exempel: Årsberättelse, 1971```
+  <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
+  <br/>eller
+  <br/>```Exempel: Årsberättelse, 1971```
    
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej
@@ -84,7 +84,7 @@ eller
   <br/>Ändras ej
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
- <br/>Ändras ej
+  <br/>Ändras ej
   
    
   
