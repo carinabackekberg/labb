@@ -3,34 +3,6 @@ UNDER ARBETE
 ## Skapa ny - Agent: organisation
 Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält behövs om man ska skapa organisationer med namn i två led.
 
-### Adminmetadata
-    
-* Katalogiseringsregler (descriptionConventions) (040 ‡e)  
-  För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
-  ```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
-  
-  * Skapad av (descriptionCreator) (040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: S```
-
-* Katalogiseringsspråk (descriptionLanguage) (040 ‡b)  
-  Länka till entitet.  
-  ```Exempel: Svenska```
-
-* Katalogisatörens anmärkning (cataloguersNote) (667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Ändrad auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
-
-* Konsulterad källa (sourceConsulted) (670 #a)
-  <br/>Källa vid belagd uppgift.
-   <br/>```Exempel: NE (2018-04-11)```
-   <br/>```Exempel: LC i VIAF (2018-04-11)```
-  
-* Beskrivningsnivå (encodingLevel) (000/Leader/?)
-
-* Auktoritetskontrollnivå (marc:level)
-  
-* Poststatus (recordStatus = = 000/Leader/?)
 
 
 ### Fält i mall
@@ -66,6 +38,42 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 * Nationalitet (nationality) (043 ‡a)
   <br/>Välj nationalitet i rullmeny?/Välj nationalitet genom att länka. Sök på landets namn. 
   <br/>```Exempel: e-sw---```
+  
+### Adminmetadata
+    
+* Katalogiseringsregler (descriptionConventions) (040 ‡e)  
+  För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
+  ```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
+  
+ * Skapad av (descriptionCreator) (040 ‡a)  
+  Förval: den sigel som skapat posten. Ska inte ändras.  
+  ```Exempel: S```
+
+* Katalogiseringsspråk (descriptionLanguage) (040 ‡b)  
+  Länka till entitet.  
+  ```Exempel: Svenska```
+  
+* Beskrivningsnivå (encodingLevel) (000/Leader/?)
+
+* Translitterering ( = = 000/Leader/?)
+
+* Poststatus (recordStatus = = 000/Leader/?)
+
+* Katalogisatörens anmärkning (cataloguersNote) (667 #a)
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+  <br/>```Exempel: Ändrad auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+
+* Konsulterad källa (sourceConsulted) (670 #a)
+  <br/>Källa vid belagd uppgift.
+   <br/>```Exempel: NE (2018-04-11)```
+   <br/>```Exempel: LC i VIAF (2018-04-11)```
+   
+* Uppdatering av posten (recordStatus = = 000/Leader/?)
+  
+* Differentiering av person ( = = 000/Leader/?)
+
+* Auktoritetskontrollnivå (marc:level)
+  
   
   
 ### Valbara fält som saknas i mallen
