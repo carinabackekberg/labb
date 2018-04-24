@@ -7,7 +7,7 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 ### Fält i mall
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer i ett led.
+  <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer som består av ett led.
   <br/>```Exempel: Sveriges släktforskarförbund```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
