@@ -90,14 +90,6 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 ### Valbara fält som saknas i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
-* Är del av (isPartOf) samt Namn (name) = 110 ‡a)
-  <br/>Överordnat led i en namnform som består av underavdelning. 
-  <br/>```Exempel: Uppsala Universitet```
-  
-* Namn på underordnad enhet (marc/subordinateUnit =110 ‡b)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
-  <br/>```Exempel: Engelska institutionen```
-
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
 
@@ -126,3 +118,13 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   <br/>```Exempel: Uppsala universitet``` 
    
     
+### Fält som borde finnas eller som inte fungear självständigt?.
+Namn på underordnad enhet finns som fält men verkar bara användas i samband med egenskapen "Är del av".
+
+* Är del av (isPartOf) samt Namn (name) = 110 ‡a)
+  <br/>Överordnat namn i en namnform som består av uunderordnad enhet. 
+  <br/>```Exempel: Uppsala Universitet```
+  
+* Namn på underordnad enhet (marc/subordinateUnit =110 ‡b)
+  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
+  <br/>```Exempel: Engelska institutionen```
