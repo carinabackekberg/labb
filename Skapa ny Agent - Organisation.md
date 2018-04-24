@@ -43,24 +43,24 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
       
 * Katalogiseringsregler (descriptionConventions = 040 #e)
-    Förval: rda. Ändra vid behov.
-    Exempel: Kod: rda
+  <br/>Förval: rda. Ändra vid behov.
+  <br/>Exempel: Kod: rda
   
  * Skapad av (descriptionCreator = 040 ‡a)  
-  Förval: inloggad sigel. Ändras ej.  
-  ```Exempel: S```
+  <br/>Förval: inloggad sigel. Ändras ej.  
+  <br/>```Exempel: S```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
-    Förval: language/swe. Ändras ej.
+  <br/>Förval: language/swe. Ändras ej.
   
 * Beskrivningsnivå (encodingLevel = 000/?)
-  Val i meny?/Ändras ej?
+  <br/>Val i meny?/Ändras ej?
 
 * Translitterering (marc:romanization = 008/07)
-  Ändras ej
+  <br/>Ändras ej
 
 * Poststatus (recordStatus = = 000/?)
-  Val i meny?/Ändras ej?
+  <br/>Val i meny?/Ändras ej?
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
@@ -72,19 +72,19 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
    <br/>```Uppgift från källa: Startår 1886```
    <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
   
-  Den resurs som föranleder auktoriseringen en obligatorisk källa.
+  Den resurs som föranleder auktoriseringen är en obligatorisk källa.
    <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
 eller
    <br/>```Exempel: Årsberättelse, 1971```
    
 * Uppdatering av posten (marc:recordUpdate = 008/31)
-    Ändras ej
+   <br/>Ändras ej
     
 * Differentiering av posten (marc:personalName = 008/32)
-    Ändras ej
+   <br/>Ändras ej
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
-    Ändras ej
+  <br/>Ändras ej
   
    
   
