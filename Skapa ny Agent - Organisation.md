@@ -42,7 +42,7 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 
 Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
       
-* Katalogiseringsregler (descriptionConventions = 040 #e)
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)
  <br/>Förval: rda. Ändra vid behov.
  <br/>Exempel: Kod: rda
   
@@ -50,7 +50,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  <br/>Förval: inloggad sigel. Ändras ej.
  <br/>```Exempel: S```
   
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>Förval: language/swe. Ändras ej.
   
 * Beskrivningsnivå (encodingLevel = 000/?)
@@ -62,11 +62,11 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Poststatus (recordStatus = = 000/?)
   <br/>Val i meny?/Ändras ej?
 
-* Katalogisatörens anmärkning (cataloguersNote = 667 #a)
+* Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrad auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
-* Konsulterad källa (sourceConsulted = 670 #a #b)
+* Konsulterad källa (sourceConsulted = 670 ‡a ‡b)
   <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som vilken information som är hämtad från källan.
    <br/>```Exempel:```
    <br/>```Uppgift från källa: Startår 1886```
