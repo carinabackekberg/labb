@@ -43,21 +43,21 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
       
 * Katalogiseringsregler (descriptionConventions = 040 #e)
-  <br/>Förval: rda. Ändra vid behov.
-  <br/>Exempel: Kod: rda
+ <br/>Förval: rda. Ändra vid behov.
+ <br/>Exempel: Kod: rda
   
- * Skapad av (descriptionCreator = 040 ‡a)  
-  <br/>Förval: inloggad sigel. Ändras ej.  
-  <br/>```Exempel: S```
+ * Skapad av (descriptionCreator = 040 ‡a)
+ <br/>Förval: inloggad sigel. Ändras ej.  
+ <br/>```Exempel: S```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
-  <br/>Förval: language/swe. Ändras ej.
+ <br/>Förval: language/swe. Ändras ej.
   
 * Beskrivningsnivå (encodingLevel = 000/?)
-  <br/>Val i meny?/Ändras ej?
+ <br/>Val i meny?/Ändras ej?
 
 * Translitterering (marc:romanization = 008/07)
-  <br/>Ändras ej
+ <br/>Ändras ej
 
 * Poststatus (recordStatus = = 000/?)
   <br/>Val i meny?/Ändras ej?
@@ -78,13 +78,13 @@ eller
    <br/>```Exempel: Årsberättelse, 1971```
    
 * Uppdatering av posten (marc:recordUpdate = 008/31)
-   <br/>Ändras ej
+  <br/>Ändras ej
     
 * Differentiering av posten (marc:personalName = 008/32)
-   <br/>Ändras ej
+  <br/>Ändras ej
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej
+ <br/>Ändras ej
   
    
   
