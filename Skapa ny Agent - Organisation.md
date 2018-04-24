@@ -1,8 +1,7 @@
 UNDER ARBETE
 
 ## Skapa ny - Agent: organisation
-Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält behövs om man ska skapa organisationer med namn i två led.
-
+Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält är viktiga och används om man ska skapa organisationer med namn i två led.
 
 
 ### Fält i mall
@@ -40,41 +39,54 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
   <br/>```Exempel: e-sw---```
   
 ### Adminmetadata
-    
-* Katalogiseringsregler (descriptionConventions) (040 ‡e)  
-  För post katalogiserad enligt RDA, länka till entitet: Katalogiseringsregler samt skapa lokal entitet med Kod: rda    
-  ```Exempel: Katalogiseringsregler (länkad entitet) + lokal entitet, Kod: rda```
+
+Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
+      
+* Katalogiseringsregler (descriptionConventions = 040 #e)
+    Förval: rda. Ändra vid behov.
+    Exempel: Kod: rda
   
- * Skapad av (descriptionCreator) (040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
+ * Skapad av (descriptionCreator = 040 ‡a)  
+  Förval: inloggad sigel. Ändras ej.  
   ```Exempel: S```
-
-* Katalogiseringsspråk (descriptionLanguage) (040 ‡b)  
-  Länka till entitet.  
-  ```Exempel: Svenska```
   
-* Beskrivningsnivå (encodingLevel) (000/Leader/?)
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+    Förval: language/swe. Ändras ej.
+  
+* Beskrivningsnivå (encodingLevel = 000/?)
+  Val i meny?/Ändras ej?
 
-* Translitterering ( = = 000/Leader/?)
+* Translitterering (marc:romanization = 008/07)
+  Ändras ej
 
-* Poststatus (recordStatus = = 000/Leader/?)
+* Poststatus (recordStatus = = 000/?)
+  Val i meny?/Ändras ej?
 
-* Katalogisatörens anmärkning (cataloguersNote) (667 #a)
+* Katalogisatörens anmärkning (cataloguersNote = 667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrad auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
-* Konsulterad källa (sourceConsulted) (670 #a)
-  <br/>Källa vid belagd uppgift.
-   <br/>```Exempel: NE (2018-04-11)```
-   <br/>```Exempel: LC i VIAF (2018-04-11)```
+* Konsulterad källa (sourceConsulted = 670 #a #b)
+  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som vilken information som är hämtad från från källan.
+   <br/>```Exempel:```
+   <br/>```Uppgift från källa: Startår 1886```
+   <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
+  
+  Den resurs som föranleder auktoriseringen en obligatorisk källa.
+   <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
+eller
+   <br/>```Exempel: Årsberättelse, 1971```
    
-* Uppdatering av posten (recordStatus = = 000/Leader/?)
-  
-* Differentiering av person ( = = 000/Leader/?)
+* Uppdatering av posten (marc:recordUpdate = 008/31)
+    Ändras ej
+    
+* Differentiering av posten (marc:personalName = 008/32)
+    Ändras ej
 
-* Auktoritetskontrollnivå (marc:level)
+* Auktoritetskontrollnivå (marc:level = 008/33)
+    Ändras ej
   
-  
+   
   
 ### Valbara fält som saknas i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
@@ -113,4 +125,88 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   <br/>Här är det möjligt att ange en samhörande institution.
   
 
+
+  
+  Skapa ny Agent - Person
+
+Beskrivning av agenten som ska auktoriseras. Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
+
+    Efternamn (FamilyName = 100 #a)
+    Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
+    Exempel: Lagerlöf
+
+    Förnamn (GivenName = 100 #a)
+    Förnamn som tillsammans med efternamn utgör den auktoriserade namnformen.
+    Exempel: Selma
+    Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
+
+    Födelse- och/eller dödstid (lifeSpan = 100 #d)
+    Årtal används i första hand som särskiljande tillägg för personer.
+    Exempel: 1858-1940
+    Exempel: 1968-
+
+    Födelsedatum (birthDate = 046 #f)
+    Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
+    Exempel: 18581120
+    Exempel: 1902
+
+    Dödsdatum (deathDate = 046 #g)
+    Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
+    Exempel: 19400316
+    Exempel: 1977
+
+    Variant (hasVariant = 400 #a #d)
+    I detta fält anges variantnamn och alternativa namnformer. Här anges stavningsvaranter, förkortningar, ändringar till följd av namnbyten etc. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. Fältet upprepas om flera variantnamn behöver läggas till.
+    Exempel: Efternamn: Lagerlöf Förnamn: Selma Ottiliana Lovisa
+    Exempel: Efternamn: Lagerlœf Förnamn: Selma
+    För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person under Skapa lokal entitet. Klicka på +-ikonen till höger om det nytillagda Person-fältet, sök efter och lägg till fält (Efternamn, Förnamn och Födelse- och/eller dödstid ELLER Namn och Födelse- och/eller dödstid) för att ange information.
+
+    Se även (seeAlso = 500 #a #d)
+    I detta fält anges se även-hänvisning till en annan auktoritetspost, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet.
+    Exempel: Efternamn: Smith Förnamn: Rosamond Födelse- och/eller dödstid: 1938- som se-hänvisning från auktoritetsposten för Oates, Joyce Carol, 1938-
+    För att lägga till fält: Klicka på +-ikonen under egenskapen Variant, välj Person som typ och sök i rutan till vänster. Välj auktoriserad entitet (Person) att länka till och och klicka på Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+
+    Verksamhetsområde (fieldOfActivity = 372)
+    Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+    För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+    Exempel: Fågelskådning
+
+    Har yrke eller sysselsättning (hasOccupation = 374)
+    Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+    För att lägga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+    Exempel: Romanförfattare
+    Exempel: Översättare
+
+    Identifikator (identifiedBy = 024 #a #2)
+    Isni som identifikator är valfri uppgift men önskvärt om tillgänglig.
+    Exempel: 0000000121339888
+
+    Nationalitet/verksamhetsland (nationality = 043 #a)
+    I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas.
+    För att lägga till fält: Klicka på +-ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+
     
+    
+
+Valbara fält som inte ingår i mallen
+
+Vid behov är det möjligt att lägga till fält som inte ingår i mallen. Nya fält läggs till med hjälp av +-ikonen.
+
+    Namn
+    Används för namn i rak följd istället för fälten Förnamn och Efternamn. Kan användas i kombination med fälten Förnamn och Efternamn endast för att ange variantnamn.
+    Exempel: Namn: Bang Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
+
+    Fullständigare namnform (fullerFormOfName = 100 #q och 378)
+    Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen
+    Exempel: Efternamn: Smith
+    Exempel: Förnamn: A. D.
+    Exempel: Fullständigare namnform: Adam David
+
+    Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
+    Används vid behov som särskiljande tillägg till den auktoriserade namnformen.
+    Exempel: påve
+
+    Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
+    Används vid
+
+  
