@@ -8,26 +8,26 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer som består av ett led.
-  <br/>```Exempel: Sveriges släktforskarförbund```
+  <br/>```Exempel: Arbetslivscentrum```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
-  <br/>```Exempel: 1886```
+  <br/>```Exempel: 1977```
     
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
-  <br/>```Exempel: 1999``` 
+  <br/>```Exempel: 1994``` 
    
 * Administativ historik (has Historical Data) (678 ‡a)
   <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
-  <br/>```Exempel: Riksförbund för svenska släktforskare```
+  <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
   
 * Variant (hasVariant = 410 ‡a)
   <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på +ikonen under egenskapen Variant och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
-  <br/>```Exempel:Släktforskarförbundet```
-  <br/>```Exempel: Federation of Swedish Genealogical Societies```
+  <br/>```Exempel: ALC```
+  <br/>```Exempel: Swedish Centre for Working Life```
   
 * Se även (seeAlso = 510 ‡a)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka agent genom att söka på agentens namn.
-  <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
+  <br/>```Exempel: Institutet för arbetslivsforskning```
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
@@ -74,7 +74,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
   <br/>eller
-  <br/>```Exempel: Årsberättelse, 1971```
+  <br/>```Exempel: Statskalendern, 1994```
    
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>marc/RecordCanBeUsed. Ändras ej
@@ -98,7 +98,7 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +-ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel: Släktforskning```  
+  <br/>```Exempel: Design```  
 
 * Förknippad plats (associatedLocal = 370 ‡c)
   <br/>Vid plats: länka till entitet.
