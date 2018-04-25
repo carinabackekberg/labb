@@ -1,22 +1,37 @@
 
 UNDER ARBETE
 
-## Redigera befintlig - Agent: organisation
-Exemplet nedan är baserat på Sveriges släktforskarförbund. Tillägg är fiktiva, enbart för att exemplifiera.
+## Redigera befintlig: Agent - Organisation
 
-## Befintliga fält i beskrivningen
-<br/>Lathunden beskriver de fält som finns i beskrivningen. 
+<br/>Exemplet nedan är baserat på Sveriges släktforskarförbund. Tillägg är fiktiva, enbart för att exemplifiera.
+
+<br/>Första delen av lathunden beskriver fält som redan finns i beskrivningen. Ett urval av fält kopplade till organisation som är möjliga att lägga till beskrivs i slutet av lathunden 
+
+### Befintliga fält i beskrivningen
 
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer som består av ett led.
   <br/>```Exempel: Sveriges släktforskarförbund```
+  
+* Tid för grundande/Startdatum (establishDate = 046 ‡q)
+  <br/>```Exempel: 1886```
+  
+* Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
+  <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +-ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord genom att länka entitet.
+  <br/>```Exempel: Släktforskning```  
+  
+  
+  
+* Variant (hasVariant = 410 ‡a)
+  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på +ikonen under egenskapen Variant och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
+  <br/>```Exempel:Släktforskarförbundet```
+  <br/>```Exempel: Federation of Swedish Genealogical Societies```
 
 
-Lathunden beskriver de fält som finns i beskrivningen. 
 
-Fält läggs till genom att Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält är viktiga och används om man ska skapa organisationer med namn i två led.
+### Fält att lägga till i beskrivningen
 
-## Fält att lägga till i beskrivningen
+
 
 
 ### Fält i mall
@@ -32,10 +47,7 @@ Fält läggs till genom att Om något av fälten i mallen inte behövs kan de ra
   <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
   <br/>```Exempel: Riksförbund för svenska släktforskare```
   
-* Variant (hasVariant = 410 ‡a)
-  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på +ikonen under egenskapen Variant och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
-  <br/>```Exempel:Släktforskarförbundet```
-  <br/>```Exempel: Federation of Swedish Genealogical Societies```
+
   
 * Se även (seeAlso = 510 ‡a)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka agent genom att söka på agentens namn.
@@ -102,8 +114,6 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 ### Valbara fält som saknas i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
-* Tid för grundande/Startdatum (establishDate = 046 ‡q)
-  <br/>```Exempel: 1965```
 
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
