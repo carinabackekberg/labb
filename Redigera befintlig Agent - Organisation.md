@@ -17,49 +17,56 @@ UNDER ARBETE
   <br/>```Exempel: 1886```
   
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
-  <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +-ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel: Släktforskning```  
-  
-  
+  <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +-ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord.
+  <br/>```Exempel: Släktforskning```
+  <br/>[Länk till Att länka entitet]
+    
+* Administativ historik (has Historical Data) (678 ‡a)
+  <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
+  <br/>```Exempel: Riksförbund för svenska släktforskare```    
   
 * Variant (hasVariant = 410 ‡a)
   <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på +ikonen under egenskapen Variant och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
   <br/>```Exempel:Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
+  
+* Identifikator (identifiedBy = 024 ‡a ‡2)
+  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
+  <br/>```Exempel:  ISNI, 0000000104839039```
+  <br/>```Exempel:  VIAF, 156982904```
+  
+* Nationalitet (nationality = 043 ‡a)
+  <br/>Välj nationalitet enligt lista. 
+  <br/>```Exempel: e-sw---```
+  <br/>[Länk till Att länka entitet]
+  
+* Samma sak som(samAs)
+  <br/>VoyagerID. 
+  <br/>resource/auth/394287. Ändras ej
 
 
 
 ### Fält att lägga till i beskrivningen
 
-
-
-
-### Fält i mall
-
+* Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
+  <br/>```Exempel: 2003```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
   <br/>```Exempel: 1886```
     
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
   <br/>```Exempel: 1999``` 
-   
-* Administativ historik (has Historical Data) (678 ‡a)
-  <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
-  <br/>```Exempel: Riksförbund för svenska släktforskare```
-  
+
 
   
 * Se även (seeAlso = 510 ‡a)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka agent genom att söka på agentens namn.
   <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
+  <br/>[Länk till Att länka entitet]
 
-* Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
-  <br/>```Exempel:  ISNI, 0000000104839039```
+
     
-* Nationalitet (nationality = 043 ‡a)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas och annan nationalitet läggas till. Välj nationalitet genom att länka. Sök på landets namn. 
-  <br/>```Exempel: e-uk---```
+
   
 ### Adminmetadata
 
@@ -111,47 +118,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   
    
   
-### Valbara fält som saknas i mallen
-Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
-
-* Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
-  <br/>```Exempel: 2003```
-  
-* Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
-  <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +-ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel: Släktforskning```  
-
-* Förknippad plats (associatedLocal = 370 ‡c)
-  <br/>Vid plats: länka till entitet.
-  <br/>```Exempel: Sverige```
- 
-* Språk (associatedLanguage = 377 ‡a)
-  <br/>Ange språk som organisation använder vid behov. Länka till entitet.
-  <br/>```Exempel: Engelska```
-  
-* Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
-  <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
-  <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel: Herrgårdar``` 
-  
-* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
-  <br/>Här är det möjligt att ange en samhörande institution.
-  <br/>```Exempel: Uppsala universitet``` 
-   
-    
-### Fält som borde finnas eller som inte fungerar självständigt?
-Namn på underordnad enhet finns som fält men verkar bara användas i samband med egenskapen "Är del av".
-
-* Är del av (isPartOf) samt Namn (name) = 110 ‡a?)
-  <br/>Överordnat namn i en namnform som består av underordnad enhet. 
-  <br/>```Exempel: Handelshögskolan i Stockholm```
-  
-* Namn på underordnad enhet (marc/subordinateUnit =110 ‡b?)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
-  <br/>```Exempel: Biblioteket```
-  
-  
 
 
 
