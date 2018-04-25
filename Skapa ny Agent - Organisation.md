@@ -51,11 +51,11 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  <br/>```Exempel: Kod: rda```
   
  * Skapad av (descriptionCreator = 040 ‡a)
- <br/>Förval: inloggad sigel. Ändras ej.
+ <br/>Förval: inloggad sigel. Ändras ej
  <br/>```Exempel: library/S```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>Förval: language/swe. Ändras ej.
+ <br/>Förval: language/swe. Ändras ej
   
 * Beskrivningsnivå (encodingLevel = 000/?)
  <br/>Val i meny?/Ändras ej?
