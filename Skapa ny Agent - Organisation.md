@@ -31,7 +31,7 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 * Se även (seeAlso = 510 ‡a)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka.
   <br/>```Exempel: Institutet för arbetslivsforskning```
-  <br/>Länk till Att länka entitet]
+  <br/>[Länk till Att länka entitet]
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
@@ -104,23 +104,23 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord.
   <br/>```Exempel: Design```
-   <br/>Länk till Att länka entitet]
+   <br/>[Länk till Att länka entitet]
 
 * Förknippad plats (associatedLocal = 370 ‡c)
   <br/>Anges vid behov.
   <br/>```Exempel: Sverige```
-   <br/>Länk till Att länka entitet]
+   <br/>[Länk till Att länka entitet]
  
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
-   <br/>Länk till Att länka entitet]
+   <br/>[Länk till Att länka entitet]
   
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
   <br/>Hämta termen från Svenska ämnesord.
   <br/>```Exempel: Herrgårdar```
-   <br/>Länk till Att länka entitet]
+   <br/>[Länk till Att länka entitet]
   
 * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
