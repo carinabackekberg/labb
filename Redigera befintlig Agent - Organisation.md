@@ -2,9 +2,7 @@
 UNDER ARBETE
 
 ## Redigera befintlig: Agent - Organisation
-
-<br/>Exemplet nedan är baserat på Sveriges släktforskarförbund. Tillägg är fiktiva, enbart för att exemplifiera.
-
+<br/>Exemplet nedan är baserat på Sveriges släktforskarförbund. Vissa tillägg är fiktiva, enbart för att exemplifiera.
 <br/>Första delen av lathunden beskriver fält som redan finns i beskrivningen. Ett urval av fält kopplade till organisation som är möjliga att lägga till beskrivs i slutet av lathunden 
 
 ### Befintliga fält i beskrivningen
@@ -42,47 +40,8 @@ UNDER ARBETE
   
 * Samma sak som(samAs = VoyagerID)
   <br/>resource/auth/394287. Ändras ej
-
-
-
-### Fält att lägga till i beskrivningen
-
-* Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
-  <br/>```Exempel: 2003```
-
-* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
-  <br/>```Exempel: 1886```
-    
-* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
-  <br/>```Exempel: 1999``` 
   
-* Se även (seeAlso = 510 ‡a)
-  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka agent genom att söka på agentens namn.
-  <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
-  <br/>[Länk till Att länka entitet]
-
-* Förknippad plats (associatedLocal = 370 ‡c)
-  <br/>Anges vid behov.
-  <br/>```Exempel: Sverige```
-   <br/>[Länk till Att länka entitet]
- 
-* Språk (associatedLanguage = 377 ‡a)
-  <br/>Ange språk som organisation använder vid behov.
-  <br/>```Exempel: Engelska```
-   <br/>[Länk till Att länka entitet]
-  
-* Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
-  <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
-  <br/>Hämta termen från Svenska ämnesord.
-  <br/>```Exempel: Herrgårdar```
-   <br/>[Länk till Att länka entitet]
-  
-* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
-  <br/>Här är det möjligt att ange en samhörande institution.
-  <br/>```Exempel: Uppsala universitet```    
-
-  
-### Adminmetadata
+  ### Adminmetadata
 
 Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
 
@@ -126,16 +85,16 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>marc/LevelType-a. Ändras ej
   
 * Formatering av icke auktoriserade sökelement (marc:reference = 000/?)
- <br/>"code":"n"                                Vad är detta? - Ta bort??  
+ <br/>"code":"n"                                Vad är detta, ta bort??  
 
 * Translitterering (marc:romanization = 008/07)
  <br/>marc/NationalStandard. Ändras ej
  
 * Geografisk precisering (marc:subdivision = 000/?)
- <br/>"code":"n"                                Vad är detta? - Ta bort??  
+ <br/>"code":"n"                                Vad är detta, ta bort??  
 
 * Typ av underindelning (marc:typeOfSeries = 000/?)
- <br/>"code":"n"                                Vad är detta? - Ta bort??  
+ <br/>"code":"n"                                Vad är detta, ta bort??  
 
 * Poststatus (recordStatus = = 000/?)
   <br/>Val i meny?/Ändras ej?
@@ -153,5 +112,42 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
   <br/>eller
   <br/>```Exempel: Årsberättelse, 1971```
-   
+
+
+### Fält som är möjliga att lägga till i beskrivningen
+
+* Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
+  <br/>```Exempel: 2003```
+
+* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
+  <br/>```Exempel: 1886```
+    
+* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
+  <br/>```Exempel: 1999``` 
   
+* Se även (seeAlso = 510 ‡a)
+  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka agent genom att söka på agentens namn.
+  <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
+  <br/>[Länk till Att länka entitet]
+
+* Förknippad plats (associatedLocal = 370 ‡c)
+  <br/>Anges vid behov.
+  <br/>```Exempel: Sverige```
+   <br/>[Länk till Att länka entitet]
+ 
+* Språk (associatedLanguage = 377 ‡a)
+  <br/>Ange språk som organisation använder vid behov.
+  <br/>```Exempel: Engelska```
+   <br/>[Länk till Att länka entitet]
+  
+* Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
+  <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
+  <br/>Hämta termen från Svenska ämnesord.
+  <br/>```Exempel: Herrgårdar```
+   <br/>[Länk till Att länka entitet]
+  
+* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
+  <br/>Här är det möjligt att ange en samhörande institution.
+  <br/>```Exempel: Uppsala universitet```    
+
+ 
