@@ -118,11 +118,11 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   <br/>```Exempel: Uppsala universitet``` 
    
     
-### Fält som borde finnas eller som inte fungear självständigt?
+### Fält som borde finnas eller som inte fungerar självständigt?
 Namn på underordnad enhet finns som fält men verkar bara användas i samband med egenskapen "Är del av".
 
-* Är del av (isPartOf) samt Namn (name) = 110 ‡a)
-  <br/>Överordnat namn i en namnform som består av uunderordnad enhet. 
+* Är del av (isPartOf) samt Namn (name) = 110 ‡a?)
+  <br/>Överordnat namn i en namnform som består av underordnad enhet. 
   <br/>```Exempel: Handelshögskolan i Stockholm```
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 ‡b?)
