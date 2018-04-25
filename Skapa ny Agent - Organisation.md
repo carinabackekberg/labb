@@ -1,7 +1,10 @@
 UNDER ARBETE
 
 ## Skapa ny - Agent: organisation
+
 Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält är viktiga och används om man ska skapa organisationer med namn i två led.
+
+Exemplet nedan är baserat på Arbetslivscentrum. Tillägg är fiktiva, enbart för att exemplifiera
 
 
 ### Fält i mall
@@ -68,7 +71,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
    <br/>```Exempel:```
-   <br/>```Uppgift från källa: Startår 1886```
+   <br/>```Uppgift från källa: Startår 1977```
    <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
   
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
