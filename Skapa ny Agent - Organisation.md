@@ -1,25 +1,25 @@
 UNDER ARBETE
 
-## Skapa ny - Agent: organisation
-
-Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält är viktiga och används om man ska skapa organisationer med namn i två led.
+## Skapa ny:  Agent- Organisation
 
 Exemplet nedan är baserat på Arbetslivscentrum. Tillägg är fiktiva, enbart för att exemplifiera
+
+Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält är viktiga och används om man ska skapa organisationer med namn i två led.
 
 
 ### Fält i mall
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer som består av ett led.
+  <br/>Föredragen namnform som utgör den auktoriserade namnformen. Här anges endast namnformer som består av ett led.
   <br/>```Exempel: Arbetslivscentrum```
 
-* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
+* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 ‡s)
   <br/>```Exempel: 1977```
     
-* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
+* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate = 046 ‡t)
   <br/>```Exempel: 1994``` 
    
-* Administativ historik (has Historical Data) (678 ‡a)
+* Administativ historik (hasHistoricalData) (678 ‡a)
   <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
   <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
   
@@ -29,16 +29,18 @@ Exemplet nedan är baserat på Arbetslivscentrum. Tillägg är fiktiva, enbart f
   <br/>```Exempel: Swedish Centre for Working Life```
   
 * Se även (seeAlso = 510 ‡a)
-  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka agent genom att söka på agentens namn.
+  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka.
   <br/>```Exempel: Institutet för arbetslivsforskning```
+  <br/>Länk till Att länka entitet]
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
+  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
   <br/>```Exempel:  ISNI, 0000000104839039```
     
 * Nationalitet (nationality = 043 ‡a)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas och annan nationalitet läggas till. Välj nationalitet genom att länka. Sök på landets namn. 
+  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas och annan nationalitet läggas till. 
   <br/>```Exempel: e-uk---```
+  <br/>Länk till Att länka entitet]
   
 ### Adminmetadata
 
@@ -90,7 +92,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   
    
   
-### Valbara fält som saknas i mallen
+### Valbara fält som inte ingår i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
 
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
@@ -100,21 +102,25 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   <br/>```Exempel: 2003```
   
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
-  <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +-ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel: Design```  
+  <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord.
+  <br/>```Exempel: Design```
+   <br/>Länk till Att länka entitet]
 
 * Förknippad plats (associatedLocal = 370 ‡c)
-  <br/>Vid plats: länka till entitet.
+  <br/>Anges vid behov.
   <br/>```Exempel: Sverige```
+   <br/>Länk till Att länka entitet]
  
 * Språk (associatedLanguage = 377 ‡a)
-  <br/>Ange språk som organisation använder vid behov. Länka till entitet.
+  <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
+   <br/>Länk till Att länka entitet]
   
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
-  <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
-  <br/>```Exempel: Herrgårdar``` 
+  <br/>Hämta termen från Svenska ämnesord.
+  <br/>```Exempel: Herrgårdar```
+   <br/>Länk till Att länka entitet]
   
 * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
