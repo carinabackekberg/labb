@@ -30,7 +30,7 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
   <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig. Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
+  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
   <br/>```Exempel:  ISNI, 0000000104839039```
     
 * Nationalitet (nationality = 043 ‡a)
