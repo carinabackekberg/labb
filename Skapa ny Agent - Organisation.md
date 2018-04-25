@@ -40,7 +40,7 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
 * Nationalitet (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas och annan nationalitet läggas till. 
   <br/>```Exempel: e-uk---```
-  <br/>Länk till Att länka entitet]
+  <br/>[Länk till Att länka entitet]
   
 ### Adminmetadata
 
