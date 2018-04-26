@@ -38,7 +38,7 @@ UNDER ARBETE
   <br/>```Exempel: e-sw---```
   <br/>[Länk till Att länka entitet]
   
-* Samma sak som(samAs)
+* Samma sak som(sameAs)
   <br/>Ändras ej.
     
   
@@ -106,7 +106,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Poststatus (recordStatus = 000)
   <br/>Ändras ej.
   
-* Samma sak som
+* Samma sak som (sameAs)
   <br/>Ändras ej.
 
 * Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
