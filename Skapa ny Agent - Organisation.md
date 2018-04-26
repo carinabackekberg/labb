@@ -40,7 +40,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
   <br/>```Exempel:  ISNI, 0000000104839039```
     
-* Nationalitet (nationality = 043 ‡a)
+* Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationalitetet läggas till.
   <br/>```Exempel: e-uk---```
   <br/>[Länk till Att länka entitet]
