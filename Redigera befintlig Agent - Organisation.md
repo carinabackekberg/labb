@@ -29,7 +29,7 @@ UNDER ARBETE
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde 
+  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
   <br/>```Exempel:  ISNI, 0000000104839039```
   <br/>```Exempel:  VIAF, 156982904```
   
@@ -38,83 +38,11 @@ UNDER ARBETE
   <br/>```Exempel: e-sw---```
   <br/>[Länk till Att länka entitet]
   
-* Samma sak som(samAs = VoyagerID)
-  <br/>resource/auth/394287. Ändras ej
+* Samma sak som(samAs)
+  <br/>resource/auth/394287. Ändras ej.
   
-### Befintliga fält Adminmetadata
 
-Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
-
-* Kontrollnummer (controllNumber = 001)  
-  LibrisID. Ändras ej
-      
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)
- <br/>Förval: rda. Ändra vid behov.
- <br/>```Exempel: Kod: rda```
- 
- * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
-
- * Skapad av (descriptionCreator = 040 ‡a)
- <br/>Förval: Sigel för skapare av agenten. Ändras ej.
- <br/>```Exempel: Organisation S```
-  
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>Förval: Svenska. Ändras ej
-  
-* Beskrivningsnivå (encodingLevel)
- <br/>Ändras ej
- 
-* Marc:headingMain (marc:headingMain = 008/14)
- <br/>Ändras ej.
- 
-* Typ av auktoritetspost (marc:kindOfRecord = 008/9)
- <br/>Ändras ej.
- 
-* Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej.
-
-* Numrering i serie (marc:numberedSeries = 008/13)
- <br/>Ändras ej.
-     
-* Differentiering av posten (marc:personalName = 008/32)
-  <br/>Ändras ej.
-  
-* Uppdatering av posten (marc:recordupdate = 008/31)
-  <br/>Ändras ej.
-  
-* Formatering av icke auktoriserade sökelement (marc:reference = 008/29)
- <br/>Ändras ej. 
-
-* Translitterering (marc:romanization = 008/07)
- <br/>Ändras ej
- 
-* Geografisk precisering (marc:subdivision = 008/6)
- <br/>Ändras ej.  
-
-* Typ av underindelning (marc:subjectSubdivision = 008/7)
- <br/>Ändras ej.  
-
-* Poststatus (recordStatus = 000)
-  <br/>Ändras ej.
-  
-* Samma sak som
-  <br/> Ändras ej.
-
-* Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
-  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
-   <br/>```Exempel:```
-   <br/>```Uppgift från källa: Startår 1886```
-   <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
-  
-  Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-  <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>eller
-  <br/>```Exempel: Årsberättelse, 1971```
-
-
-### Fält som är möjliga att lägga till i beskrivningen
+### Fält att lägga till i beskrivningen
 
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
@@ -148,6 +76,83 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   
 * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
-  <br/>```Exempel: Uppsala universitet```    
+  <br/>```Exempel: Uppsala universitet```  
+  
+  
+### Befintliga fält i Adminmetadata
 
+Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
+
+* Kontrollnummer (controllNumber = 001)  
+  LibrisID. Ändras ej.
+      
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+ <br/>Förval: rda. Ändra vid behov.
+ <br/>```Exempel: Kod: rda```
  
+ * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
+
+ * Skapad av (descriptionCreator = 040 ‡a)
+ <br/>Förval: Sigel för skapare av agenten. Ändras ej.
+ <br/>```Exempel: Organisation S```
+  
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
+ <br/>Förval: Svenska. Ändras ej.
+ 
+* Senast ändrad av (descriptionLastModifier)
+ <br/>Förval: Sigel som gjort senaste ändring. Ändras ej.
+  
+* Beskrivningsnivå (encodingLevel = 000)
+ <br/>Ändras ej.
+ 
+* Marc:headingMain (marc:headingMain = 008/14)
+ <br/>Ändras ej.
+ 
+* Typ av auktoritetspost (marc:kindOfRecord = 008/9)
+ <br/>Ändras ej.
+ 
+* Auktoritetskontrollnivå (marc:level = 008/33)
+  <br/>Ändras ej.
+
+* Numrering i serie (marc:numberedSeries = 008/13)
+ <br/>Ändras ej.
+     
+* Differentiering av posten (marc:personalName = 008/32)
+  <br/>Ändras ej.
+  
+* Uppdatering av posten (marc:recordupdate = 008/31)
+  <br/>Ändras ej.
+  
+* Formatering av icke auktoriserade sökelement (marc:reference = 008/29)
+ <br/>Ändras ej. 
+
+* Translitterering (marc:romanization = 008/07)
+ <br/>Ändras ej
+ 
+* Geografisk precisering (marc:subdivision = 008/6)
+ <br/>Ändras ej.  
+
+* Typ av underindelning (marc:subjectSubdivision = 008/7)
+ <br/>Ändras ej.  
+
+* Typ av serie (marc:typeOfSeries = 008/12)
+ <br/>Ändras ej.  
+
+* Poststatus (recordStatus = 000)
+  <br/>Ändras ej.
+  
+* Samma sak som
+  <br/> Ändras ej.
+
+* Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
+  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
+   <br/>```Exempel:```
+   <br/>```Uppgift från källa: Startår 1886```
+   <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
+  
+  Den resurs som föranleder auktoriseringen är en obligatorisk källa.
+  <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
+  <br/>eller
+  <br/>```Exempel: Årsberättelse, 1971```
