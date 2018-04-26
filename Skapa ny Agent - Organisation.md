@@ -86,7 +86,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ändras ej.
     
 * Differentiering av posten (marc:personalName = 008/32)
-  <br/Ändras ej.
+  <br/>Ändras ej.
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Ändras ej.
