@@ -34,7 +34,7 @@ UNDER ARBETE
   <br/>```Exempel:  ISNI, 0000000104839039```
   <br/>```Exempel:  VIAF, 156982904```
   
-* Nationalitet (nationality = 043 ‡a)
+* Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>Nationalitet för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-sw---```
   <br/>[Länk till Att länka entitet]
