@@ -45,8 +45,8 @@ UNDER ARBETE
 
 Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
 
-* Kontrollnummer (controllNumber = AuktID från Voyager)  
-  394287. Ändras ej
+* Kontrollnummer (controllNumber = 001)  
+  LibrisID. Ändras ej
       
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
  <br/>Förval: rda. Ändra vid behov.
@@ -57,35 +57,35 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
 
  * Skapad av (descriptionCreator = 040 ‡a)
- <br/>Förval: inloggad sigel. Ändras ej?
- <br/>```Exempel: library/S```
+ <br/>Förval: Sigel för skapare av agenten. Ändras ej.
+ <br/>```Exempel: Organisation S```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>Förval: language/swe. Ändras ej
+ <br/>Förval: Svenska. Ändras ej
   
-* Beskrivningsnivå (encodingLevel = 000/?)
- <br/>Val i meny?/Ändras ej?
+* Beskrivningsnivå (encodingLevel)
+ <br/>Ändras ej
  
-* Marc:headingMain (marc:headingMain = 000/?)
- <br/>tru står skrivet i ruta.                  Vad är detta? - Ta bort??
+* Marc:headingMain (marc:headingMain = 008/14)
+ <br/>Ändras ej.
  
-* Typ av auktoritetspost (marc:kindOfRecord = 000/?)
- <br/>marc/KindOfRecordType-a. Ändras ej
+* Typ av auktoritetspost (marc:kindOfRecord = 008/9)
+ <br/>Ändras ej.
  
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>marc/LevelType-a. Ändras ej
+  <br/>Ändras ej.
 
-* Numrering i serie (marc:numberedSeries = 000/?)
- <br/>"code":"n"                                Vad är detta? - Ta bort??  
+* Numrering i serie (marc:numberedSeries = 008/13)
+ <br/>Ändras ej.
      
 * Differentiering av posten (marc:personalName = 008/32)
-  <br/>marc/PersonalNameType-a. Ändras ej
+  <br/>Ändras ej.
   
-* Uppdatering av posten (marc:recordupdate = 000/?)
-  <br/>marc/LevelType-a. Ändras ej
+* Uppdatering av posten (marc:recordupdate = 008/31)
+  <br/>Ändras ej.
   
-* Formatering av icke auktoriserade sökelement (marc:reference = 000/?)
- <br/>"code":"n"                                Vad är detta, ta bort??  
+* Formatering av icke auktoriserade sökelement (marc:reference = 008/29)
+ <br/>Ändras ej. 
 
 * Translitterering (marc:romanization = 008/07)
  <br/>marc/NationalStandard. Ändras ej
@@ -96,11 +96,11 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Typ av underindelning (marc:typeOfSeries = 000/?)
  <br/>"code":"n"                                Vad är detta, ta bort??  
 
-* Poststatus (recordStatus = = 000/?)
-  <br/>Val i meny?/Ändras ej?
+* Poststatus (recordStatus = 000)
+  <br/>Ändras ej.
   
-* Samma sak som(samAs = VoyagerID) 
-  <br/>auth/394287. Ändras ej
+* Samma sak som
+  <br/> Ändras ej.
 
 * Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
