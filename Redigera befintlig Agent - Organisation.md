@@ -88,13 +88,13 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  <br/>Ändras ej. 
 
 * Translitterering (marc:romanization = 008/07)
- <br/>marc/NationalStandard. Ändras ej
+ <br/>Ändras ej
  
-* Geografisk precisering (marc:subdivision = 000/?)
- <br/>"code":"n"                                Vad är detta, ta bort??  
+* Geografisk precisering (marc:subdivision = 008/6)
+ <br/>Ändras ej.  
 
-* Typ av underindelning (marc:typeOfSeries = 000/?)
- <br/>"code":"n"                                Vad är detta, ta bort??  
+* Typ av underindelning (marc:subjectSubdivision = 008/7)
+ <br/>Ändras ej.  
 
 * Poststatus (recordStatus = 000)
   <br/>Ändras ej.
