@@ -29,7 +29,7 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
   <br/>```Exempel: Swedish Centre for Working Life```
   
 * Se även (seeAlso = 510 ‡a)
-  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka.
+  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även.
   <br/>```Exempel: Institutet för arbetslivsforskning```
   <br/>[Länk till Att länka entitet]
 
@@ -38,7 +38,7 @@ Lathunden beskriver de fält som finns representerade i mallen. Om något av fä
   <br/>```Exempel:  ISNI, 0000000104839039```
     
 * Nationalitet (nationality = 043 ‡a)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas och annan nationalitet läggas till. 
+  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas och annan nationalitet läggas till. Det går även bra att ange två olika nationaliteter vid behov.
   <br/>```Exempel: e-uk---```
   <br/>[Länk till Att länka entitet]
   
@@ -51,20 +51,20 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  <br/>```Exempel: Kod: rda```
   
  * Skapad av (descriptionCreator = 040 ‡a)
- <br/>Förval: inloggad sigel. Ändras ej
+ <br/>Förval: Sigel för skapare av agenten. Ändras ej.
  <br/>```Exempel: library/S```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>Förval: language/swe. Ändras ej
+ <br/>Förval: language/swe. Ändras ej.
   
-* Beskrivningsnivå (encodingLevel = 000/?)
- <br/>Val i meny?/Ändras ej?
+* Beskrivningsnivå (encodingLevel = 000)
+ <br/>Ändras ej.
 
 * Translitterering (marc:romanization = 008/07)
- <br/>marc/NationalStandard. Ändras ej
+ <br/>Ändras ej.
 
-* Poststatus (recordStatus = = 000/?)
-  <br/>Val i meny?/Ändras ej?
+* Poststatus (recordStatus = = 000)
+  <br/>Ändras ej.
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
@@ -82,13 +82,13 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Statskalendern, 1994```
    
 * Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>marc/RecordCanBeUsed. Ändras ej
+  <br/>Ändras ej.
     
 * Differentiering av posten (marc:personalName = 008/32)
-  <br/>marc/DifferentiatedPersonalName. Ändras ej
+  <br/Ändras ej.
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>marc/FullyEstablishedHeading. Ändras ej
+  <br/>Ändras ej.
   
    
   
