@@ -41,7 +41,7 @@ UNDER ARBETE
 * Samma sak som(samAs = VoyagerID)
   <br/>resource/auth/394287. Ändras ej
   
-  ### Befintliga fält Adminmetadata
+### Befintliga fält Adminmetadata
 
 Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
 
@@ -54,7 +54,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  
  * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Uppdaterad till rda 2018-04-11/S/NB/carbac```
+  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
 
  * Skapad av (descriptionCreator = 040 ‡a)
  <br/>Förval: inloggad sigel. Ändras ej?
