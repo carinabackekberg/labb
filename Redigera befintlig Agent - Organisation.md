@@ -4,7 +4,7 @@ UNDER ARBETE
 ## Redigera befintlig: Agent - Organisation
 
 <br/>Första delen av lathunden beskriver fält som redan finns i beskrivningen. Ett urval av fält kopplade till organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
-<br/>Exemplet nedan är baserat på Sveriges släktforskarförbund. Vissa tillägg är fiktiva, enbart för att exemplifiera.
+<br/>Exemplet nedan är baserat på Sveriges släktforskarförbund. Tillägg är fiktiva, enbart för att exemplifiera.
 
 ### Befintliga fält i beskrivningen
 
