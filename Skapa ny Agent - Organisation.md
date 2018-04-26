@@ -8,7 +8,7 @@ Exemplet nedan är baserat på Arbetslivscentrum. Tillägg är fiktiva, enbart f
 
 Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält är viktiga och används om man ska skapa organisationer med namn i två led.
 
-### Mall för beskrivning av Agent- Organisation
+### Mall för beskrivning av Agent - Organisation
 
 Beskrivning av agenten som ska auktoriseras.
 
