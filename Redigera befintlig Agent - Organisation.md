@@ -41,7 +41,7 @@ UNDER ARBETE
 * Samma sak som(samAs = VoyagerID)
   <br/>resource/auth/394287. Ändras ej
   
-  ### Adminmetadata
+  ### Befintliga fält Adminmetadata
 
 Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
 
