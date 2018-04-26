@@ -34,7 +34,7 @@ UNDER ARBETE
   <br/>```Exempel:  VIAF, 156982904```
   
 * Nationalitet (nationality = 043 ‡a)
-  <br/>Välj nationalitet enligt lista. 
+  <br/>Välj nationalitet för organisationen. 
   <br/>```Exempel: e-sw---```
   <br/>[Länk till Att länka entitet]
   
@@ -131,7 +131,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: 1999``` 
   
 * Se även (seeAlso = 510 ‡a)
-  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även och länka agent genom att söka på agentens namn.
+  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även.
   <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
   <br/>[Länk till Att länka entitet]
 
@@ -154,4 +154,3 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
   <br/>```Exempel: Uppsala universitet```  
-  
