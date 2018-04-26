@@ -39,15 +39,15 @@ UNDER ARBETE
   <br/>[Länk till Att länka entitet]
   
 * Samma sak som(samAs)
-  <br/>resource/auth/394287
+  <br/>Ändras ej.
     
   
 ### Befintliga fält i Adminmetadata
 
 Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
 
-* Kontrollnummer (controllNumber = 001)  
-  LibrisID. Ändras ej.
+* Kontrollnummer (controllNumber = 001)
+  <br/>LibrisID. Ändras ej.
       
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
  <br/>Förval: rda. Ändra vid behov.
@@ -107,7 +107,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ändras ej.
   
 * Samma sak som
-  <br/> Ändras ej.
+  <br/>Ändras ej.
 
 * Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
