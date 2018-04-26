@@ -41,7 +41,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Exempel:  ISNI, 0000000104839039```
     
 * Nationalitet (nationality = 043 ‡a)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas och annan nationalitet läggas till. Det går även bra att ange två olika nationaliteter vid behov.
+  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationalitetet läggas till.
   <br/>```Exempel: e-uk---```
   <br/>[Länk till Att länka entitet]
   
@@ -75,9 +75,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 
 * Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
-   <br/>```Exempel:```
-   <br/>```Uppgift från källa: Startår 1977```
-   <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
+   <br/>```Exempel: Uppgift från källa: Startår 1886. Källa: Wikipedia (Svenska) 2018-04-24```
   
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
@@ -96,7 +94,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
    
   
 ### Valbara fält som inte ingår i mallen
-Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen
+Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
 
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
