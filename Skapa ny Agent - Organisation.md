@@ -1,5 +1,5 @@
 UNDER ARBETE
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns.
+<br/>OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns.
 
 ## Skapa ny: Agent - Organisation
 
