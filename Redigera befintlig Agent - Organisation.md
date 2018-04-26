@@ -20,7 +20,7 @@ UNDER ARBETE
   <br/>[Länk till Att länka entitet]
     
 * Administativ historik (has Historical Data) (678 ‡a)
-  <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
+  <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde.
   <br/>```Exempel: Riksförbund för svenska släktforskare```    
   
 * Variant (hasVariant = 410 ‡a)
@@ -39,7 +39,7 @@ UNDER ARBETE
   <br/>[Länk till Att länka entitet]
   
 * Samma sak som(samAs)
-  <br/>resource/auth/394287. Ändras ej.
+  <br/>resource/auth/394287
     
   
 ### Befintliga fält i Adminmetadata
@@ -111,10 +111,8 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 
 * Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
-   <br/>```Exempel:```
-   <br/>```Uppgift från källa: Startår 1886```
-   <br/>```Källa: Wikipedia (Svenska) 2018-04-24```
-  
+   <br/>```Exempel: Uppgift från källa: Startår 1886. Källa: Wikipedia (Svenska) 2018-04-24```
+   
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
   <br/>eller
