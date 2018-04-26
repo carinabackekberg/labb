@@ -35,7 +35,7 @@ UNDER ARBETE
   <br/>```Exempel:  VIAF, 156982904```
   
 * Nationalitet (nationality = 043 ‡a)
-  <br/>Välj nationalitet för organisationen. 
+  <br/>Nationalitet för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-sw---```
   <br/>[Länk till Att länka entitet]
   
