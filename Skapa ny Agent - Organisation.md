@@ -113,20 +113,17 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
 För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 * Förknippad plats (associatedLocal = 370 ‡c)
-  <br/>Anges vid behov.
+  <br/>Anges vid behov. Länka till entitet
   <br/>```Exempel: Sverige```
-   <br/>[Länk till Att länka entitet]
  
 * Språk (associatedLanguage = 377 ‡a)
-  <br/>Ange språk som organisation använder vid behov.
+  <br/>Ange språk som organisation använder vid behov. Länka till entitet.
   <br/>```Exempel: Engelska```
-   <br/>[Länk till Att länka entitet]
   
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
-  <br/>Hämta termen från Svenska ämnesord.
+  <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel: Herrgårdar```
-   <br/>[Länk till Att länka entitet]
   
 * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
