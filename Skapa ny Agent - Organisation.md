@@ -4,16 +4,16 @@ Det är viktigt att vara noggrann vid sökning/testlänkning för att säkerstä
 
 ## Skapa ny: Agent - Organisation
 
-Exemplet nedan är baserat på Arbetslivscentrum. Tillägg är fiktiva, enbart för att exemplifiera.
+Exemplet nedan är baserat på Arbetslivscentrum. Tillägg kan vara fiktiva och enbart med som exempel.
 
-Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Några av dessa fält är viktiga och används om man ska skapa organisationer med namn i två led.
+Lathunden beskriver de fält som finns representerade i mallen. Om något av fälten i mallen inte behövs kan de raderas genom ett klick på papperskorgsikonen intill fältet. Ett urval av fält kopplade till organisation som är möjliga att lägga till, men som inte finns i mallen, beskrivs i slutet av lathunden.
 
 ### Mall för beskrivning av Agent - Organisation
 
 Beskrivning av agenten som ska auktoriseras.
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriserade namnformen. Här anges endast namnformer som består av ett led.
+  <br/>Föredragen namnform som utgör den auktoriserade namnformen. Om underordnad enhet finns anges den i fältet Namn på underordnat enhet som finns som valbart fält.
   <br/>```Exempel: Arbetslivscentrum```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 ‡s)
@@ -27,7 +27,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
   
 * Variant (hasVariant = 410 ‡a)
-  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på +ikonen under egenskapen Variant och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
+  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på +ikonen under egenskapen Variant och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
   <br/>```Exempel: ALC```
   <br/>```Exempel: Swedish Centre for Working Life```
   
@@ -96,6 +96,10 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 ### Valbara fält som inte ingår i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
 
+* Namn på underordnad enhet (marc/subordinateUnit =110 ‡b?)
+  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
+  <br/>```Exempel: Gjuteriavdelningen```
+
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
 
@@ -126,18 +130,4 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
 * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
   <br/>```Exempel: Uppsala universitet``` 
-   
-    
-### Fält som borde finnas eller som inte fungerar självständigt?
-Namn på underordnad enhet finns som fält men verkar bara användas i samband med egenskapen "Är del av".
-
-* Är del av (isPartOf) samt Namn (name) = 110 ‡a?)
-  <br/>Överordnat namn i en namnform som består av underordnad enhet. 
-  <br/>```Exempel: Handelshögskolan i Stockholm```
-  
-* Namn på underordnad enhet (marc/subordinateUnit =110 ‡b?)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
-  <br/>```Exempel: Biblioteket```
-  
-  
-  
+     
