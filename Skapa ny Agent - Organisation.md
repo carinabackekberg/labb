@@ -31,10 +31,10 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Exempel: ALC```
   <br/>```Exempel: Swedish Centre for Working Life```
   
-* Se även (seeAlso = 510 ‡a)
-  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även.
+* Se även (seeAlso = 510)
+  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
   <br/>```Exempel: Institutet för arbetslivsforskning```
-  <br/>[Länk till Att länka entitet]
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger.
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
@@ -106,9 +106,10 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   <br/>```Exempel: 2003```
   
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
-  <br/>Ange verksamhetsområde för en organisation vid behov. Klicka på +ikonen under egenskapen verksamhetsområde. Hämta termen från Svenska ämnesord.
+  <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Design```
-   <br/>[Länk till Att länka entitet]
+  <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
+För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
 * Förknippad plats (associatedLocal = 370 ‡c)
   <br/>Anges vid behov.
