@@ -3,13 +3,15 @@ UNDER ARBETE
 
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Första delen av lathunden beskriver fält som redan finns i beskrivningen. Ett urval av fält kopplade till organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
-<br/>Exemplet nedan är baserat på Sveriges släktforskarförbund. Tillägg är fiktiva, enbart för att exemplifiera.
+<br/>Exemplet nedan är baserat på Sveriges släktforskarförbund. Tillägg kan vara fiktiva och enbart med som exempel.
+
+<br/>Första delen av lathunden beskriver fält som redan finns i beskrivningen. Ett urval av fält kopplade till organisation, som är möjliga att lägga till, beskrivs i slutet av lathunden. 
+
 
 ### Befintliga fält i beskrivningen
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriseade namnformen. Här anges endast namnformer som består av ett led.
+  <br/>Föredragen namnform som utgör den auktoriseade namnformen.
   <br/>```Exempel: Sveriges släktforskarförbund```
   
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
