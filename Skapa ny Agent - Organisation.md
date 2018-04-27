@@ -34,7 +34,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Se även (seeAlso = 510)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
   <br/>```Exempel: Institutet för arbetslivsforskning```
-  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger.
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar Organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny Organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
