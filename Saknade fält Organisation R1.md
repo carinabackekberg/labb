@@ -1,10 +1,8 @@
    
-    
-### Fält som borde finnas eller som inte fungerar självständigt?
-Namn på underordnad enhet finns som fält men verkar bara användas i samband med egenskapen "Är del av".
+ 
 
-* Är del av/Namn (isPartOf/name = 110 ‡a första indikator 2)
-  <br/>Överordnat namn i en namnform som består av underordnad enhet. Fältet använd tillsammans med Namn på underordnad enhet.
+* Är del av/namn (isPartOf/name = 110 ‡a första indikator 2)
+  <br/>Överordnat namn i en namnform som består av underordnad enhet. Fältet används tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Handelshögskolan i Stockholm```
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 ‡b)
