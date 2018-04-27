@@ -96,7 +96,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
 
 * Är del av/namn (isPartOf/name = 110 ‡a första indikator 2)
-  <br/>Överordnat namn i en namnform som består av underordnad enhet. Fältet används tillsammans med Namn på underordnad enhet.
+  <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Fältet används tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Handelshögskolan i Stockholm```
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 ‡b)
