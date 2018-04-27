@@ -79,7 +79,6 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>eller
   <br/>```Exempel: Statskalendern, 1994```
    
 * Uppdatering av posten (marc:recordUpdate = 008/31)
