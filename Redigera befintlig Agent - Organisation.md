@@ -28,9 +28,11 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>```Exempel: Riksförbund för svenska släktforskare```    
   
 * Variant (hasVariant = 410 ‡a)
-  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till. Klicka på +ikonen under egenskapen Variant och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
+  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel:Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn. OBS! Varianter ska inte göras till sökbara länkar.
+  
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
