@@ -134,28 +134,25 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
   <br/>```Exempel: 1999``` 
   
-* Se även (seeAlso = 510 ‡a)
+* Se även (seeAlso = 510)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
   <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 
 * Förknippad plats (associatedLocal = 370 ‡c)
-  <br/>Anges vid behov.
+  <br/>Anges vid behov. Länka till entitet.
   <br/>```Exempel: Sverige```
-   <br/>[Länk till Att länka entitet]
  
 * Språk (associatedLanguage = 377 ‡a)
-  <br/>Ange språk som organisation använder vid behov.
+  <br/>Ange språk som organisation använder vid behov. Länka till entitet.
   <br/>```Exempel: Engelska```
-   <br/>[Länk till Att länka entitet]
-  
+    
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
-  <br/>Hämta termen från Svenska ämnesord.
+  <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel: Herrgårdar```
-   <br/>[Länk till Att länka entitet]
-  
+    
 * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
   <br/>```Exempel: Uppsala universitet```  
