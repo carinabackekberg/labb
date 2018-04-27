@@ -118,8 +118,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
    
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>```Exempel: Årsberättelse, 1971```
-  
+  <br/>```Exempel: Statskalendern, 1994```
   
 ### Fält att lägga till i beskrivningen
 
