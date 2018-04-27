@@ -133,9 +133,10 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: 1999``` 
   
 * Se även (seeAlso = 510 ‡a)
-  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. Klicka på +ikonen under egenskapen Se även.
+  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
   <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
-  <br/>[Länk till Att länka entitet]
+ <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
+
 
 * Förknippad plats (associatedLocal = 370 ‡c)
   <br/>Anges vid behov.
