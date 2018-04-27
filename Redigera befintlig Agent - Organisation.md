@@ -22,7 +22,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Design```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
     
 * Administativ historik (has Historical Data) (678 ‡a)
   <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde.
@@ -43,7 +43,7 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>Nationalitet för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-sw---```
-  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
 * Samma sak som (sameAs)
   <br/>Ändras ej.
