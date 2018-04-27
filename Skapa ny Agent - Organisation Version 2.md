@@ -20,7 +20,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>Överordnat namn i en auktoriserad namnform som också består av underordnad enhet. Fältet används tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Handelshögskolan i Stockholm```
   
-* Namn på underordnad enhet (marc/subordinateUnit =110 ‡b)
+* Namn på underordnad enhet (marc/subordinateUnit =110 ‡b första indikator 2)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen.
   <br/>```Exempel: Biblioteket```
 
