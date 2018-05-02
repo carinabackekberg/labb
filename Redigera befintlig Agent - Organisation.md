@@ -124,7 +124,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Benämning: Statskalendern, 1994```
   <br/>För att lägga till fält: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Fält att lägga till i beskrivningen
+### Valbara fält att lägga till i beskrivningen
 
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
@@ -140,14 +140,14 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
-
 * Förknippad plats (associatedLocal = 370 ‡c)
   <br/>Anges vid behov. Länka till entitet.
   <br/>```Exempel: Sverige```
  
 * Språk (associatedLanguage = 377 ‡a)
-  <br/>Ange språk som organisation använder vid behov. Länka till entitet.
+  <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
+  <br/>Klicka på +ikonen under egenskapen Språk. Välj Språk som typ och sök i rutan till vänster. Välj önskat språk och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
     
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
