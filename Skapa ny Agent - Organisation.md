@@ -93,7 +93,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ändras ej.
     
   
-### Ett urval valbara fält som inte ingår i mallen
+### Ett urval valbara fält för Agent- Organisation
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
 
 * Är del av/namn (isPartOf/name = 110 ‡a första indikator 2)
