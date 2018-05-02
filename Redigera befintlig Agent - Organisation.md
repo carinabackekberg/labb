@@ -117,13 +117,13 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Samma sak som (sameAs)
   <br/>Ändras ej.
 
-* Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
-  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
-   <br/>```Exempel: Uppgift från källa: Startår 1886. Källa: Wikipedia (Svenska) 2018-04-24```
+* Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
+  <br/>Välj typ av konsulterad källa i rullmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa (vid Benämning) som uppgift hämtad från källa.
+   <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886 ```
    
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-  <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>```Exempel: Statskalendern, 1994```
+  <br/>```Exempel: Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
+  <br/>```Exempel: Benämning: Statskalendern, 1994```
   
 ### Fält att lägga till i beskrivningen
 
