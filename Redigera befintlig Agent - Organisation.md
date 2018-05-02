@@ -118,7 +118,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ändras ej.
 
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
-  <br/>Välj typ av konsulterad källa i rullmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa (vid Benämning) som uppgift hämtad från källa.
+  <br/>För att lägga till fält: Klicka på +-ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa (vid Benämning) som uppgift hämtad från källa.
    <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886 ```
    
   Den resurs som föranleder auktoriseringen är en obligatorisk källa.
