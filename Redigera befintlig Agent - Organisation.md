@@ -140,10 +140,6 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
-* Förknippad plats (associatedLocal = 370 ‡c)
-  <br/>Anges vid behov. Länka till entitet.
-  <br/>```Exempel: Sverige```
- 
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
@@ -153,7 +149,3 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
   <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel: Herrgårdar```
-    
-* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
-  <br/>Här är det möjligt att ange en samhörande institution.
-  <br/>```Exempel: Uppsala universitet```  
