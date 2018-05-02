@@ -39,11 +39,10 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. 
   <br/>```Exempel:  ISNI, 0000000104839039```
   <br/>För att lägga till fält: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
-   
-    
+       
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationalitetet läggas till.
   <br/>```Exempel: e-uk---```
