@@ -12,7 +12,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 ### Befintliga fält i beskrivningen
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriseade namnformen.
+  <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Sveriges släktforskarförbund```
   
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
