@@ -125,8 +125,4 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>Ange en term för att beskriva typ av organisation om det behövs som särskiljande tillägg i den auktoriserade sökingången.
   <br/>Hämta termen från Svenska ämnesord genom att länka entitet.
   <br/>```Exempel: Herrgårdar```
-  
-* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
-  <br/>Här är det möjligt att ange en samhörande institution.
-  <br/>```Exempel: Uppsala universitet``` 
-     
+ 
