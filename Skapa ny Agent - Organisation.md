@@ -41,7 +41,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. 
   <br/>```Exempel:  ISNI, 0000000104839039```
-  <br/>För att lägga till fält: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
+  <br/>För att lägga till fält: Klicka på +ikonen under Identifikator, välj typ (ISNI). Klicka på +ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
        
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationalitetet läggas till.
@@ -77,12 +77,11 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
   
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
-  <br/>Välj typ av konsulterad källa i rullmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa (vid Benämning) som uppgift hämtad från källa.
-   <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886 ```
-   
-  Den resurs som föranleder auktoriseringen är en obligatorisk källa.
+  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är en obligatorisk källa.
+  <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886 ```
   <br/>```Exempel: Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
   <br/>```Exempel: Benämning: Statskalendern, 1994```
+  <br/>För att lägga till fält: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
