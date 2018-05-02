@@ -23,8 +23,9 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Exempel: 1994``` 
    
 * Administativ historik (hasHistoricalData) (678 ‡a)
-  <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde
+  <br/>Anmärkning om administrativ historik.
   <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
+  <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
 * Variant (hasVariant = 410 ‡a)
   <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
