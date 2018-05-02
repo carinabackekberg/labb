@@ -25,8 +25,9 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
     
 * Administativ historik (has Historical Data) (678 ‡a)
-  <br/>Anmärkning om administrativ historik. Klicka på pilen och skriv in värde.
-  <br/>```Exempel: Riksförbund för svenska släktforskare```    
+  <br/>Anmärkning om administrativ historik.
+  <br/>```Exempel: Riksförbund för svenska släktforskare```
+  <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
 * Variant (hasVariant = 410 ‡a)
   <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
