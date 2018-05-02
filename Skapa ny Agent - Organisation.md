@@ -96,11 +96,11 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 ### Ett urval valbara fält för Agent- Organisation
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
 
-* Är del av/namn (isPartOf/name = 110 2/-‡a)
+* Är del av/namn (isPartOf/name = 110 2/- ‡a)
   <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Fältet används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Handelshögskolan i Stockholm```
   
-* Namn på underordnad enhet (marc/subordinateUnit =110 2/-‡b)
+* Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Fältet används endast tillsammans med Är del av/namn.
   <br/>```Exempel: Biblioteket```
 
