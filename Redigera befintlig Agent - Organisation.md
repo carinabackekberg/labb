@@ -30,8 +30,8 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
 * Variant (hasVariant = 410 ‡a)
-  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvaranter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
-  <br/>```Exempel:Släktforskarförbundet```
+  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
+  <br/>```Exempel: Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
   <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn. OBS! Varianter ska inte göras till sökbara länkar.
   
@@ -137,7 +137,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   
 * Se även (seeAlso = 510)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
-  <br/>```Exempel:Föreningen Emigrantinstitutets vänner```
+  <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 * Språk (associatedLanguage = 377 ‡a)
