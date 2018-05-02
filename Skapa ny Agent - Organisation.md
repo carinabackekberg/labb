@@ -22,7 +22,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate = 046 ‡t)
   <br/>```Exempel: 1994``` 
    
-* Administativ historik (hasHistoricalData) (678 ‡a)
+* Administativ historik (hasHistoricalData = 678 ‡a)
   <br/>Anmärkning om administrativ historik.
   <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
   <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
@@ -41,7 +41,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. 
   <br/>```Exempel:  ISNI, 0000000104839039```
-  <br/>För att lägga till fält: Klicka på +ikonen under Identifikator, välj typ (ISNI). Klicka på +ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
+  <br/>För att lägga till fält: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
        
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationalitetet läggas till.
@@ -93,7 +93,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ändras ej.
     
   
-### Valbara fält som inte ingår i mallen
+### Ett utval valbara fält som inte ingår i mallen
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
 
 * Är del av/namn (isPartOf/name = 110 ‡a första indikator 2)
