@@ -75,15 +75,15 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
-
-* Konsulterad källa (sourceConsulted = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
-  <br/>Välj typ av konsulterad källa i rullgardinsmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa som uppgift hämtad från källa.
-   <br/>```Exempel: Uppgift från källa: Startår 1886. Källa: Wikipedia (Svenska) 2018-04-24```
   
-  Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-  <br/>```Exempel: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>```Exempel: Statskalendern, 1994```
+* Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
+  <br/>Välj typ av konsulterad källa i rullmenyn till vänster. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl källa (vid Benämning) som uppgift hämtad från källa.
+   <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886 ```
    
+  Den resurs som föranleder auktoriseringen är en obligatorisk källa.
+  <br/>```Exempel: Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
+  <br/>```Exempel: Benämning: Statskalendern, 1994```
+  
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
     
