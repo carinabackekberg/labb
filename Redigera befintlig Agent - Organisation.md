@@ -36,9 +36,9 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Välj typ av identifikator i rullmenyn. Klicka sedan på pilen och skriv in värde. 
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. 
   <br/>```Exempel:  ISNI, 0000000104839039```
-  <br/>```Exempel:  VIAF, 156982904```
+  <br/>För att lägga till fält: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
   
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>Nationalitet för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
