@@ -10,3 +10,6 @@
   <br/>```Exempel: Biblioteket```
   
   
+* Förknippad plats (associatedLocal = 370 ‡c)
+  <br/>Anges vid behov. Länka till entitet
+  <br/>```Exempel: Sverige```
