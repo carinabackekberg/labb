@@ -24,7 +24,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
     
-* Administativ historik (has Historical Data) (678 ‡a)
+* Administativ historik (has Historical Data = 678 ‡a)
   <br/>Anmärkning om administrativ historik.
   <br/>```Exempel: Riksförbund för svenska släktforskare```
   <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
@@ -39,10 +39,10 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. 
   <br/>```Exempel:  ISNI, 0000000104839039```
-  <br/>För att lägga till fält: Klicka på +ikonen under Identifikator, välj typ (ISNI). Klicka på +ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
+  <br/>För att lägga till fält: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
   
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
-  <br/>Nationalitet för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
+  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-sw---```
   <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
@@ -124,7 +124,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Benämning: Statskalendern, 1994```
   <br/>För att lägga till fält: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Valbara fält att lägga till i beskrivningen
+### Ett urval valbara fält att lägga till i beskrivningen
 
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
