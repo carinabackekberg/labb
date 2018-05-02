@@ -115,10 +115,6 @@ Följande fält är möjliga att lägga till för organisation. Nya fält läggs
   <br/>```Exempel: Design```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-
-* Förknippad plats (associatedLocal = 370 ‡c)
-  <br/>Anges vid behov. Länka till entitet
-  <br/>```Exempel: Sverige```
   
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
