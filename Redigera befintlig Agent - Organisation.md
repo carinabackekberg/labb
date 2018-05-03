@@ -93,7 +93,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
 * Differentiering av posten (marc:personalName = 008/32)
   <br/>Ändras ej.
   
-* Uppdatering av posten (marc:recordupdate = 008/31)
+* Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
   
 * Formatering av icke auktoriserade sökelement (marc:reference = 008/29)
