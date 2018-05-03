@@ -13,7 +13,7 @@ Exemplet nedan är baserat på Arbetslivscentrum. Tillägg kan vara fiktiva och 
 Beskrivning av agenten som ska auktoriseras.
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriserade namnformen. För namnformer som består av överordnad och underordnad enhet används istället fälten Är del av/namn tillsammans med Namn på underordnad enhet. Dessa fält beskrivs under rubriken Valbara fält som inte ingår i mallen.
+  <br/>Föredragen namnform som utgör den auktoriserade namnformen. För namnformer som består av överordnad och underordnad enhet används istället andra fält. Beskrivning av vilka är under arbete.
   <br/>```Exempel: Arbetslivscentrum```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 ‡s)
@@ -95,14 +95,6 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   
 ### Ett urval valbara fält för Agent- Organisation
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
-
-* Är del av/namn (isPartOf/name = 110 2/- ‡a)
-  <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Fältet används endast tillsammans med Namn på underordnad enhet.
-  <br/>```Exempel: Handelshögskolan i Stockholm```
-  
-* Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Fältet används endast tillsammans med Är del av/namn.
-  <br/>```Exempel: Biblioteket```
 
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
