@@ -94,7 +94,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
     
   
 ### Ett urval valbara fält för Agent- Organisation
-Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
+Vid behov kan ytterligare fält läggas till. Nya fält läggs till med hjälp av den runda +ikonen i verktygsmenyn.
 
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
