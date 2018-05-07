@@ -1,7 +1,7 @@
    
  utlyfta fält 2/5
 
-* Förknippad plats (associatedLocal = 370 ‡c)
+* Förknippad plats (hasAssociatedPlace/associatedCountry = 370 ‡c)?
   <br/>Anges vid behov. Länka till entitet
   <br/>```Exempel: Sverige```
   
