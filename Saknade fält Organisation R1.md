@@ -40,10 +40,11 @@ Beskrivning av agenten som ska auktoriseras.
 ### Ett urval valbara fält för Agent- Organisation
 Följande fält är möjliga att lägga till för organisation. Nya fält läggs till med hjälp av +Fält-ikonen.
 
-* Är del av/namn (isPartOf/name = 110 2/- ‡a)
+* Är del av/Namn (isPartOf/name = 110 2/- ‡a)
   <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Fältet används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Handelshögskolan i Stockholm```
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Är del av, och skapa lokal entitet organisation. Lägg sedan till fältet Namn.
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Fältet används endast tillsammans med Är del av/namn.
+  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Fältet används endast tillsammans med Är del av.
   <br/>```Exempel: Biblioteket```
