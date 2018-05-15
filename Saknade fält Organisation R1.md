@@ -5,9 +5,6 @@
   <br/>Anges vid behov. Länka till entitet
   <br/>```Exempel: Sverige```
   
-* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
-  <br/>Här är det möjligt att ange en samhörande institution.
-  <br/>```Exempel: Uppsala universitet```  
 
 
 3/5 innan ändring inför test, vecka 19
