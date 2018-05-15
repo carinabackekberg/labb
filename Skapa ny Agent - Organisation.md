@@ -93,7 +93,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ändras ej.
     
   
-### Ett urval valbara fält för Agent- Organisation
+### Valbara fält för Agent- Organisation
 Vid behov kan ytterligare fält läggas till. Nya fält läggs till med hjälp av den runda +ikonen i verktygsmenyn.
 
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
@@ -118,4 +118,10 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till fält: Klicka på +ikonen under egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
+* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
+  <br/>Här är det möjligt att ange en samhörande institution.
+  <br/>```Exempel: Uppsala universitet``` 
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
+
  
