@@ -31,7 +31,9 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: ALC```
   <br/>```Exempel: Swedish Centre for Working Life```
-  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet t ex organisation. Lägg sedan till de fält som behövs t ex namn eller flera fält t ex Är del av, och skapa lokal entitet Organisation, lägg sedan till fälten Namn och Namn på underordnad enhet. OBS! Varianter ska inte göras till sökbara länkar.
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet t ex organisation. Lägg sedan till de fält som behövs t ex namn. För att ange auktoriserad namnform som består av underordnad enhet: lägg till fältet Är del av och skapa lokal entitet Organisation, lägg sedan till fälten Namn. Lägg även till fältet Namn på underordnad enhet. OBS! Varianter ska inte göras till sökbara länkar.
+  <br/>```Exempel: ```
+  <br/>```Exempel: ```
     
   
 ### Ett urval valbara fält för Agent- Organisation
