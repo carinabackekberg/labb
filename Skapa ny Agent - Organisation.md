@@ -74,7 +74,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  <br/>Ändras ej.
 
 * Poststatus (recordStatus = = 000)
-  <br/>Ändras ej.
+  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
