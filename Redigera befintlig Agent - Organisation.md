@@ -29,7 +29,7 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>```Exempel: Riksförbund för svenska släktforskare```
   <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
-* Variant (hasVariant = 410 ‡a)
+* Variant (hasVariant = 410 ‡a ‡b)
   <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
