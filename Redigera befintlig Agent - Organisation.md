@@ -3,7 +3,7 @@ UNDER ARBETE
 
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Första delen av lathunden beskriver fält som redan finns i beskrivningen. Ett urval av fält kopplade till organisation, som är möjliga att lägga till, beskrivs i slutet av lathunden. 
+<br/>Första delen av lathunden beskriver fält som redan finns i beskrivningen. Fält relevanta för organisation, som är möjliga att lägga till, beskrivs i slutet av lathunden. 
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
@@ -124,7 +124,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Benämning: Statskalendern, 1994```
   <br/>För att lägga till fält: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Ett urval valbara fält att lägga till i beskrivningen
+### Valbara fält att lägga till i beskrivningen
 
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
