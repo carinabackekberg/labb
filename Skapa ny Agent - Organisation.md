@@ -13,7 +13,7 @@ Exemplet nedan är baserat på Arbetslivscentrum. Tillägg kan vara fiktiva och 
 Beskrivning av agenten som ska auktoriseras.
 
 * Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriserade namnformen. För namnformer som består av överordnad och underordnad enhet används istället fälten Är del av/namn tillsammans med Namn på underordnad enhet. Dessa fält beskrivs under rubriken Valbara fält för Agent - Organisation.
+  <br/>Föredragen namnform som utgör den auktoriserade namnformen. För namnformer som består av överordnad och underordnad enhet används istället fälten Är del av/namn tillsammans med Namn på underordnad enhet. Dessa fält beskrivs under rubriken Valbara fält för Agent - Organisation. Om dessa två fält används måste fältet namn tas bort. Klicka i så fall på papperskorgsikonen under egenskapen Namn. 
   <br/>```Exempel: Arbetslivscentrum```
 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 ‡s)
@@ -97,7 +97,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
     
   
 ### Valbara fält för Agent- Organisation
-Vid behov kan ytterligare fält läggas till. Nya fält läggs till med hjälp av den runda +ikonen i verktygsmenyn.
+Nya fält läggs till med hjälp av den runda +ikonen i verktygsmenyn.
 
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
