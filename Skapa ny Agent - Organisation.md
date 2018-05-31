@@ -15,7 +15,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Arbetslivscentrum```
-  <br/>För namnformer som består av överordnad och underordnad enhet används istället fälten Är del av tillsammans med Namn på underordnad enhet. Om fält Namn används måste fälten Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgsikonen under respektive egenskap.
+  <br/>För namnformer som består av överordnad och underordnad enhet används istället fälten Är del av tillsammans med Namn på underordnad enhet. Om fältet Namn används måste fälten Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgsikonen under respektive egenskap.
   
 * Är del av/Namn (isPartOf/name = 110 2/- ‡a)
   <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Fältet används endast tillsammans med Namn på underordnad enhet.
