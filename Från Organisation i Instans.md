@@ -9,16 +9,15 @@ Utgå från Instans av verk. Lathunden beskriver hur man lägger till såväl l�
 
 Saknas fält för Medverkan läggs de till genom att klicka på +ikonen intill Medverkan och funktion, välj i rullmenyn.
 
-#### Länka Organisation:
+#### Länkad Organisation:
 Välj typ av Medverkan i rullmenyn. Klicka därefter på +ikonen intill det tillagda fältet t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
 
 Om det inte finns en Agent att länka mot finns två val. Gå till mallen för Agent Organisation och skapa en Agent som sedan kan länkas in. Om ingen Agentpost skapas använd istället de fält som behövs enligt nedan och skriv in namnet.
 
-##### Olänkad Organisation i ett led:
-##### Länka entitet
+#### Olänkad Organisation i ett led:
 Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. Fyll i organisationens namn och spara posten.  
 
-##### Olänkad Organisation som består av underordnad enhet:
+#### Olänkad Organisation som består av underordnad enhet:
 Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i Organisationens namn och spara posten.
 
 
@@ -29,15 +28,15 @@ Lägg även till en funktionskod genom att klicka på +ikonen vid Medverkan/Prim
 
 Saknas fält för Ämne läggs de till genom att klicka på +ikonen intill Text.
 
-##### Länka Organisation:
+#### Länkad Organisation:
 Klicka på +ikonen vid Ämne. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till. 
 
 Om det inte finns en Agent att länka mot finns två val. Gå till mallen för Agent Organisation och skapa en Agent som sedan kan länkas in. Om ingen Agentpost skapas använd istället de fält som behövs enligt nedan och skriv in namnet.
 
-##### Olänkad Organisation i ett led:
+#### Olänkad Organisation i ett led:
 Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. Fyll i organisationens namn och spara posten.  
 
-##### Olänkad Organisation som består av underordnad enhet:
+#### Olänkad Organisation som består av underordnad enhet:
 Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i Organisationens namn och spara posten.
 
 
