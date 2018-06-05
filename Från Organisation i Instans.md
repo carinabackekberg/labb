@@ -5,9 +5,9 @@ UNDER ARBETE
 
 Utgå från Instans av verk. Lathunden beskriver hur man lägger till såväl länkad som olänkad Organisation. Det går att lägga till Organisation som utgivare vid Medverkan och funktion (710) samt som Ämne (610)
 
-### Organisation som utgivare (710)
+### Organisation vid Medverkan och Funktion (710)
 
-Vid Medverkan och Funktion välj typ av Medverkan i rullmenyn. Klicka därefter på +ikonen intill det tillagda fältet t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
+Välj typ av Medverkan i rullmenyn. Klicka därefter på +ikonen intill det tillagda fältet t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
 
 Om det inte finns en Agent att länka mot finns två val. Gå till mallen för Agent Organisation och skapa en Agent som sedan kan länkas in. Om ingen Agentpost skapas använd istället de fält som behövs enligt nedan och skriv in namnet.
 
