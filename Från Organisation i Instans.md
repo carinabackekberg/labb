@@ -5,7 +5,7 @@ UNDER ARBETE
 
 Utgå från Instans av verk. Lathunden beskriver hur man lägger till såväl länkad som olänkad Organisation. Det går att lägga till Organisation vid Medverkan och funktion (710) samt som Ämne (610). Saknas fält för Medverkan och Funktion eller Ämne läggs de till genom att klicka på +ikonen vid Text.
 
-Om det inte finns en Agent att länka mot finns två val. Gå till mallen för Agent Organisation och skapa en Agent som sedan kan länkas in. Om ingen Agentpost skapas använd istället de fält som behövs enligt nedan och skriv in namnet.
+Om det inte finns en Agent att länka mot finns två val. Gå till mallen för Agent - Organisation och skapa en ny Agent som sedan kan länkas in. Om ingen Agentpost skapas använd istället de fält som behövs enligt nedan och skriv in namnet.
 
 ### Organisation: Medverkan och Funktion (contribution/organization = 710)
 
