@@ -16,7 +16,7 @@ Vid medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka därefter 
 Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. Fyll i organisationens namn och spara posten.  
 
 #### Olänkad Organisation som består av underordnad enhet:
-Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i Organisationens namn och spara posten.
+Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i organisationens namn och spara posten.
 
 #### Funktionskod:
 Lägg även till en funktionskod genom att klicka på +ikonen vid Primär medverkan/Medverkan och välj Funktion. Klicka på +ikonen intill Funktion. Sök efter funktionskod t ex Utgivare. Länka funktionskoden genom att klicka på Lägg till.
@@ -31,7 +31,7 @@ Klicka på +ikonen vid Ämne. Sök efter Organisationen. För att begränsa sök
 Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. Fyll i organisationens namn och spara posten.  
 
 #### Olänkad Organisation som består av underordnad enhet:
-Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i Organisationens namn och spara posten.
+Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i organisationens namn och spara posten.
 
 
 
