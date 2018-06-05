@@ -1,10 +1,7 @@
 
 UNDER ARBETE
 
-## Validering: Agent - Organisation
-
-o	Finns auktoriserad namnform som konstaterats vid sökning i pop up-rutan för Lägg till entitet – länka till den (se Lindgren, Astrid, 1907-2002 nedan)
-o	Saknas auktoriserad namnform som konstaterats vid sökning i pop up-rutan för Lägg till entitet – stäng pop up-rutan och ange kända uppgifter i formuläret (se Johnson, Jacob, 1978- nedan).
+## Lägga till Agent-Organisation i Instans av Verk
 
 Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för Primär medverkan/Medverkan, välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
 
@@ -17,6 +14,9 @@ Saknas fält för medverkan/ytterligare medverkan läggs de till genom att klick
 
 
 
+
+o	Finns auktoriserad namnform som konstaterats vid sökning i pop up-rutan för Lägg till entitet – länka till den (se Lindgren, Astrid, 1907-2002 nedan)
+o	Saknas auktoriserad namnform som konstaterats vid sökning i pop up-rutan för Lägg till entitet – stäng pop up-rutan och ange kända uppgifter i formuläret (se Johnson, Jacob, 1978- nedan).
 
 Saknas fält för medverkan/ytterligare medverkan läggs de till genom att klicka på +ikonen intill Medverkan och funktion, välj Medverkan i rullgardinsmenyn, klicka på +ikonen intill det tillagda fältet för Medverkan, välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. För att ange namnform som består av underordnad enhet väljs fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i Organisationens namn och spara posten.
 
