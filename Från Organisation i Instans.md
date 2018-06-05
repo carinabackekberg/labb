@@ -20,8 +20,8 @@ Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikone
 #### Olänkad Organisation som består av underordnad enhet:
 Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i Organisationens namn och spara posten.
 
-
-Lägg även till en funktionskod genom att klicka på +ikonen vid Medverkan/Primärmedverkan och välj Funktion. Klicka på +ikonen intill Funktion. Sök efter funktionskod t ex utgivare,pbl. Länka funktionskoden genom att klicka på Lägg till.
+#### Funktionskod:
+Lägg även till en funktionskod genom att klicka på +ikonen vid Medverkan/Primärmedverkan och välj Funktion. Klicka på +ikonen intill Funktion. Sök efter funktionskod. Länka funktionskoden genom att klicka på Lägg till.
 
 
 ### Organisation: Ämne (610)
