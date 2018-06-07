@@ -19,7 +19,7 @@ Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikone
 
 #### Olänkad Organisation som består av underordnad enhet:
 Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i organisationens namn och spara posten.
-<br/>```Exempel: Organisation/Är del av/Organisation/Namn: Kungliga biblioteket samt Organisation/Namn på underordnad enhet: Nationalbibliografin```
+<br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
 
 #### Funktionskod:
 Lägg även till en funktionskod genom att klicka på +ikonen vid Primär medverkan/Medverkan och välj Funktion. Klicka på +ikonen intill Funktion. Sök efter funktionskod t ex Utgivare. Länka funktionskoden genom att klicka på Lägg till.
@@ -37,6 +37,6 @@ Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal
 
 #### Olänkad Organisation som består av underordnad enhet:
 Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i organisationens namn och spara posten.
-<br/>```Exempel: Organisation/Är del av/Organisation/Namn: Kungliga biblioteket samt Organisation/Namn på underordnad enhet: Nationalbibliografin```
+<br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
 
 
