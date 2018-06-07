@@ -1,39 +1,35 @@
 
 UNDER ARBETE
 
-## Validering: Agent - Organisation
+## Lägga till Agent - Organisation i Instans av Verk
 
-o	Finns auktoriserad namnform som konstaterats vid sökning i pop up-rutan för Lägg till entitet – länka till den (se Lindgren, Astrid, 1907-2002 nedan)
-o	Saknas auktoriserad namnform som konstaterats vid sökning i pop up-rutan för Lägg till entitet – stäng pop up-rutan och ange kända uppgifter i formuläret (se Johnson, Jacob, 1978- nedan).
+Utgå från Instans av verk. Lathunden beskriver hur man lägger till såväl länkad som olänkad Organisation. Det går att lägga till Organisation vid Medverkan och funktion (710) samt som Ämne (610). Saknas fält för Medverkan och Funktion eller Ämne läggs de till genom att klicka på +ikonen vid Text.
 
-Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för Primär medverkan/Medverkan, välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
+Om det inte finns en Agent att länka mot finns två val. Gå till mallen för Agent - Organisation och skapa en ny Agent som sedan kan länkas in. Om ingen Agentpost skapas använd istället de fält som behövs enligt nedan och skriv in namnet.
 
-Om det inte finns en auktoritetspost att länka mot finns två val. Gå till för Agent Organisation och skapa en Auktoritetpost som sedan kan länkas in. Skall ingen auktoritetspost göras skapa då de fält som behövs enligt nedan och skriv in namnet.
+### Organisation: Medverkan och Funktion (contribution/organization = 710)
 
-Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för Primär medverkan/Medverkan, välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. Fyll i organisationens namn och spara posten. För att ange namnform som består av underordnad enhet väljs istället fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i Organisationens namn och spara posten.
+#### Länkad Organisation:
+Vid medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka därefter på +ikonen intill det tillagda fältet t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
 
-Saknas fält för medverkan/ytterligare medverkan läggs de till genom att klicka på +ikonen intill Medverkan och funktion, välj i rullsmenyn.
+#### Olänkad Organisation i ett led:
+Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. Fyll i organisationens namn och spara posten.  
 
+#### Olänkad Organisation som består av underordnad enhet:
+Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill det tillagda fältet för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i organisationens namn och spara posten.
 
-
-
-
-Saknas fält för medverkan/ytterligare medverkan läggs de till genom att klicka på +ikonen intill Medverkan och funktion, välj Medverkan i rullgardinsmenyn, klicka på +ikonen intill det tillagda fältet för Medverkan, välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. För att ange namnform som består av underordnad enhet väljs fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i Organisationens namn och spara posten.
-
-
-<br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till.
-  <br/>```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies```
+#### Funktionskod:
+Lägg även till en funktionskod genom att klicka på +ikonen vid Primär medverkan/Medverkan och välj Funktion. Klicka på +ikonen intill Funktion. Sök efter funktionskod t ex Utgivare. Länka funktionskoden genom att klicka på Lägg till.
 
 
+### Organisation: Ämne (subject/organization = 610)
 
+#### Länkad Organisation:
+Klicka på +ikonen vid Ämne. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till. 
 
+#### Olänkad Organisation i ett led:
+Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. Fyll i organisationens namn och spara posten.  
 
-### Mall för beskrivning av Agent - Organisation
+#### Olänkad Organisation som består av underordnad enhet:
+Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i organisationens namn och spara posten.
 
-Beskrivning av agenten som ska auktoriseras.
-
-* Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriserade namnformen. För namnformer som består av överordnad och underordnad enhet används istället fälten Är del av/namn tillsammans med Namn på underordnad enhet.
-  <br/>```Exempel: Arbetslivscentrum```
-  
- 
