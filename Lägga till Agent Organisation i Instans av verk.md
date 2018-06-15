@@ -1,7 +1,7 @@
 
 UNDER ARBETE (uppdaterad 2018-06-15)
 
-## Lägga till Agent - Organisation i Instans av Verk
+## Lägga till Agent - Organisation, i Instans av Verk
 
 Utgå från Instans av verk. Lathunden beskriver hur man lägger till såväl länkad som olänkad Organisation. Det går att lägga till Organisation vid Medverkan och funktion (710) samt som Ämne (610). Saknas fält för Medverkan och Funktion eller Ämne läggs de till genom att klicka på +ikonen vid Text.
 
