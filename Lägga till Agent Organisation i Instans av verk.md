@@ -9,6 +9,7 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 
 ### Organisation som Medverkan och funktion (contribution)
 <br/>
+
 #### Länkad Organisation
 Vid medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka därefter på +ikonen intill det tillagda fältet t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
   <br/>```Exempel: Arbetslivscentrum```
