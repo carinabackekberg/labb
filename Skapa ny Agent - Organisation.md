@@ -1,4 +1,4 @@
-UNDER ARBETE (uppdaterad 2018-06-14)
+UNDER ARBETE (uppdaterad 2018-08-21)
 
 ## Skapa ny: Agent - Organisation
 
@@ -41,10 +41,9 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Använd de expanderbara fälten och skapa nya fält om ytterligare namnvarianter behöver läggas till.
   <br/>```Exempel: ALC```
   <br/>```Exempel: Swedish Centre for Working Life```
-  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet t ex organisation. Lägg sedan till de fält som behövs t ex namn. 
-  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till.
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Lägg sedan till de fält som behövs t ex namn. 
+  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till.
   <br/>```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies```
-  <br/>OBS! Varianter ska inte göras till sökbara länkar.
     
 * Se även (seeAlso = 510)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
