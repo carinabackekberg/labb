@@ -1,5 +1,5 @@
 
-UNDER ARBETE (uppdaterad 2018-06-14)
+UNDER ARBETE (uppdaterad 2018-08-21)
 
 ## Redigera befintlig: Agent - Organisation
 
@@ -33,10 +33,9 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel: Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
-  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet t ex organisation. Lägg sedan till det fält som behövs t ex namn.
-  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och skapa lokal entitet organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till.
+  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Lägg sedan till det fält som behövs t ex namn.
+  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till.
   <br/>```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies```
-  <br/>OBS! Varianter ska inte göras till sökbara länkar. 
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. 
