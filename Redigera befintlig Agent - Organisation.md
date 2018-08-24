@@ -1,5 +1,5 @@
 
-UNDER ARBETE (uppdaterad 2018-08-21)
+UNDER ARBETE (uppdaterad 2018-08-24)
 
 ## Redigera befintlig: Agent - Organisation
 
