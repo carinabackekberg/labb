@@ -44,6 +44,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Lägg sedan till de fält som behövs t ex namn. 
   <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till.
   <br/>```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies```
+  <br/>OBS! Varianter ska inte göras till sökbara länkar.
     
 * Se även (seeAlso = 510)
   <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
