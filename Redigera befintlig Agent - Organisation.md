@@ -39,7 +39,7 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>OBS! Varianter ska inte göras till sökbara länkar.
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan t ex hämtas från VIAF.
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
   <br/>```Exempel:  ISNI, 0000000104839039```
   <br/>För att lägga till fält: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
   
