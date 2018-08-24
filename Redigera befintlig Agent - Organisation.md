@@ -39,7 +39,7 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>OBS! Varianter ska inte göras till sökbara länkar.
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. 
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan t ex hämtas från VIAF.
   <br/>```Exempel:  ISNI, 0000000104839039```
   <br/>För att lägga till fält: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
   
@@ -126,10 +126,13 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ändras ej.
 
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
-  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-  <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886 ```
+  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
+  <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel: Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>```Exempel: Benämning: Statskalendern, 1994```
+  <br/>```Exempel: Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Stockholm vatten och avfall ```
+  <br/>Ytterligare relevanta källor kan vara
+  <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
+  <br/>```Exempel: Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
   <br/>För att lägga till fält: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
 ### Valbara fält att lägga till i beskrivningen
