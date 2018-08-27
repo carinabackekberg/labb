@@ -66,7 +66,7 @@ Beskrivning av agenten som ska auktoriseras.
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
 * Skapad av (descriptionCreator = 040 ‡a)
- <br/>Förval: inloggan sigel. Ändras ej.
+ <br/>Förval: inloggad sigel. Ändras ej.
  <br/>```Exempel: S```
       
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
