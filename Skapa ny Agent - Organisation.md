@@ -90,7 +90,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel: Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>```Exempel: Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen Stockholm vatten och avfall ```
+  <br/>```Exempel: Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Stockholm vatten och avfall ```
   <br/>Ytterligare relevanta källor kan vara.
   <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
   <br/>```Exempel: Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
