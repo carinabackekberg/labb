@@ -32,11 +32,11 @@ Klicka på +ikonen vid Ämne. Sök efter Organisationen. För att begränsa sök
   <br/>```Exempel: Arbetslivscentrum```
 
 #### Olänkad Organisation i ett led (610 ‡a)
-Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fältet Namn. Fyll i organisationens namn och spara posten.
+Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen vid Organisation och lägg till egenskapen Namn. Fyll i organisationens namn och spara posten.
   <br/>```Exempel: Organisation/Namn: Landsnora kvarn och såg```
 
 #### Olänkad Organisation som består av underordnad enhet (610 ‡a ‡b)
-Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen inom fältet för Organisation och lägg till fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till. Fyll sedan i organisationens namn och spara posten.
+Klicka på +ikonen vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen vid  Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till. Fyll sedan i organisationens namn och spara posten.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
 
 
