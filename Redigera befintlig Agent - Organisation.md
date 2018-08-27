@@ -52,16 +52,16 @@ För att lägga till: Klicka på +ikonen under egenskapen Verksamhetsområde, v�
   <br/>Ändras ej.
     
   
-### Befintliga fält i Adminmetadata
+### Befintliga egenskaper i Adminmetadata
 
-Information av administrativ karaktär som inte är direkt förknippad med den auktoriserade namnformen.
+Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
 * Kontrollnummer (controllNumber = 001)
   <br/>LibrisID. Ändras ej.
   
 * Skapad av (descriptionCreator = 040 ‡a)
  <br/>Förval: Sigel för skapare av agenten. Ändras ej.
- <br/>```Exempel: Organisation S```
+ <br/>```Exempel: S```
       
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
  <br/>Förval: rda. Ändra vid behov.
@@ -72,10 +72,10 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>Förval: Svenska. Ändras ej.
+ <br/>Förval: language/swe. Ändras ej.
  
 * Senast ändrad av (descriptionLastModifier)
- <br/>Förval: Sigel som gjort senaste ändring. Ändras ej.
+ <br/>Förval: Sigel som gjort senaste ändring. Ändras automatiskt vid sparande.
   
 * Beskrivningsnivå (encodingLevel = 000)
  <br/>Ändras ej.
@@ -120,7 +120,7 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
  <br/>Ändras ej.  
 
 * Poststatus (recordStatus = 000)
-  <br/>Ändras ej.
+  <br/>Ändras ej. Vid uppdatering ändras status automatiskt.
   
 * Samma sak som (sameAs)
   <br/>Ändras ej.
@@ -129,11 +129,13 @@ Information av administrativ karaktär som inte är direkt förknippad med den a
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel: Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>```Exempel: Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Stockholm vatten och avfall ```
+  <br/>```Exempel: Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
   <br/>Ytterligare relevanta källor kan vara.
   <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
   <br/>```Exempel: Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
-  <br/>För att lägga till fält: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
+  
+  <br/>För att lägga till: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
 ### Valbara fält att lägga till i beskrivningen
 
