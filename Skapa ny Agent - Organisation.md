@@ -1,4 +1,4 @@
-UNDER ARBETE (uppdaterad 2018-08-24)
+UNDER ARBETE (uppdaterad 2018-08-27)
 
 ## Skapa ny: Agent - Organisation
 
