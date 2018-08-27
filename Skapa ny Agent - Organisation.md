@@ -52,7 +52,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>För att lägga till: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.  
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
   <br/>```Exempel: 0000000104839039```
   <br/>För att lägga till: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom Identifikator, sök efter och lägg till egenskapen Värde.
        
