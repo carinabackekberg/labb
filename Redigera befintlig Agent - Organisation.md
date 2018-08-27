@@ -134,10 +134,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
   <br/>```Exempel: Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
-  
   <br/>För att lägga till: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Valbara fält att lägga till i beskrivningen
+### Valbara egenskaper att lägga till i beskrivningen
 
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
@@ -149,9 +148,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: 1999``` 
   
 * Se även (seeAlso = 510)
-  <br/>I detta fält länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
+  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
- <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
+ <br/>För att lägga till: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
@@ -162,4 +161,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ange en term för att beskriva typ av organisation om det använts som särskiljande tillägg i den auktoriserade sökingången.
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till fält: Klicka på +ikonen under egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+För att lägga till: Klicka på +ikonen under egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
+Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
