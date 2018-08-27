@@ -3,13 +3,13 @@ UNDER ARBETE (uppdaterad 2018-08-27)
 
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Första delen av lathunden beskriver fält som redan finns i beskrivningen. Fält relevanta för organisation, som är möjliga att lägga till, beskrivs i slutet av lathunden. 
+<br/>Första delen av lathunden beskriver egenskaper som redan finns i beskrivningen. Ett urval relevanta för organisation, som är möjliga att lägga till, beskrivs i slutet av lathunden. 
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
-<br/>Exemplet nedan är baserat på Sveriges släktforskarförbund. Tillägg kan vara fiktiva och enbart med som exempel.
+<br/>Exemplet nedan är baserat på den auktoriserade namnformen Sveriges släktforskarförbund. Tillägg kan vara fiktiva och enbart med som exempel.
 
-### Befintliga fält i beskrivningen
+### Befintliga egenskaper i beskrivningen
 
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
@@ -22,7 +22,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Släktforskning```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+För att lägga till: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
     
 * Administativ historik (has Historical Data = 678 ‡a)
   <br/>Anmärkning om administrativ historik.
@@ -30,23 +30,23 @@ För att lägga till fält: Klicka på +ikonen under egenskapen Verksamhetsområ
   <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
 * Variant (hasVariant = 410 ‡a ‡b)
-  <br/>I detta fält anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Fältet upprepas om flera variantnamn behöver läggas till.
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
   <br/>```Exempel: Släktforskarförbundet```
   <br/>```Exempel: Federation of Swedish Genealogical Societies```
-  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Lägg sedan till det fält som behövs t ex namn.
-  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, fälten Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och fältet Namn läggs till.
+  <br/>För att lägga till: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn.
+  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
   <br/>```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies```
   <br/>OBS! Varianter ska inte göras till sökbara länkar.
   
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
-  <br/>```Exempel:  ISNI, 0000000104839039```
-  <br/>För att lägga till fält: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom det tillagda Identifikator-fältet, sök efter och lägg till fältet Värde.
+  <br/>```Exempel: 0000000104839039```
+  <br/>För att lägga till: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom Identifikator, sök efter och lägg till egenskapen Värde.
   
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-sw---```
-  <br/>För att lägga till fält: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>För att lägga till: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
 * Samma sak som (sameAs)
   <br/>Ändras ej.
