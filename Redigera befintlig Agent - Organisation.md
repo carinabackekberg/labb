@@ -3,7 +3,7 @@ UNDER ARBETE (uppdaterad 2018-08-27)
 
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Första delen av lathunden beskriver egenskaper som redan finns i beskrivningen. Ett urval relevanta för organisation, som är möjliga att lägga till, beskrivs i slutet av lathunden. 
+<br/>Första delen av lathunden beskriver egenskaper som redan finns i beskrivningen. Ett urval egenskaper relevanta för organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
