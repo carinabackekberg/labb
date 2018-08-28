@@ -1,4 +1,4 @@
-UNDER ARBETE (uppdaterad 2018-08-27)
+UNDER ARBETE (uppdaterad 2018-08-28)
 
 ## Skapa ny: Agent - Organisation
 
@@ -15,12 +15,12 @@ Beskrivning av agenten som ska auktoriseras.
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Arbetslivscentrum```
-  <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet. Om egenskapen Namn används måste egenskapen Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgsikonen under respektive egenskap.
+  <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet. Om egenskapen Namn används måste egenskaperna Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgsikonen under respektive egenskap.
   
 * Är del av/Namn (isPartOf/name = 110 2/- ‡a)
   <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Stockholms universitet```
-  <br/>För att lägga till egenskap: Klicka på +ikonen under egenskapen Är del av, och skapa lokal entitet organisation. Lägg sedan till egenskapen Namn.
+  <br/>För att lägga till: Klicka på +ikonen under egenskapen Är del av, och skapa lokal entitet organisation. Lägg sedan till egenskapen Namn.
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av. Om dessa två egenskaper används måste egenskapen Namn raderas. Klicka i så fall på papperskorgsikonen under egenskapen Namn. 
@@ -83,8 +83,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
+  <br/>```Exempel: 2018-08-28/S/NB/carbac```
+  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
   
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
