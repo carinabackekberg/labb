@@ -1,5 +1,5 @@
 
-UNDER ARBETE (uppdaterad 2018-08-27)
+UNDER ARBETE (uppdaterad 2018-08-28)
 
 ## Lägga till Agent - Organisation i Instans av Verk
 
@@ -10,15 +10,15 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 ### Organisation som Medverkan och funktion (contribution)
 
 #### Länkad Organisation
-Vid medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka därefter på +ikonen intill den tillagda egenskapen t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
+Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka därefter på +ikonen intill den tillagda egenskapen t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på Lägg till.
   <br/>```Exempel: Arbetslivscentrum```
 
 #### Olänkad Organisation i ett led (710 ‡a)
-Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen vid Organisation och lägg till egenskapen Namn. Fyll i organisationens namn och spara posten.
+Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på +ikonen intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen vid Organisation och lägg till egenskapen Namn. Fyll i organisationens namn och spara posten.
   <br/>```Exempel: Organisation/Namn: Landsnora kvarn och såg```
 
 #### Olänkad Organisation som består av underordnad enhet (710 ‡a ‡b)
-Vid Medverkan och funktion välj typ av Medverkan i rullmenyn. Klicka på +ikonen intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till. Fyll sedan i organisationens namn och spara posten.
+Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på +ikonen intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på +ikonen intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på +ikonen vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till. Fyll sedan i organisationens namn och spara posten.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
 
 #### Funktionskod (710 ‡4)
