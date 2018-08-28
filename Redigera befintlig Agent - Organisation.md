@@ -69,7 +69,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  
  * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan```
+  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
   
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>Förval: language/swe. Ändras ej.
@@ -123,7 +123,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ändras ej. Vid uppdatering ändras status automatiskt.
   
 * Samma sak som (sameAs)
-  <br/>Ändras ej.
+  <br/>```Exempel: auth/394287```.
 
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
