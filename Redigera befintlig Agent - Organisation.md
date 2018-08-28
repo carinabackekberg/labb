@@ -1,9 +1,9 @@
 
-UNDER ARBETE (uppdaterad 2018-08-27)
+UNDER ARBETE (uppdaterad 2018-08-28)
 
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Första delen av lathunden beskriver egenskaper som redan finns i beskrivningen. Ett urval egenskaper relevanta för organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
+<br/>Första delen av lathunden beskriver egenskaper och klasser som redan finns i beskrivningen. Ett urval egenskaper relevanta för organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
@@ -27,7 +27,7 @@ För att lägga till: Klicka på +ikonen under egenskapen Verksamhetsområde, v�
 * Administativ historik (has Historical Data = 678 ‡a)
   <br/>Anmärkning om administrativ historik.
   <br/>```Exempel: Riksförbund för svenska släktforskare```
-  <br/>Lägg till fält genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
+  <br/>Lägg till egenskap genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
   
 * Variant (hasVariant = 410 ‡a ‡b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
@@ -49,7 +49,7 @@ För att lägga till: Klicka på +ikonen under egenskapen Verksamhetsområde, v�
   <br/>För att lägga till: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
 * Samma sak som (sameAs)
-  <br/>Ändras ej.
+  <br/>```Exempel: resource/auth/394287```
     
   
 ### Befintliga egenskaper i Adminmetadata
