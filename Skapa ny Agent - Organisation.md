@@ -108,7 +108,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ändras ej.
     
   
-### Valbara egenskaper för Agent - Organisation
+### Valbara egenskaper att lägga till i beskrivningen
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda +ikonen i verktygsmenyn.
  
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
