@@ -8,7 +8,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. Tillägg kan vara fiktiva och enbart med som exempel.
 
-### Mall för beskrivning av Agent - Organisation
+### Egenskaper i mall för beskrivning
 
 Beskrivning av agenten som ska auktoriseras.
    
@@ -61,7 +61,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Exempel: e-uk---```
   <br/>För att lägga till: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
-### Adminmetadata
+### Egenskaper i mall för adminmetadata
 
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
