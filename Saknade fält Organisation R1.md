@@ -1,5 +1,15 @@
 
-Egenskap utlyft 4/10. Det går inte längre att välja namn vid organisatorisk tillhörighet. Benämning istället>?   
+anmärkningar 4/10. Egenskaperna ligger kvar så länge.
+
+Det går inte längre att länka mot svenska ämnesord vid Andra attribut för person- och organisationsnamn!
+
+* Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
+  <br/>Ange en term för att beskriva typ av organisation om det använts som särskiljande tillägg i den auktoriserade sökingången.
+  <br/>```Exempel: Herrgårdar```
+  <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
+För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
+Det går inte längre att välja namn vid organisatorisk tillhörighet. Benämning istället>?   
  
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
