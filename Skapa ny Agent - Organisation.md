@@ -40,6 +40,7 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
   <br/>```Exempel:```
    * ```ALC```
    * ```Swedish Centre for Working Life```
+   
 <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn. 
 <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på plustecknet längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
   <br/>```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies```
