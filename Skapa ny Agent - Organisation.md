@@ -15,14 +15,14 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Arbetslivscentrum```
-  <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet. Om egenskapen Namn används måste egenskaperna Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgsikonen vid respektive egenskap.
+  <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet. Om egenskapen Namn används måste egenskaperna Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgen vid respektive egenskap.
   
 * Är del av/Namn (isPartOf/name = 110 2/- ‡a)
   <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Stockholms universitet```
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av. Om dessa två egenskaper används måste egenskapen Namn raderas. Klicka i så fall på papperskorgsikonen vid egenskapen Namn. 
+  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av. Om dessa två egenskaper används måste egenskapen Namn raderas. Klicka i så fall på papperskorgen vid egenskapen Namn. 
   <br/>```Exempel: Centrum för medeltidsstudier```  
     
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 ‡s)
@@ -39,20 +39,21 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
   <br/>```Exempel: ALC```
   <br/>```Exempel: Swedish Centre for Working Life```
-  <br/>För att lägga till variantnamn: Klicka på +ikonen vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn. 
-  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
+  <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn. 
+  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på plustecknet längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
   <br/>```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies```
   <br/>OBS! Varianter ska inte göras till sökbara länkar.
     
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
   <br/>```Exempel: Institutet för arbetslivsforskning```
-  <br/>För att lägga till: Klicka på +ikonen vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet till höger. (Om organisationen man behöver länka mot inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
-  <br/>```Exempel: 0000000104839039```
-  <br/>För att lägga till: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom Identifikator, sök efter och lägg till egenskapen Värde.
+  <br/>```Exempel: 
+  * ```Värde: 0000000104839039```
+  * ```Typanmärkning: ISNI```
        
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
