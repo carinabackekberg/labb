@@ -45,7 +45,6 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
   ```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies ```<br/>För att ange auktoriserad namnform som består av underordnad enhet: klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på plustecknet längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
   
   OBS! Varianter ska inte göras till sökbara länkar.
-  
     
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
@@ -59,7 +58,7 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-uk---```
-  <br/>För att lägga till: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Vid sökning välj Nationalitet som typ. Välj önskad nationalitet och klicka på plustecknet till vänster. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
 ### Egenskaper i mall för adminmetadata
 
@@ -84,28 +83,29 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
-  <br/>```Exempel: 2018-08-28/S/NB/carbac```
-  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+  <br/>```Exempel:```
+  * ```2018-08-28/S/NB/carbac```
+  * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
   
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-  <br/>```Exempel: Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
+  <br/>```Exempel:```
+  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
+  * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
   
-  * ```Är del av/Organisation/Namn: Stockholm University```
-  * ```Namn på underordnad enhet: Centre for Medieval Studies``` 
+ Ytterligare relevanta källor kan vara.
+ <br/>```Exempel:```
+  * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
+  * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
   
-  <br/>```Exempel: Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall ```
-  <br/>Ytterligare relevanta källor kan vara.
-  <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-  <br/>```Exempel: Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
-  <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
-  <br/>För att lägga till: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
+  <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
   
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
     
-* Differentiering av posten (marc:personalName = 008/32)
+* Differentiering av person (marc:personalName = 008/32)
   <br/>Ändras ej.
 
 * Auktoritetskontrollnivå (marc:level = 008/33)
@@ -143,4 +143,4 @@ För att lägga till: Klicka på +ikonen under egenskapen Andra attribut för pe
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på +ikonen under egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till den egenskap som behövs t ex namn. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
 
-<br/>Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget! 
+<br/>Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
