@@ -49,7 +49,7 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
   <br/>```Exempel: Institutet för arbetslivsforskning```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet till vänster. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
@@ -58,7 +58,7 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-uk---```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Vid sökning välj Nationalitet som typ. Välj önskad nationalitet och klicka på plustecknet till vänster. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
 ### Egenskaper i mall för adminmetadata
 
@@ -113,7 +113,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
     
   
 ### Valbara egenskaper att lägga till i beskrivningen
- <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda +ikonen i verktygsmenyn.
+ <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
  
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
@@ -125,22 +125,18 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Design```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
-  <br/>Klicka på +ikonen under egenskapen Språk. Välj Språk som typ och sök i rutan till vänster. Välj önskat språk och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
  
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det använts som särskiljande tillägg i den auktoriserade sökingången.
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till: Klicka på +ikonen under egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-* Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
-  <br/>Här är det möjligt att ange en samhörande institution.
-  <br/>```Exempel: Uppsala universitet``` 
-  <br/>För att lägga till: Klicka på +ikonen under egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till den egenskap som behövs t ex namn. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
 
 <br/>Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
