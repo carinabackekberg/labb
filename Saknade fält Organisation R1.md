@@ -1,5 +1,12 @@
-   
- utlyfta fält 2/5
+
+Egenskap utlyft 4/10. Det går inte längre att välja namn vid organisatorisk tillhörighet. Benämning istället>?   
+ 
+ * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
+  <br/>Här är det möjligt att ange en samhörande institution.
+  <br/>```Exempel: Uppsala universitet``` 
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till den egenskap som behövs t ex namn. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
+ 
+ Egenskap utlyft 2/5
 
 * Förknippad plats (hasAssociatedPlace/associatedCountry = 370 ‡c)?
   <br/>Anges vid behov. Länka till entitet
