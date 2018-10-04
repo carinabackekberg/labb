@@ -53,7 +53,8 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
 
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
-  <br/>```Exempel:``` 
+  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+  
   * ```Värde: 0000000104839039```
   * ```Typanmärkning: ISNI```
        
