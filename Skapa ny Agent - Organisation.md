@@ -94,10 +94,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
   * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
   
- Ytterligare relevanta källor kan vara.
- <br/>```Exempel:```
-  * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-  * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
+   Ytterligare relevanta källor kan vara.
+   <br/>```Exempel:```
+   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
+   * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
   
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
