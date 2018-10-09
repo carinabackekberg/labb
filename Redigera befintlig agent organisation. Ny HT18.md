@@ -1,6 +1,6 @@
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Första delen av lathunden beskriver egenskaper som ofta finns i beskrivningen. Egenskaper relevanta för organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
+<br/>Lathunden beskriver en ofullständig agentpost för en organisation som behöver kompletteras med ytterligare egenskaper.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
@@ -35,10 +35,12 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 
 ### Agent
 
+#### Namn
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Sveriges släktforskarförbund```
-  
+
+#### Tid för grundande  
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1886```
 
@@ -46,39 +48,45 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Släktforskning```
-  <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-    
+
+#### Adminstrativ historik
 * Administativ historik (has Historical Data = 678 ‡a)
-  <br/>Anmärkning om administrativ historik.
-  <br/>```Exempel: Riksförbund för svenska släktforskare```
-  <br/>Lägg till egenskap genom att klicka på +ikonen. Klicka på +ikonen inom det tillagda fältet och välj Benämning där uppgifterna anges.
-  
+  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
+  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
+
+#### Variant
 * Variant (hasVariant = 410 ‡a ‡b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
-  <br/>```Exempel: Släktforskarförbundet```
-  <br/>```Exempel: Federation of Swedish Genealogical Societies```
-  <br/>För att lägga till: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn.
-  <br/>För att ange auktoriserad namnform som består av underordnad enhet: Klicka på +ikonen under egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på +ikonen längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
-  <br/>```Exempel: Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies```
-  <br/>OBS! Varianter ska inte göras till sökbara länkar.
+  <br/>```Exempel:```
+   * ```Släktforskarförbundet```
+   * ```Federation of Swedish Genealogical Societies```
+   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn.
+   
+  ```Exempel på organisation i två led:```
+  * ```Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies ```
+  * ```Är del av/Jurisdiktion/Namn: Sverige samt Namn på underordnad enhet: Smittskyddsinstitutet```
+  <br/>För att ange auktoriserad namnform som består av underordnad enhet: klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på plustecknet längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
   
+  OBS! Varianter ska inte göras till sökbara länkar.
+
+#### Identifikator
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
-  <br/>```Exempel: 0000000104839039```
-  <br/>För att lägga till: Klicka på +ikonen under Identifikator, välj typ. Klicka på +ikonen inom Identifikator, sök efter och lägg till egenskapen Värde.
+  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
   
+#### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-sw---```
-  <br/>För att lägga till: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
 * Samma sak som (sameAs)
   <br/>```Exempel: resource/auth/394287```
     
   
-### Befintliga egenskaper i Adminmetadata
+### Adminmetadata
 
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
@@ -119,7 +127,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  <br/>Ändras ej.
  
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej.
+  <br/>Kontrollerad/godkänd
+  <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
 
 * Numrering i serie (marc:numberedSeries = 008/13)
  <br/>Ändras ej.
@@ -162,7 +171,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Valbara egenskaper att lägga till i beskrivningen
+### Valbara egenskaper att lägga till i Adminmetadata
+  
+  
+### Valbara egenskaper att lägga till i Agent
 
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
