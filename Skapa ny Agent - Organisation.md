@@ -22,6 +22,8 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) | |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Illustrationer](#illustrationer) | |
+| | [Valbara egenskaper att lägga till i Agent](#valbara-egenskaper-att-lägga-till-i-Agent) | 
+| ------ | ----------- |  ----------- |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
