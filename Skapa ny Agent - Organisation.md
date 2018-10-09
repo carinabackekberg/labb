@@ -13,7 +13,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad av](#uppgraderad-av) | [Är del av](#är del av) | [Språk](#språk) |
+| [Uppgraderad av](#uppgraderad-av) | [Ar del av/Namn](#ar del av/namn) | [Språk](#språk) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
