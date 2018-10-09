@@ -13,8 +13,8 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad av](#uppgraderad-av) | [Ar del av/Namn](#ar del av/namn) | [Språk](#språk) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Är del av/Namn](#är del av/namn) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad av](#uppgraderad-av) | [Ar del av](#ar del av) | [Språk](#språk) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Är del av](#är del av) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Utgivning](#utgivning) | [Genre](#genre) |
@@ -34,13 +34,15 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 
 ### Agent
-   
+
+#### Namn   
 * Namn 
   <br/>(name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Arbetslivscentrum```
   <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet. Om egenskapen Namn används måste egenskaperna Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgen vid respektive egenskap.
   
+#### Är del av 
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- ‡a)
   <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Egenskapen används endast tillsammans med Namn på underordnad enhet.
