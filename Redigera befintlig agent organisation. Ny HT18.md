@@ -22,7 +22,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
-| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
+| [**Valbara egenskaper att lägga till i Adminmetadata**](#valbara-egenskaper-att-lägga-till-i-adminmetadata) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) | |
 | | [Tid för grundande](#tid-för-grundande) | |
 | | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
