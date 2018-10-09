@@ -25,13 +25,13 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
 | | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-Agent) |
-| | [Tid för grundande eller Startdatum](#Tid-för-grundande-eller-Startdatum) | |
-| | [Bilagor](#bilagor) | |
+| | [Tid för grundande eller Startdatum](#tid-för-grundande-eller-startdatum) | |
+| | [Tid för upphörande eller Slutdatum](#tid-för-upphörande-eller-slutdatum) | |
 | | [Medietyp](#medietyp) | |
 | | [Bärartyp](#bärartyp) | |
-|  | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmärkning) | |
-|  | [Innehållsanmärkning](#innehållsanmärkning) | |
+| | [Innehållsanmärkning](#innehållsanmärkning) | |
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
 
@@ -163,7 +163,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
   
-### **Valbara egenskaper att lägga till i Agent**
+### Valbara egenskaper att lägga till i Agent
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
 #### Tid för grundande eller Startdatum
