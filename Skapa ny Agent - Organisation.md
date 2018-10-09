@@ -10,7 +10,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 ### Innehåll
 
-| [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Verk](#verk) | 
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Valbara egenskaper att lägga till i Agent](#valbara-egenskaper-att-lägga-till-i-Agent) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad av](#uppgraderad-av) | [Namn i två led](#namn-i-två-led) | [Språk](#språk) |
@@ -149,7 +149,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ändras ej.
     
   
-### Valbara egenskaper att lägga till i beskrivningen
+### Valbara egenskaper att lägga till i Agent
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
  
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
