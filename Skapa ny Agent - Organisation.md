@@ -13,10 +13,10 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Valbara egenskaper att lägga till i Agent](#valbara-egenskaper-att-lägga-till-i-Agent) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad av](#uppgraderad-av) | [Namn i två led](#namn-i-två-led) | [Språk](#språk) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Verksamhtens starttid](#verksamhetens-starttid) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Poststatus](#poststatus) | [Verksamhetens sluttid](#verksamhetens-sluttid) | [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Administrativ historik](#administrativ-historik) | [Ämne](#amne) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn-i-två-led) | [Språk](#språk) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) | [Klassifikation](#klassifikation) |
+| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) | [Ämne](#amne) |
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Variant](#variant) | [Genre](#genre) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
 | [Beskrivningsnivå](#beskrivningsnivå) | [Identifikator](#identifikator) | |
@@ -32,6 +32,69 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
 
+
+  
+### Adminmetadata
+
+Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
+
+#### Skapad av
+* Skapad av (descriptionCreator = 040 ‡a)
+ <br/>Förval: inloggad sigel. Ändras ej.
+ <br/>```Exempel: S```
+
+#### Katalogiseringsregler
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+ <br/>Förval: rda. Ändra vid behov.
+ <br/>```Exempel: Kod: rda```
+
+#### Katalogiseringsspråk
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
+ <br/>Förval: language/swe. Ändras ej.
+
+#### Translitterering
+* Translitterering (marc:romanization = 008/07)
+ <br/>Ändras ej.
+
+#### Poststatus
+* Poststatus (recordStatus = = 000)
+  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
+
+#### Katalogisatörens anmärkning
+* Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
+  <br/>```Exempel:```
+  * ```2018-08-28/S/NB/carbac```
+  * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+
+#### Konsulterad källa
+* Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
+  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
+  <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
+  <br/>```Exempel:```
+  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
+  * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
+  
+   Ytterligare relevanta källor kan vara.
+   <br/>```Exempel:```
+   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
+   * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
+  
+  OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
+  <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
+ 
+ #### Uppdatering av posten
+* Uppdatering av posten (marc:recordUpdate = 008/31)
+  <br/>Ändras ej.
+
+#### Differentiering av person
+* Differentiering av person (marc:personalName = 008/32)
+  <br/>Ändras ej.
+
+#### Auktoritetskontrollnivå
+* Auktoritetskontrollnivå (marc:level = 008/33)
+  <br/>Ändras ej.
+    
 
 ### Agent
 
@@ -96,58 +159,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-uk---```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-  
-### Adminmetadata
 
-Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
-
-* Skapad av (descriptionCreator = 040 ‡a)
- <br/>Förval: inloggad sigel. Ändras ej.
- <br/>```Exempel: S```
-      
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)
- <br/>Förval: rda. Ändra vid behov.
- <br/>```Exempel: Kod: rda```
-  
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>Förval: language/swe. Ändras ej.
-  
-* Translitterering (marc:romanization = 008/07)
- <br/>Ändras ej.
-
-* Poststatus (recordStatus = = 000)
-  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
-
-* Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
-  <br/>```Exempel:```
-  * ```2018-08-28/S/NB/carbac```
-  * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
-  
-* Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
-  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
-  <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-  <br/>```Exempel:```
-  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
-  * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
-  
-   Ytterligare relevanta källor kan vara.
-   <br/>```Exempel:```
-   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-   * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
-  
-  OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
-  <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
-  
-* Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej.
-    
-* Differentiering av person (marc:personalName = 008/32)
-  <br/>Ändras ej.
-
-* Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej.
-    
   
 ### Valbara egenskaper att lägga till i Agent
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
