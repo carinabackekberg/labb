@@ -22,7 +22,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
-| [**Valbara egenskaper att lägga till i Adminmetadata**](#valbara-egenskaper-att-lägga-till-i-adminmetadata) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) | |
+| [**Egenskaper möjliga att lägga till i Adminmetadata**](#egenskaper-möjliga-att-lägga-till-i-adminmetadata) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) | |
 | | [Tid för grundande](#tid-för-grundande) | |
 | | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
@@ -171,7 +171,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Valbara egenskaper att lägga till i Adminmetadata
+### Egenskaper möjliga att lägga till i Adminmetadata
   
   
 ### Valbara egenskaper att lägga till i Agent
