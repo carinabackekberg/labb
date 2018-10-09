@@ -20,7 +20,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Variant](#variant) | [Genre](#genre) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
 | [Beskrivningsnivå](#beskrivningsnivå) | [Identifikator](#identifikator) | |
-| [Bibliografikod](#bibliografikod) | [Nationalitet/verksamhetsland](#nationalitet/verksamhetsland) | |
+| [Bibliografikod](#bibliografikod) | [Nationalitet/verksamhetsland](#nationalitet-verksamhetsland) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
