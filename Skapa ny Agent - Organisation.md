@@ -14,13 +14,13 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad av](#uppgraderad-av) | [Namn i två led](#namn-i-två-led) | [Språk](#språk) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Namn i tva led](#namn-i-tva-led) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Utgivning](#utgivning) | [Genre](#genre) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfång) | |
+| [Katalogiserande instans](#katalogiserande-instans) | [Verksamhtens starttid](#verksamhetens-starttid) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Poststatus](#poststatus) | [Verksamhetens sluttid](#verksamhetens-sluttid) | [Klassifikation](#klassifikation) |
+| [Systemnummer](#systemnummer) | [Administrativ historik](#administrativ-historik) | [Ämne](#amne) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Variant](#variant) | [Genre](#genre) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
+| [Beskrivningsnivå](#beskrivningsnivå) | [Identifikator](#identifikator) | |
+| [Bibliografikod](#bibliografikod) | [Nationalitet/verksamhetsland](#nationalitet/verksamhetsland) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
@@ -50,18 +50,22 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av. Om dessa två egenskaper används måste egenskapen Namn raderas. Klicka i så fall på papperskorgen vid egenskapen Namn. 
-  <br/>```Exempel: Centrum för medeltidsstudier```  
-    
+  <br/>```Exempel: Centrum för medeltidsstudier```
+  
+ #### Verksamhetens starttid  
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 ‡s)
   <br/>```Exempel: 1977```
-    
+  
+ #### Verksamhetens sluttid    
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate = 046 ‡t)
-  <br/>```Exempel: 1994```    
-
+  <br/>```Exempel: 1994```
+  
+ #### Administrativ historik
 * Administativ historik (hasHistoricalData = 678 ‡a)
   <br/>Anmärkning om administrativ historik.
   <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
-    
+
+#### Variant
 * Variant (hasVariant = 410 ‡a ‡b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
   <br/>```Exempel:```
@@ -75,16 +79,19 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
   <br/>För att ange auktoriserad namnform som består av underordnad enhet: klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på plustecknet längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
   
   OBS! Varianter ska inte göras till sökbara länkar.
-    
+
+#### Se även
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
   <br/>```Exempel: Institutet för arbetslivsforskning```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
+#### Identifikator
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
-       
+
+#### Nationalitet/verksamhetsland
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-uk---```
