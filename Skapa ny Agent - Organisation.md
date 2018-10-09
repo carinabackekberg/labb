@@ -8,18 +8,20 @@ För information om katalogregler som gäller vid auktorisering, se Anvisningar 
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
+
+
 ### Innehåll
 
-| [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Valbara egenskaper att lägga till i Agent](#valbara-egenskaper-att-lägga-till-i-Agent) | 
-| ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Namn](#namn) | [Verkets titel](#verkets-titel) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn-i-två-led) | [Språk](#språk) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) | [Klassifikation](#klassifikation) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) | [Ämne](#amne) |
-| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) | [Genre](#genre) |
-| [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) | |
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
+| ------ | ----------- |
+| [Skapad av](#skapad-av) | [Namn](#namn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn-i-två-led) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
+| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) |
+| [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator] |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
 | | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-Agent) |
@@ -32,7 +34,6 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 |  | [Innehållsanmärkning](#innehållsanmärkning) | |
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
-
 
   
 ### Adminmetadata
