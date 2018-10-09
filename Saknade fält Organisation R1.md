@@ -22,6 +22,34 @@ Det går inte längre att välja namn vid organisatorisk tillhörighet. Benämni
   <br/>Anges vid behov. Länka till entitet
   <br/>```Exempel: Sverige```
   
+Tabell med tre spalter
+
+### Innehåll
+
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Valbara egenskaper att lägga till i Agent](#valbara-egenskaper-att-lägga-till-i-Agent) | 
+| ------ | ----------- |  ----------- |
+| [Skapad av](#skapad-av) | [Namn](#namn) | [Verkets titel](#verkets-titel) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn-i-två-led) | [Språk](#språk) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) | [Klassifikation](#klassifikation) |
+| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) | [Ämne](#amne) |
+| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) | [Genre](#genre) |
+| [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) | |
+| [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
+| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
+| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-Agent) |
+| | [Mått](#mått) | |
+| | [Bilagor](#bilagor) | |
+| | [Medietyp](#medietyp) | |
+| | [Bärartyp](#bärartyp) | |
+|  | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Anmärkning](#anmärkning) | |
+|  | [Innehållsanmärkning](#innehållsanmärkning) | |
+| | [Målgrupp](#målgrupp) | |
+| | [Annat bärarformat](#annat-bärarformat) | | 
+
+
 
 
 3/5 innan ändring inför test, vecka 22
