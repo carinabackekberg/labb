@@ -88,7 +88,7 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
   <br/>```Exempel: e-uk---```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
-### Egenskaper i mall för adminmetadata
+### Adminmetadata
 
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
