@@ -22,11 +22,11 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) |
 | [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
+| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
 | | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
-| | [Tid för grundande eller Startdatum](#tid-för-grundande-eller-startdatum) | |
-| | [Tid för upphörande eller Slutdatum](#tid-för-upphörande-eller-slutdatum) | |
+| | [Tid för grundande](#tid-för-grundande) | |
+| | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Medietyp](#medietyp) | |
 | | [Bärartyp](#bärartyp) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
@@ -156,7 +156,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
-#### Nationalitet eller verksamhetsland
+#### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-uk---```
@@ -166,11 +166,11 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Valbara egenskaper att lägga till i Agent
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
-#### Tid för grundande eller Startdatum
+#### Tid för grundande
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
 
-#### Tid för upphörande eller Slutdatum
+#### Tid för upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
   
