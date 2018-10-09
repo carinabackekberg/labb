@@ -21,8 +21,8 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) | |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
-| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-Agent) | |
-| | [Valbara egenskaper att lägga till i Agent](#valbara-egenskaper-att-lägga-till-i-Agent) |
+| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
+| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-Agent) |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
