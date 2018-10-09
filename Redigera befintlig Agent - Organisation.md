@@ -11,8 +11,8 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 ### Innehåll
 
-| [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Valbara egenskaper att lägga till i Agent](#valbara-egenskaper-att-lägga-till-i-Agent) | 
-| ------ | ----------- |  ----------- |
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
+| ------ | ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn-i-två-led) |
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) |
