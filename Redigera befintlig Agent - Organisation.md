@@ -9,6 +9,32 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 <br/>Exemplet nedan är baserat på den auktoriserade namnformen Sveriges släktforskarförbund. Tillägg kan vara fiktiva och enbart med som exempel.
 
+### Innehåll
+
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Valbara egenskaper att lägga till i Agent](#valbara-egenskaper-att-lägga-till-i-Agent) | 
+| ------ | ----------- |  ----------- |
+| [Skapad av](#skapad-av) | [Namn](#namn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn-i-två-led) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
+| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) |
+| [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator] |
+| [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
+| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
+| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-Agent) |
+| | [Mått](#mått) | |
+| | [Bilagor](#bilagor) | |
+| | [Medietyp](#medietyp) | |
+| | [Bärartyp](#bärartyp) | |
+|  | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Anmärkning](#anmärkning) | |
+|  | [Innehållsanmärkning](#innehållsanmärkning) | |
+| | [Målgrupp](#målgrupp) | |
+| | [Annat bärarformat](#annat-bärarformat) | | 
+
+
 ### Befintliga egenskaper i beskrivningen
 
 * Namn (name) (110 ‡a)
