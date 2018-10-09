@@ -17,11 +17,11 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) | [Klassifikation](#klassifikation) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Variant](#variant) | [Genre](#genre) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
-| [Beskrivningsnivå](#beskrivningsnivå) | [Identifikator](#identifikator) | |
-| [Bibliografikod](#bibliografikod) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
+| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) | [Genre](#genre) |
+| [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) | |
+| [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
+| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
