@@ -20,7 +20,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) |
 | [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator] |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
 | | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-Agent) |
