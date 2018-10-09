@@ -20,7 +20,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Variant](#variant) | [Genre](#genre) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Se även](#se-även) | [Innehållstyp](#innehållstyp) |
 | [Beskrivningsnivå](#beskrivningsnivå) | [Identifikator](#identifikator) | |
-| [Bibliografikod](#bibliografikod) | [Nationalitet/verksamhetsland](#nationalitet-verksamhetsland) | |
+| [Bibliografikod](#bibliografikod) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
@@ -91,7 +91,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
-#### Nationalitet/verksamhetsland
+#### Nationalitet eller verksamhetsland
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-uk---```
