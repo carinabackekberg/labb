@@ -9,7 +9,7 @@ Det går inte längre att länka mot svenska ämnesord vid Andra attribut för p
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-Det går inte längre att välja namn vid organisatorisk tillhörighet. Benämning istället>?   
+Det går inte längre att välja namn vid organisatorisk tillhörighet. Benämning istället?   
  
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
