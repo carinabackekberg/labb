@@ -8,14 +8,12 @@ För information om katalogregler som gäller vid auktorisering, se Anvisningar 
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
-Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. Tillägg kan vara fiktiva och enbart med som exempel.
+### Innehåll
 
-### Innehållsförteckning tabell:
-
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
+| [Skapad av](#skapad-av) | [Namn](#namn) | [Verkets titel](#verkets-titel) |
+| [Uppgraderad av](#uppgraderad-av) | [Är del av](#är del av) | [Språk](#språk) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
@@ -35,7 +33,7 @@ Exemplet nedan är baserat på den auktoriserade namnformen Arbetslivscentrum. T
 | | [Annat bärarformat](#annat-bärarformat) | | 
 
 
-### Egenskaper i mall för beskrivning
+### Agent
    
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
