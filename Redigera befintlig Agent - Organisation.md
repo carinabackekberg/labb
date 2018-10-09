@@ -1,13 +1,15 @@
 
-UNDER ARBETE (uppdaterad 2018-08-28)
-
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Första delen av lathunden beskriver egenskaper och klasser som redan finns i beskrivningen. Ett urval egenskaper relevanta för organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
+<br/>Första delen av lathunden beskriver egenskaper som redan finns i beskrivningen. Egenskaper relevanta för organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
+För information om katalogiseringsregler som gäller vid auktorisering, se 
+[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
+
+OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
 <br/>Exemplet nedan är baserat på den auktoriserade namnformen Sveriges släktforskarförbund. Tillägg kan vara fiktiva och enbart med som exempel.
+
 
 ### Innehåll
 
@@ -21,18 +23,17 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) |
 | [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet eller verksamhetsland](#nationalitet-eller-verksamhetsland) | |
+| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
-| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-Agent) |
-| | [Mått](#mått) | |
-| | [Bilagor](#bilagor) | |
-| | [Medietyp](#medietyp) | |
-| | [Bärartyp](#bärartyp) | |
-|  | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmärkning) | |
-|  | [Innehållsanmärkning](#innehållsanmärkning) | |
-| | [Målgrupp](#målgrupp) | |
-| | [Annat bärarformat](#annat-bärarformat) | | 
+| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
+| | [Tid för grundande](#tid-för-grundande) | |
+| | [Tid för upphörande](#tid-för-upphörande) | |
+| | [Verksamhetsområde](#verksamhetsområde) | |
+| | [Språk](#språk) | |
+| | [Andra attribut för person- och organisationsnamn](#organisatorisk-tillhörighet) | |
+| | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
+ 
+
 
 
 ### Befintliga egenskaper i beskrivningen
