@@ -27,13 +27,11 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
 | | [Tid för grundande](#tid-för-grundande) | |
 | | [Tid för upphörande](#tid-för-upphörande) | |
-| | [Medietyp](#medietyp) | |
-| | [Bärartyp](#bärartyp) | |
-| | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmärkning) | |
-| | [Innehållsanmärkning](#innehållsanmärkning) | |
-| | [Målgrupp](#målgrupp) | |
-| | [Annat bärarformat](#annat-bärarformat) | | 
+| | [Verksamhetsområde](#verksamhetsområde) | |
+| | [Språk](#språk) | |
+| | [Andra attribut för person- och organisationsnamn](#andra-attribut-för-person-och--organisationsnamn) | |
+| | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
+ 
 
   
 ### Adminmetadata
@@ -173,24 +171,28 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Tid för upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
-  
+
+#### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Design```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-  
+
+#### Språk
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
   <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-  
+
+#### Andra attribut för person- och organisationsnamn
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det använts som särskiljande tillägg i den auktoriserade sökingången.
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
+#### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande institution.
   <br/>```Exempel: Uppsala universitet``` 
