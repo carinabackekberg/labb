@@ -1,14 +1,12 @@
 
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Första delen av lathunden beskriver egenskaper som redan finns i beskrivningen. Egenskaper relevanta för organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
+<br/>Första delen av lathunden beskriver egenskaper som ofta finns i beskrivningen. Egenskaper relevanta för organisation som är möjliga att lägga till beskrivs i slutet av lathunden. 
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
 OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
-
-<br/>Exemplet nedan är baserat på den auktoriserade namnformen Sveriges släktforskarförbund. Tillägg kan vara fiktiva och enbart med som exempel.
 
 
 ### Innehåll
@@ -36,7 +34,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 
 
 
-### Befintliga egenskaper i beskrivningen
+### Agent
 
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
@@ -44,12 +42,14 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
   
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1886```
-  
+
+#### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Släktforskning```
+  <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till: Klicka på +ikonen under egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
     
 * Administativ historik (has Historical Data = 678 ‡a)
   <br/>Anmärkning om administrativ historik.
