@@ -29,7 +29,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
 | | [Språk](#språk) | |
-| | [Andra attribut för person- och organisationsnamn](#andra-attribut-för-person-och--organisationsnamn) | |
+| | [Andra attribut för person- och organisationsnamn](#andra-attribut-för-person-och-organisationsnamn) | |
 | | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
  
 
