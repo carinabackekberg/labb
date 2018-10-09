@@ -29,8 +29,8 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
 | | [Språk](#språk) | |
-| | [Andra attribut för person- och organisationsnamn](#andra-attribut-för-person-och-organisationsnamn) | |
-| | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
+| | [Typ av organisation](#typ-av-organisation) | |
+| | [Samhörande organisation](#samhörande-organisation) | |
  
 
   
@@ -185,16 +185,16 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Engelska```
   <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-#### Andra attribut för person- och organisationsnamn
+#### Typ av organisation
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det använts som särskiljande tillägg i den auktoriserade sökingången.
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-#### Organisatorisk tillhörighet
+#### Samhörande organisation
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
-  <br/>Här är det möjligt att ange en samhörande institution.
+  <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till den egenskap som behövs t ex namn. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
 
