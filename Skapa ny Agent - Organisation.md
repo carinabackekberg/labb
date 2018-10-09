@@ -29,7 +29,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
 | | [Språk](#språk) | |
-| | [Typ av organisation](#typ-av-organisation) | |
+| | [Andra attribut för person- och organisationsnamn](#organisatorisk-tillhörighet) | |
 | | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
  
 
@@ -185,7 +185,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Engelska```
   <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-#### Typ av organisation
+#### Andra attribut för person- och organisationsnamn
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det använts som särskiljande tillägg i den auktoriserade sökingången.
   <br/>```Exempel: Herrgårdar```
