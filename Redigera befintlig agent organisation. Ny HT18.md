@@ -12,8 +12,8 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Tid för grundande](#tid-för-grundande) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
+| [Auktoritetskontrollnivå](#Auktoritetskontrollnivå) | [Tid för grundande](#tid-för-grundande) |
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
@@ -31,94 +31,116 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
  
 
-
-
-
   
 ### Adminmetadata
 
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
+#### Kontrollnummer
 * Kontrollnummer (controllNumber = 001)
   <br/>LibrisID. Ändras ej.
-  
+
+#### Skapad av
 * Skapad av (descriptionCreator = 040 ‡a)
  <br/>Förval: Sigel för skapare av agenten. Ändras ej.
  <br/>```Exempel: S```
-      
+
+#### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
  <br/>Förval: rda. Ändra vid behov.
  <br/>```Exempel: Kod: rda```
 
-  
+#### Katalogiseringsspråk  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>Förval: language/swe. Ändras ej.
- 
+
+#### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
  <br/>Förval: Sigel som gjort senaste ändring. Ändras automatiskt vid sparande.
-  
+
+#### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
  <br/>Ändras ej.
  
+#### Konverteringsdatum
  * Konverteringsdatum (generationDate = 000)
  <br/>Ändras ej.
- 
+
+#### Beskrivningsprocess 
  * Beskrivningsprocess (generationProcess = 000)
  <br/>Ändras ej.
- 
+
+#### Marc:headingMain 
 * Marc:headingMain (marc:headingMain = 008/14)
  <br/>Ändras ej.
- 
+
+#### Typ av auktoritetspost
 * Typ av auktoritetspost (marc:kindOfRecord = 008/9)
  <br/>Ändras ej.
- 
+
+#### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Kontrollerad/godkänd
   <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
 
+#### Numrering i serie
 * Numrering i serie (marc:numberedSeries = 008/13)
  <br/>Ändras ej.
-     
-* Differentiering av posten (marc:personalName = 008/32)
+
+#### Differentiering av person     
+* Differentiering av person (marc:personalName = 008/32)
   <br/>Ändras ej.
-  
+
+#### Uppdatering av posten  
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
-  
+
+#### Formatering av icke auktoriserade sökelement  
 * Formatering av icke auktoriserade sökelement (marc:reference = 008/29)
  <br/>Ändras ej. 
 
+#### Translitterering
 * Translitterering (marc:romanization = 008/07)
  <br/>Ändras ej
- 
+
+#### Geografisk precisering 
 * Geografisk precisering (marc:subdivision = 008/6)
  <br/>Ändras ej.  
 
+#### Typ av underindelning
 * Typ av underindelning (marc:subjectSubdivision = 008/7)
  <br/>Ändras ej.  
 
+#### Typ av serie
 * Typ av serie (marc:typeOfSeries = 008/12)
  <br/>Ändras ej.  
 
+#### Poststatus
 * Poststatus (recordStatus = 000)
   <br/>Ändras ej. Vid uppdatering ändras status automatiskt.
-  
+
+#### Samma sak som  
 * Samma sak som (sameAs)
   <br/>```Exempel: auth/394287```.
   
 
 ### Egenskaper att lägga till i Adminmetadata
 
+#### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-  <br/>```Exempel: Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
-  <br/>```Exempel: Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
-  <br/>Ytterligare relevanta källor kan vara.
-  <br/>```Exempel: Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-  <br/>```Exempel: Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
-  <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
-  <br/>För att lägga till: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  <br/>```Exempel:```
+  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
+  * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
+  
+   Ytterligare relevanta källor kan vara.
+   <br/>```Exempel:```
+   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
+   * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
+  
+  OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
+  <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
   
 #### Katalogisatörens anmärkning
  * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
@@ -212,7 +234,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>Ange en term för att beskriva typ av organisation om det använts som särskiljande tillägg i den auktoriserade sökingången.
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till: Klicka på +ikonen under egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
