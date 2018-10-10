@@ -1,11 +1,11 @@
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Lathunden beskriver en ofullständig agentpost för en organisation som behöver kompletteras med ytterligare egenskaper. Endast de egenskaper i Adminmetadata som kan behöva redigeras finns klickbara i innehåll.
+<br/>Lathunden beskriver en ofullständig agentpost för en organisation som behöver kompletteras med ytterligare egenskaper. Endast de egenskaper i Adminmetadata som kan behöva redigeras finns klickbara i innehåll. Exemplen är fiktiva.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
-OBS! Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
+OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
 
 ### Innehåll
@@ -13,7 +13,7 @@ OBS! Verktyget är fortfarande under utveckling och viss åtskillnad från lathu
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn-i-två-led) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Tid för grundande](#tid-för-grundande) |
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
@@ -22,7 +22,7 @@ OBS! Verktyget är fortfarande under utveckling och viss åtskillnad från lathu
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
-| [**Egenskaper möjliga att lägga till i Adminmetadata**](#egenskaper-möjliga-att-lägga-till-i-adminmetadata) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) | |
+| [**Egenskaper möjliga att lägga till i Adminmetadata**](#egenskaper-möjliga-att-lägga-till-i-adminmetadata) | [**Egenskaper möjliga att lägga till i Agent**](#egenskaper-möjliga-att-lägga-till-i-agent) | |
 | | [Tid för grundande](#tid-för-grundande) | |
 | | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
@@ -43,13 +43,6 @@ OBS! Verktyget är fortfarande under utveckling och viss åtskillnad från lathu
 #### Tid för grundande  
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1886```
-
-#### Verksamhetsområde
-* Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
-  <br/>Ange verksamhetsområde för en organisation vid behov.
-  <br/>```Exempel: Släktforskning```
-  <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Adminstrativ historik
 * Administativ historik (has Historical Data = 678 ‡a)
@@ -81,7 +74,8 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-sw---```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-  
+
+#### Samma sak som
 * Samma sak som (sameAs)
   <br/>```Exempel: resource/auth/394287```
     
@@ -100,10 +94,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
  <br/>Förval: rda. Ändra vid behov.
  <br/>```Exempel: Kod: rda```
- 
- * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+
   
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>Förval: language/swe. Ändras ej.
@@ -173,28 +164,45 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 ### Egenskaper möjliga att lägga till i Adminmetadata
   
-  
-### Valbara egenskaper att lägga till i Agent
+#### Katalogisatörens anmärkning
+ * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
+### Egenskaper möjliga att lägga till i Agent
+
+#### Tid för Upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
 
+#### Verksamhetens starttid
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
   <br/>```Exempel: 1886```
-    
+
+#### Versamhetens sluttid    
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
   <br/>```Exempel: 1999``` 
-  
+
+#### Se även
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
+ 
+ #### Verksamhetsområde
+* Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
+  <br/>Ange verksamhetsområde för en organisation vid behov.
+  <br/>```Exempel: Släktforskning```
+  <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
+För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till)
 
+#### Språk
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
   <br/>Klicka på +ikonen under egenskapen Språk. Välj Språk som typ och sök i rutan till vänster. Välj önskat språk och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-    
+
+#### Andra attribut för person- och organisationsnamn
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
   <br/>Ange en term för att beskriva typ av organisation om det använts som särskiljande tillägg i den auktoriserade sökingången.
   <br/>```Exempel: Herrgårdar```
