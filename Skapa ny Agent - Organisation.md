@@ -25,7 +25,6 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
-| [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
 | [Beskrivningsnivånivå](#beskrivningsnivå) | [Tid för grundande](#tid-för-grundande) | |
 | | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
