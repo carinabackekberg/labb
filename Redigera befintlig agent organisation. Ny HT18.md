@@ -14,10 +14,11 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Tid för grundande](#tid-för-grundande) |
-| | [Administrativ historik](#administrativ-historik) |
 | | [Variant](#variant) |
 | | [Nationalitet](#nationalitet) | |
-| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) | |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
+| | [Administrativ historik](#administrativ-historik) |
+| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) | |
 | [Konsulterad källa](#konsulterad-källa) | [Tid för upphörande](#tid-för-upphörande) |
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
