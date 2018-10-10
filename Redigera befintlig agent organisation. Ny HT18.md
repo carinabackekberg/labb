@@ -2,7 +2,7 @@
 
 <br/>Lathunden beskriver en ofullständig agentpost för en organisation som behöver kompletteras med ytterligare egenskaper. Endast de egenskaper i Adminmetadata som kan behöva redigeras finns klickbara i innehåll. Exemplen är fiktiva.
 
-Det är möjligt att berika den befintliga agentposten från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
+Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
@@ -36,7 +36,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
   
 ### Adminmetadata
 
-Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
+Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
 #### Kontrollnummer
 * Kontrollnummer (controllNumber = 001)
@@ -54,7 +54,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Katalogiseringsspråk  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>Förval: language/swe. Ändras ej.
+ <br/>```Exempel: Svenska (swe)```Ändras ej.
 
 #### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
@@ -82,8 +82,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Kontrollerad/godkänd
-  <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
+ <br/>```Exempel: Kontrollerad/godkänd```
+ <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
 
 #### Numrering i serie
 * Numrering i serie (marc:numberedSeries = 008/13)
@@ -191,17 +191,7 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
     
 ### Egenskaper att lägga till i Agent
 
-Det finns egenskaper som är obligatoriska. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
-
-#### Administrativ historik
-* Administativ historik (has Historical Data = 678 ‡a)
-  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
-  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
-  
-  
-### Egenskaper att lägga till i Agent vid behov
-
-Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
+Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
 #### Tid för Upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
@@ -214,6 +204,11 @@ Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjäl
 #### Verksamhetens sluttid    
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
   <br/>```Exempel: 1999``` 
+  
+  #### Administrativ historik
+* Administativ historik (has Historical Data = 678 ‡a)
+  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
+  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
 
 #### Se även
 * Se även (seeAlso = 510)
@@ -221,6 +216,11 @@ Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjäl
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
  
+  
+### Egenskaper att lägga till i Agent vid behov
+
+Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
+
  #### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
