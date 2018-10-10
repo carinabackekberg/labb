@@ -160,11 +160,6 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1886```
 
-#### Administrativ historik
-* Administativ historik (has Historical Data = 678 ‡a)
-  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
-  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
-
 #### Variant
 * Variant (hasVariant = 410 ‡a ‡b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
@@ -190,9 +185,18 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
 * Samma sak som (sameAs)
   <br/>```Exempel: resource/auth/394287```
     
+    
+### Egenskaper att lägga till i Agent
 
+Det finns egenskaper som är obligatoriska för agent organisation
 
-### Valbara egenskaper att lägga till i Agent
+#### Administrativ historik
+* Administativ historik (has Historical Data = 678 ‡a)
+  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
+  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
+  
+  
+### Egenskaper att lägga till i Agent vid behov
 
 Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
