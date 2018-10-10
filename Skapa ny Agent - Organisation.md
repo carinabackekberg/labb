@@ -41,7 +41,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Skapad av
 * Skapad av (descriptionCreator = 040 ‡a)
  <br/>Förval: inloggad sigel. Ändras ej.
- <br/>```Exempel: S```
+ <br/>```Exempel: library/S```
 
 #### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
