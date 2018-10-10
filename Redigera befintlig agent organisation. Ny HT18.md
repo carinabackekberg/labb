@@ -126,6 +126,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Egenskaper att lägga till i Adminmetadata
 
+Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
+
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
@@ -196,7 +198,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
     
 
 
-### Egenskaper möjliga att lägga till i Agent
+### Egenskaper att lägga till i Agent
+
+Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
 #### Tid för Upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
@@ -214,20 +218,20 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
- <br/>För att lägga till: Klicka på +ikonen under egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på Lägg till-rutan till höger. (Finns ingen länkbar organisation behöver en ny skapas som kan länkas. Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
+ <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
  
  #### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Släktforskning```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till)
+För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Språk
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
-  <br/>Klicka på +ikonen under egenskapen Språk. Välj Språk som typ och sök i rutan till vänster. Välj önskat språk och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Andra attribut för person- och organisationsnamn
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
