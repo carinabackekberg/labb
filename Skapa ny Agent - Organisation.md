@@ -50,7 +50,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>Förval: language/swe. Ändras ej.
+ <br/>```Exempel: Svenska```Ändras ej.
+
 
 #### Translitterering
 * Translitterering (marc:romanization = 008/07)
