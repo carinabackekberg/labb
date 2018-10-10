@@ -159,7 +159,7 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1886```
 
-#### Adminstrativ historik
+#### Administrativ historik
 * Administativ historik (has Historical Data = 678 ‡a)
   <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
   <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
