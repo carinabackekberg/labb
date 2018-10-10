@@ -22,7 +22,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
-| [**Egenskaper möjliga att lägga till i Adminmetadata**](#egenskaper-möjliga-att-lägga-till-i-adminmetadata) | [**Egenskaper möjliga att lägga till i Agent**](#egenskaper-möjliga-att-lägga-till-i-agent) | |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
 | | [Tid för grundande](#tid-för-grundande) | |
 | | [Tid för upphörande](#tid-för-upphörande) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
@@ -33,52 +33,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 
 
 
-### Agent
 
-#### Namn
-* Namn (name) (110 ‡a)
-  <br/>Föredragen namnform som utgör den auktoriserade namnformen.
-  <br/>```Exempel: Sveriges släktforskarförbund```
-
-#### Tid för grundande  
-* Tid för grundande/Startdatum (establishDate = 046 ‡q)
-  <br/>```Exempel: 1886```
-
-#### Adminstrativ historik
-* Administativ historik (has Historical Data = 678 ‡a)
-  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
-  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
-
-#### Variant
-* Variant (hasVariant = 410 ‡a ‡b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
-  <br/>```Exempel:```
-   * ```Släktforskarförbundet```
-   * ```Federation of Swedish Genealogical Societies```
-   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn.
-   
-  ```Exempel på organisation i två led:```
-  * ```Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies ```
-  * ```Är del av/Jurisdiktion/Namn: Sverige samt Namn på underordnad enhet: Smittskyddsinstitutet```
-  <br/>För att ange auktoriserad namnform som består av underordnad enhet: klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på plustecknet längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
-  
-  OBS! Varianter ska inte göras till sökbara länkar.
-
-#### Identifikator
-* Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
-  
-#### Nationalitet
-* Nationalitet/verksamhetsland (nationality = 043 ‡a)
-  <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
-  <br/>```Exempel: e-sw---```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-
-#### Samma sak som
-* Samma sak som (sameAs)
-  <br/>```Exempel: resource/auth/394287```
-    
   
 ### Adminmetadata
 
@@ -150,6 +105,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 * Samma sak som (sameAs)
   <br/>```Exempel: auth/394287```.
+  
+
+### Egenskaper att lägga till i Adminmetadata
 
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
@@ -162,12 +120,59 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på +ikonen under konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Egenskaper möjliga att lägga till i Adminmetadata
-  
 #### Katalogisatörens anmärkning
  * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+
+
+### Agent
+
+#### Namn
+* Namn (name) (110 ‡a)
+  <br/>Föredragen namnform som utgör den auktoriserade namnformen.
+  <br/>```Exempel: Sveriges släktforskarförbund```
+
+#### Tid för grundande  
+* Tid för grundande/Startdatum (establishDate = 046 ‡q)
+  <br/>```Exempel: 1886```
+
+#### Adminstrativ historik
+* Administativ historik (has Historical Data = 678 ‡a)
+  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
+  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
+
+#### Variant
+* Variant (hasVariant = 410 ‡a ‡b)
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
+  <br/>```Exempel:```
+   * ```Släktforskarförbundet```
+   * ```Federation of Swedish Genealogical Societies```
+   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn.
+   
+  ```Exempel på organisation i två led:```
+  * ```Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies ```
+  * ```Är del av/Jurisdiktion/Namn: Sverige samt Namn på underordnad enhet: Smittskyddsinstitutet```
+  <br/>För att ange auktoriserad namnform som består av underordnad enhet: klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på plustecknet längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
+  
+  OBS! Varianter ska inte göras till sökbara länkar.
+
+#### Identifikator
+* Identifikator (identifiedBy = 024 ‡a ‡2)
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
+  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+  
+#### Nationalitet
+* Nationalitet/verksamhetsland (nationality = 043 ‡a)
+  <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
+  <br/>```Exempel: e-sw---```
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
+#### Samma sak som
+* Samma sak som (sameAs)
+  <br/>```Exempel: resource/auth/394287```
+    
+
 
 ### Egenskaper möjliga att lägga till i Agent
 
@@ -209,4 +214,9 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på +ikonen under egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
+#### Organisatorisk tillhörighet
+ * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
+  <br/>Här är det möjligt att ange en samhörande organisation.
+  <br/>```Exempel: Uppsala universitet``` 
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till den egenskap som behövs t ex namn. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
+
