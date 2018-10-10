@@ -18,7 +18,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | | [Nationalitet](#nationalitet) | |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
 | | [Administrativ historik](#administrativ-historik) |
-| | [**Egenskaper att lägga till i Agent vid behov**](#egenskaper-att-lägga-till-i-agent-vid behov) | |
+| | [**Egenskaper att lägga till i Agent vid behov**](#egenskaper-att-lägga-till-i-agent-vid-behov) | |
 | [Konsulterad källa](#konsulterad-källa) | [Tid för upphörande](#tid-för-upphörande) |
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
