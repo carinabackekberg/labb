@@ -194,6 +194,16 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
 
 Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
+  #### Administrativ historik
+* Administativ historik (has Historical Data = 678 ‡a)
+  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
+  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
+
+  
+### Egenskaper att lägga till i Agent vid behov
+
+Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
+
 #### Tid för Upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
@@ -205,22 +215,12 @@ Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper 
 #### Verksamhetens sluttid    
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
   <br/>```Exempel: 1999``` 
-  
-  #### Administrativ historik
-* Administativ historik (has Historical Data = 678 ‡a)
-  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
-  <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
 
 #### Se även
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
- 
-  
-### Egenskaper att lägga till i Agent vid behov
-
-Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
  #### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
