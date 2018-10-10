@@ -17,7 +17,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) |
 | [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
+| | [Nationalitet](#nationalitet) | |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
 | [Konsulterad källa](#konsulterad-källa) | [Tid för upphörande](#Tid-för-upphörande) |
 | [Katalogisatörens anmärkning](#Katalogisatörens-anmärkning) | [Se även](#se-även) |
