@@ -95,7 +95,12 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Ändras ej.
-    
+ 
+#### Beskrivningsnivå 
+ * Beskrivningsnivå
+  <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först har sparats.**
+  <br/>För att lägga till: Skapa och spara agenten, klicka på plustecknet i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
+   
 
 ### Agent
 
