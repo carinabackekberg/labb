@@ -54,7 +54,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Katalogiseringsspråk  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>```Exempel: Svenska (swe)```Ändras ej.
+ <br/>```Exempel: Svenska```Ändras ej.
  <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka sedan till entitet.
 
 #### Senast ändrad av
