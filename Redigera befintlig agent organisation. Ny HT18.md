@@ -45,7 +45,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Skapad av
 * Skapad av (descriptionCreator = 040 ‡a)
  <br/>Förval: Sigel för skapare av agenten. Ändras ej.
- <br/>```Exempel: S```
+ <br/>```Exempel: library/S```
 
 #### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
@@ -63,7 +63,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
- <br/>Ändras ej.
+ <br/>```Exempel: Fullständig```Ändras ej.
  
 #### Konverteringsdatum
  * Konverteringsdatum (generationDate = 000)
