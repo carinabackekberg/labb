@@ -2,7 +2,7 @@
 
 ## Skapa ny: Agent - Organisation
 
-Lathunden beskriver de egenskaper som finns representerade i mallen. Om något av egenskaperna i mallen inte behövs kan de raderas med hjälp av papperskorgen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden.
+Lathunden beskriver de egenskaper som finns representerade i mallen. Om något av egenskaperna i mallen inte behövs kan de raderas med hjälp av papperskorgen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Exemplen är fiktiva.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
