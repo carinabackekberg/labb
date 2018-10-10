@@ -19,7 +19,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | | [Nationalitet](#nationalitet) | |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) | |
 | [Konsulterad källa](#konsulterad-källa) | [Tid för upphörande](#tid-för-upphörande) |
-| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Verksamhtens starttid](#verksamhtens-starttid) |
+| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
 | | [Se även](#se-även) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
@@ -191,7 +191,7 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
     
 
 
-### Egenskaper att lägga till i Agent
+### Valbara egenskaper att lägga till i Agent
 
 Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
@@ -203,7 +203,7 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
   <br/>```Exempel: 1886```
 
-#### Versamhetens sluttid    
+#### Verksamhetens sluttid    
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
   <br/>```Exempel: 1999``` 
 
