@@ -18,8 +18,8 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | | [Variant](#variant) |
 | | [Nationalitet](#nationalitet) | |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) | |
-| [Konsulterad källa](#konsulterad-källa) | [Tid för upphörande](#Tid-för-upphörande) |
-| [Katalogisatörens anmärkning](#Katalogisatörens-anmärkning) | [Verksamhtens starttid](#verksamhtens-starttid) |
+| [Konsulterad källa](#konsulterad-källa) | [Tid för upphörande](#tid-för-upphörande) |
+| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Verksamhtens starttid](#verksamhtens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
 | | [Se även](#se-även) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
