@@ -15,8 +15,8 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
-| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Tid för grundande](#tid-för-grundande) |
-| | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Tid för grundande](#tid-för-grundande) |
+| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Variant](#variant) |
 | | [Nationalitet](#nationalitet) | |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
 | [Konsulterad källa](#konsulterad-källa) | [Administrativ historik](#administrativ-historik) |
@@ -55,6 +55,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Katalogiseringsspråk  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>```Exempel: Svenska (swe)```Ändras ej.
+ <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka sedan till entitet.
 
 #### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
