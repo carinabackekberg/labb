@@ -14,18 +14,18 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
 | [Auktoritetskontrollnivå](#Auktoritetskontrollnivå) | [Tid för grundande](#tid-för-grundande) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) |
 | [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
-| | [Tid för grundande](#tid-för-grundande) | |
-| | [Tid för upphörande](#tid-för-upphörande) | |
+| [Konsulterad källa](#konsulterad-källa) | [Tid för upphörande](#Tid-för-upphörande) |
+| [Katalogisatörens anmärkning](#Katalogisatörens-anmärkning) | [Se även](#se-även) |
+| | [Verksamhtens starttid](#verksamhtens-starttid) | |
+| | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
+| | [Se även](#se-även) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
+| | [Identifikator](#identifikator) | |
 | | [Språk](#språk) | |
 | | [Andra attribut för person- och organisationsnamn](#organisatorisk-tillhörighet) | |
 | | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
@@ -181,11 +181,6 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
   
   OBS! Varianter ska inte göras till sökbara länkar.
 
-#### Identifikator
-* Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
-  
 #### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
   <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
@@ -226,6 +221,11 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
   <br/>```Exempel: Släktforskning```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
+#### Identifikator
+* Identifikator (identifiedBy = 024 ‡a ‡2)
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
+  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
 #### Språk
 * Språk (associatedLanguage = 377 ‡a)
