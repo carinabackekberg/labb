@@ -14,14 +14,12 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
 | [Auktoritetskontrollnivå](#Auktoritetskontrollnivå) | [Tid för grundande](#tid-för-grundande) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Variant](#variant) |
-| [Konsulterad källa](#konsulterad-källa) | [Se även](#se-även) |
+| | [Administrativ historik](#administrativ-historik) |
+| | [Variant](#variant) |
 | | [Nationalitet](#nationalitet) | |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
 | [Konsulterad källa](#konsulterad-källa) | [Tid för upphörande](#Tid-för-upphörande) |
-| [Katalogisatörens anmärkning](#Katalogisatörens-anmärkning) | [Se även](#se-även) |
-| | [Verksamhtens starttid](#verksamhtens-starttid) | |
+| [Katalogisatörens anmärkning](#Katalogisatörens-anmärkning) | [Verksamhtens starttid](#verksamhtens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
 | | [Se även](#se-även) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
