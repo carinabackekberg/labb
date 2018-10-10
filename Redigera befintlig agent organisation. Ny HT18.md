@@ -2,6 +2,8 @@
 
 <br/>Lathunden beskriver en ofullständig agentpost för en organisation som behöver kompletteras med ytterligare egenskaper. Endast de egenskaper i Adminmetadata som kan behöva redigeras finns klickbara i innehåll. Exemplen är fiktiva.
 
+Det är möjligt att berika den befintliga agentposten från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
+
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
@@ -189,7 +191,7 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
     
 ### Egenskaper att lägga till i Agent
 
-Det finns egenskaper som är obligatoriska för agent organisation
+Det finns egenskaper som är obligatoriska. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
 #### Administrativ historik
 * Administativ historik (has Historical Data = 678 ‡a)
@@ -199,7 +201,7 @@ Det finns egenskaper som är obligatoriska för agent organisation
   
 ### Egenskaper att lägga till i Agent vid behov
 
-Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
+Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
 #### Tid för Upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
