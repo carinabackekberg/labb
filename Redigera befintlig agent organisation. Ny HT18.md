@@ -13,7 +13,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
-| [Auktoritetskontrollnivå](#Auktoritetskontrollnivå) | [Tid för grundande](#tid-för-grundande) |
+| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Tid för grundande](#tid-för-grundande) |
 | | [Administrativ historik](#administrativ-historik) |
 | | [Variant](#variant) |
 | | [Nationalitet](#nationalitet) | |
