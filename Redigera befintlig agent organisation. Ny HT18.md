@@ -126,7 +126,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: auth/394287```.
   
 
-### Egenskaper att lägga till i Adminmetadata
+### Tillagda egenskaper i Adminmetadata
 
 Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
@@ -183,7 +183,7 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
   <br/>```Exempel: resource/auth/394287```
     
     
-### Egenskaper att lägga till i Agent
+### Tillagda egenskaper i Agent
 
 Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
@@ -211,7 +211,7 @@ Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper 
 För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 
-### Egenskaper att lägga till i Agent vid behov
+### Ytterligare valbara egenskaper att lägga till i Agent
 
 Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
