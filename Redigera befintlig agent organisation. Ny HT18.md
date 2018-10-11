@@ -18,9 +18,9 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Tid för grundande](#tid-för-grundande) |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Variant](#variant) |
 | [**Tillagda egenskaper i Adminmetadata**](#tillagda-egenskaper-i-adminmetadata) | [**Tillagda egenskaper i Agent**](#tillagda-egenskaper-i-agent) | |
-| [Konsulterad källa](#konsulterad-källa) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Nationalitet](#nationalitet) | |
-| | [Identifikator](#identifikator) | |
+| [Beskrivningsnivå](#beskrivningsnivå) | [Administrativ historik](#administrativ-historik) |
+| [Konsulterad källa](#konsulterad-källa) | [Nationalitet](#nationalitet) | |
+| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Identifikator](#identifikator) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
 | | [**Ytterligare valbara egenskaper att lägga till i Agent**](#ytterligare-valbara-egenskaper-att-lägga-till-i-agent) |
 | | [Tid för upphörande](#tid-för-upphörande) |
@@ -129,6 +129,11 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Tillagda egenskaper i Adminmetadata
 
 Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
+ 
+#### Beskrivningsnivå 
+ * Beskrivningsnivå
+  <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först har sparats.**
+  <br/>För att lägga till: Skapa och spara agenten, klicka på plustecknet i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
