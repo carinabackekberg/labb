@@ -1,6 +1,6 @@
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Lathunden beskriver en agentpost för en organisation som kompletterats med fler egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. I Adminmetadata i Innehåll finns endast de egenskaper klickbara som kan behöva redigeras. Exemplen som finns i lathunden är fiktiva. 
+<br/>Lathunden beskriver en agentpost för en organisation som kompletterats med fler egenskaper. I Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i lathunden är fiktiva. 
 
 Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
