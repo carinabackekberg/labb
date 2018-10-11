@@ -22,7 +22,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Konsulterad källa](#konsulterad-källa) | [Nationalitet](#nationalitet) | |
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Identifikator](#identifikator) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
-| | [**Ytterligare valbara egenskaper att lägga till i Agent**](#ytterligare-valbara-egenskaper-att-lägga-till-i-agent) |
+| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#ytterligare-egenskaper-att-lägga-till-i-agent-vid-behov) |
 | | [Tid för upphörande](#tid-för-upphörande) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
@@ -212,7 +212,7 @@ Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper 
 För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 
-### Ytterligare valbara egenskaper att lägga till i Agent
+### Ytterligare egenskaper att lägga till i Agent vid behov
 
 Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
