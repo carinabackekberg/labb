@@ -56,6 +56,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  <br/>```Exempel: Svenska```Ändras ej.
  <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
 
+#### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
  <br/>```Exempel: Fullständig```Ändras ej.
 
