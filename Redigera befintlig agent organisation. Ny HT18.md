@@ -1,3 +1,6 @@
+UNDER ARBETE (uppdaterad och överflyttad till skarpt X)
+
+
 ## Redigera befintlig: Agent - Organisation
 
 <br/>Lathunden beskriver en agentpost för en organisation som kompletterats med fler egenskaper. I Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i lathunden är fiktiva. 
