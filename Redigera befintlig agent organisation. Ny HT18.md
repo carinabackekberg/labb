@@ -1,6 +1,6 @@
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Lathunden beskriver en agentpost för en organisation som kompletterats med fler egenskaper. Exemplen som finns i lathunden är fiktiva. I Adminmetadata i Innehåll finns endast de egenskaper klickbara som kan behöva redigeras.
+<br/>Lathunden beskriver en agentpost för en organisation som kompletterats med fler egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. I Adminmetadata i Innehåll finns endast de egenskaper klickbara som kan behöva redigeras. Exemplen som finns i lathunden är fiktiva. 
 
 Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
@@ -35,7 +35,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
   
 ### Adminmetadata
 
-Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
+Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
 #### Kontrollnummer
 * Kontrollnummer (controllNumber = 001)
@@ -128,8 +128,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Tillagda egenskaper i Adminmetadata
 
-Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
-
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
@@ -185,7 +183,6 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
     
 ### Tillagda egenskaper i Agent
 
-Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
   #### Administrativ historik
 * Administativ historik (has Historical Data = 678 ‡a)
@@ -212,8 +209,6 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
 
 
 ### Ytterligare egenskaper att lägga till i Agent vid behov
-
-Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
 #### Tid för Upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
