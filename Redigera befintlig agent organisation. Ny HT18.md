@@ -27,7 +27,6 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
 | | [Se även](#se-även) | |
-| | [Identifikator](#identifikator) | |
 | | [Språk](#språk) | |
 | | [Andra attribut för person- och organisationsnamn](#organisatorisk-tillhörighet) | |
 | | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
@@ -179,12 +178,6 @@ Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper 
   
   OBS! Varianter ska inte göras till sökbara länkar.
 
-#### Nationalitet
-* Nationalitet/verksamhetsland (nationality = 043 ‡a)
-  <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
-  <br/>```Exempel: e-sw---```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-
 #### Samma sak som
 * Samma sak som (sameAs)
   <br/>```Exempel: resource/auth/394287```
@@ -199,7 +192,25 @@ Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper 
   <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
   <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
 
-  
+#### Nationalitet
+* Nationalitet/verksamhetsland (nationality = 043 ‡a)
+  <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
+  <br/>```Exempel: e-sw---```
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
+#### Identifikator
+* Identifikator (identifiedBy = 024 ‡a ‡2)
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
+  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+
+ #### Verksamhetsområde
+* Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
+  <br/>Ange verksamhetsområde för en organisation vid behov.
+  <br/>```Exempel: Släktforskning```
+  <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
+För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
+
 ### Egenskaper att lägga till i Agent vid behov
 
 Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
@@ -221,18 +232,6 @@ Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjäl
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
-
- #### Verksamhetsområde
-* Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
-  <br/>Ange verksamhetsområde för en organisation vid behov.
-  <br/>```Exempel: Släktforskning```
-  <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-
-#### Identifikator
-* Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
 #### Språk
 * Språk (associatedLanguage = 377 ‡a)
