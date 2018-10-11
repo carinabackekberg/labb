@@ -18,10 +18,9 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Tid för grundande](#tid-för-grundande) |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Variant](#variant) |
 | [**Tillagda egenskaper i Adminmetadata**](#tillagda-egenskaper-i-adminmetadata) | [**Tillagda egenskaper i Agent**](#tillagda-egenskaper-i-agent) | |
-| [Beskrivningsnivå](#beskrivningsnivå) | [Administrativ historik](#administrativ-historik) |
-| [Konsulterad källa](#konsulterad-källa) | [Nationalitet](#nationalitet) | |
-| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Identifikator](#identifikator) | |
-| | [Verksamhetsområde](#verksamhetsområde) | |
+| [Konsulterad källa](#konsulterad-källa) | [Administrativ historik](#administrativ-historik) |
+| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Nationalitet](#nationalitet) | |
+| [Verksamhetsområde](#verksamhetsområde) | [Identifikator](#identifikator) | |
 | | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#ytterligare-egenskaper-att-lägga-till-i-agent-vid-behov) |
 | | [Tid för upphörande](#tid-för-upphörande) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
@@ -55,6 +54,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>```Exempel: Svenska```Ändras ej.
  <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
+
+* Beskrivningsnivå (encodingLevel = 000)
+ <br/>```Exempel: Fullständig```Ändras ej.
 
 #### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
@@ -125,11 +127,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Tillagda egenskaper i Adminmetadata
 
 Vid behov är det möjligt att lägga till följande egenskaper. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
- 
-#### Beskrivningsnivå 
- * Beskrivningsnivå
-  <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först har sparats.**
-  <br/>För att lägga till: Skapa och spara agenten, klicka på plustecknet i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
