@@ -59,10 +59,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
  <br/>Förval: Sigel som gjort senaste ändring. Ändras automatiskt vid sparande.
-
-#### Beskrivningsnivå
-* Beskrivningsnivå (encodingLevel = 000)
- <br/>```Exempel: Fullständig```Ändras ej.
  
 #### Konverteringsdatum
  * Konverteringsdatum (generationDate = 000)
