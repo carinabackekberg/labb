@@ -21,7 +21,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Konsulterad källa](#konsulterad-källa) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Nationalitet](#nationalitet) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
-| | [**Egenskaper att lägga till i Agent om uppgiften finns och vid behov**](#egenskaper-att-lägga-till-i-agent-om-uppgiften-finns-och-vid-behov) |
+| | [**Egenskaper att lägga till i Agent vid behov**](#egenskaper-att-lägga-till-i-agent-vid-behov) |
 | | [Tid för upphörande](#tid-för-upphörande) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
@@ -199,7 +199,7 @@ Det finns egenskaper som är obligatoriska om uppgifterna finns. Nya egenskaper 
   <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
 
   
-### Egenskaper att lägga till i Agent om uppgiften finns och vid behov
+### Egenskaper att lägga till i Agent vid behov
 
 Följande egenskaper läggs till vid behov. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn.
 
