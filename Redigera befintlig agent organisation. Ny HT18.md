@@ -22,7 +22,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Nationalitet](#nationalitet) | |
 | | [Identifikator](#identifikator) | |
 | | [Verksamhetsområde](#verksamhetsområde) | |
-| | [**Ytterligare valbara egenskaper att lägga till i Agent**](#ytterligare-valbara-egenskaper-att-lägga-till-i-agent-vid-behov) |
+| | [**Ytterligare valbara egenskaper att lägga till i Agent**](#ytterligare-valbara-egenskaper-att-lägga-till-i-agent) |
 | | [Tid för upphörande](#tid-för-upphörande) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
