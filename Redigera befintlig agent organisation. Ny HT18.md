@@ -20,12 +20,12 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
 | [Konsulterad källa](#konsulterad-källa) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Nationalitet](#nationalitet) | |
+| | [Verksamhetsområde](#verksamhetsområde) | |
 | | [**Egenskaper att lägga till i Agent vid behov**](#egenskaper-att-lägga-till-i-agent-vid-behov) |
 | | [Tid för upphörande](#tid-för-upphörande) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
 | | [Se även](#se-även) | |
-| | [Verksamhetsområde](#verksamhetsområde) | |
 | | [Identifikator](#identifikator) | |
 | | [Språk](#språk) | |
 | | [Andra attribut för person- och organisationsnamn](#organisatorisk-tillhörighet) | |
