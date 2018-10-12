@@ -18,21 +18,21 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Tid för grundande](#tid-för-grundande) |
-| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Tid för grundande](#tid-for-grundande) |
+| [Auktoritetskontrollnivå](#auktoritetskontrollniva) | [Variant](#variant) |
 | [**Tillagda egenskaper i Adminmetadata**](#tillagda-egenskaper-i-adminmetadata) | [**Tillagda egenskaper i Agent**](#tillagda-egenskaper-i-agent) | |
-| [Konsulterad källa](#konsulterad-källa) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#katalogisatörens-anmärkning) | [Nationalitet](#nationalitet) | |
-| |[Verksamhetsområde](#verksamhetsområde) |
+| [Konsulterad källa](#konsulterad-kalla) | [Administrativ historik](#administrativ-historik) |
+| [Katalogisatörens anmärkning](#katalogisatorens-anmarkning) | [Nationalitet](#nationalitet) | |
+| |[Verksamhetsområde](#verksamhetsomrade) |
 | | [Identifikator](#identifikator) | |
-| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#ytterligare-egenskaper-att-lägga-till-i-agent-vid-behov) |
-| | [Tid för upphörande](#tid-för-upphörande) |
+| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#ytterligare-egenskaper-att-lagga-till-i-agent-vid-behov) |
+| | [Tid för upphörande](#tid-for-upphorande) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
-| | [Se även](#se-även) | |
-| | [Språk](#språk) | |
-| | [Andra attribut för person- och organisationsnamn](#organisatorisk-tillhörighet) | |
-| | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
+| | [Se även](#se-aven) | |
+| | [Språk](#sprak) | |
+| | [Andra attribut för person- och organisationsnamn](#sprak) | |
+| | [Organisatorisk tillhörighet](#sprak) | |
  
 
   
@@ -54,7 +54,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  <br/>Förval: rda. Ändra vid behov.
  <br/>```Exempel: Kod: rda```
 
-#### Katalogiseringsspråk  
+#### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>```Exempel: Svenska```Ändras ej.
  <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
@@ -83,7 +83,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Typ av auktoritetspost (marc:kindOfRecord = 008/9)
  <br/>Ändras ej.
 
-#### Auktoritetskontrollnivå
+#### Auktoritetskontrollniva
 * Auktoritetskontrollnivå (marc:level = 008/33)
  <br/>```Exempel: Kontrollerad/godkänd```
  <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
@@ -131,7 +131,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Tillagda egenskaper i Adminmetadata
 
-#### Konsulterad källa
+#### Konsulterad kalla
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
@@ -147,7 +147,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
   
-#### Katalogisatörens anmärkning
+#### Katalogisatorens anmarkning
  * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
@@ -203,7 +203,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
- #### Verksamhetsområde
+ #### Verksamhetsomrade
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Släktforskning```
@@ -211,9 +211,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 
-### Ytterligare egenskaper att lägga till i Agent vid behov
+### Ytterligare egenskaper att lagga till i Agent vid behov
 
-#### Tid för Upphörande
+#### Tid för Upphorande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
 
@@ -225,13 +225,13 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
   <br/>```Exempel: 1999``` 
 
-#### Se även
+#### Se aven
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
-#### Språk
+#### Sprak
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
