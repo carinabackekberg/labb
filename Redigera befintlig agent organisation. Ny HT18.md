@@ -160,7 +160,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Sveriges släktforskarförbund```
 
-#### Tid för grundande  
+#### Tid for grundande  
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1886```
 
