@@ -26,7 +26,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | |[Verksamhetsområde](#verksamhetsomrade) |
 | | [Identifikator](#identifikator) | |
 | | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#ytterligare-egenskaper-att-lagga-till-i-agent-vid-behov) |
-| | [Tid för upphörande](#tid-for-upphorande) |
+| | [Tid för upphörande](#ytterligare-egenskaper-att-lagga-till-i-agent-vid-behov) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
 | | [Se även](#se-aven) | |
@@ -213,7 +213,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
 
 ### Ytterligare egenskaper att lagga till i Agent vid behov
 
-#### Tid för Upphorande
+#### Tid för Upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
 
