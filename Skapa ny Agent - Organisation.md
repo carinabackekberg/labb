@@ -30,8 +30,8 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Tid för upphörande](#tid-for-upphorande) | |
 | | [Verksamhetsområde](#verksamhetsomrade) | |
 | | [Språk](#sprak) | |
-| | [Andra attribut för person- och organisationsnamn](#organisatorisk-tillhorighet) | |
-| | [Organisatorisk tillhörighet](#organisatorisk-tillhorighet) | |
+| | [Andra attribut för person- och organisationsnamn](#sprak) | |
+| | [Organisatorisk tillhörighet](#sprak) | |
  
 
   
@@ -170,11 +170,11 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Valbara egenskaper att lagga till i Agent
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av det runda plustecknet i verktygsmenyn.
 
-#### Tid för grundande
+#### Tid for grundande
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
 
-#### Tid för upphorande
+#### Tid for upphorande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
 
@@ -198,7 +198,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-#### Organisatorisk tillhorighet
+#### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
