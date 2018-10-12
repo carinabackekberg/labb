@@ -213,7 +213,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
 
 ### Ytterligare egenskaper att lagga till i Agent vid behov
 
-#### Tid för Upphörande
+#### Tid för upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
 
