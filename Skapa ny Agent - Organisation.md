@@ -27,7 +27,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#auktoritetskontrollniva) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lagga-till-i-agent) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Tid för grundande](#tid-for-grundande) | |
-| | [Tid för upphörande](#tid-for-upphorande) | |
+| | [Tid för upphörande](#tid-for-grundande) | |
 | | [Verksamhetsområde](#verksamhetsomrade) | |
 | | [Språk](#sprak) | |
 | | [Andra attribut för person- och organisationsnamn](#sprak) | |
@@ -174,7 +174,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
 
-#### Tid for upphorande
+#### Tid for upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
 
