@@ -1,14 +1,39 @@
-UNDER ARBETE (uppdaterad och överflyttad till skarpt 18-10-16)
-
-UNDER ARBETE (uppdaterad och överflyttad till skarpt 2018-10-09)
+UNDER ARBETE 18-10-16 (överflyttad till skarpt 18-10-X)
 
 
 ## Skapa ny: Agent - Person
 Lathunden beskriver de egenskaper och klasser som finns representerade i mallen. Om något av inmatningsfälten i mallen inte behövs kan de raderas med hjälp av papperskorgen intill. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
 
+För information om katalogiseringsregler som gäller vid auktorisering, se 
+[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
+
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma. 
 
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant). Tillägg är fiktiva, enbart för att exemplifiera.
+
+
+### Innehåll
+
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
+| ------ | ----------- |
+| [Skapad av](#skapad-av) | [Namn](#namn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
+| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
+| [Konsulterad källa](#poststatus) | [Se även](#variant) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
+| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
+| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
+| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
+| | [Tid för upphörande](#tid-for-grundande) | |
+| | [Verksamhetsområde](#tid-for-grundande) | |
+| | [Språk](#tid-for-grundande) | |
+| | [Andra attribut för person- och organisationsnamn](#tid-for-grundande) | |
+| | [Organisatorisk tillhörighet](#tid-for-grundande) | |
+ 
+
 
 
 ### Mall för beskrivning av Agent - Person
@@ -60,6 +85,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Födelse- och/eller dödstid: 1954-```
   <br/>För att lägga till ytterligare Variant: Klicka på +ikonen under egenskapen Variant, och välj typ (Person). Klicka på +ikonen inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
 
+#### Se även
 * Se även (seeAlso = 500 ‡a ‡d)
   <br/>Här länkas se även-hänvisning till en annan auktoriserad namnform, t.ex. till en pseudonym eller då en upphovsperson är verksam under mer än en identitet. T.ex. Smith, Rosamund, 1938- som se-hänvisning från den auktoriserade namnformen för Oates, Joyce Carol, 1938-.
   <br/>```Exempel:``` 
@@ -79,12 +105,14 @@ Beskrivning av agenten som ska auktoriseras.
    * ```Romanförfattare```
    * ```Översättare```
    <br/>För att lägga till: Klicka på +ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
-  
+
+#### Identifikator
 * Identifikator (identifiedBy = 024 ‡a ‡2)
   <br/>Isni som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
   <br/>```Exempel: 0000000121339888 ```
    <br/>För att lägga till: Klicka på +-ikonen under Identifikator, välj typ (ISNI). Klicka på +-ikonen inom Identifikator, sök efter och lägg till Värde.
 
+#### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
   <br/>För att lägga till: Klicka på +ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
@@ -98,6 +126,7 @@ Beskrivning av agenten som ska auktoriseras.
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
+### Kontrollnummer
 * Kontrollnummer (controlNumber = 001)
   <br/>Libris-ID. Genereras automatiskt vid sparande. Ändras ej.
   
@@ -195,38 +224,6 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 
 
-## Skapa ny: Agent - Organisation
-
-Lathunden beskriver de egenskaper som finns representerade i mallen. Om något av egenskaperna i mallen inte behövs kan de raderas med hjälp av papperskorgen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Exemplen är fiktiva.
-
-För information om katalogiseringsregler som gäller vid auktorisering, se 
-[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
-
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t ex avseende ordning på egenskaper kan förekomma.
-
-
-
-### Innehåll
-
-| [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
-| ------ | ----------- |
-| [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
-| [Konsulterad källa](#poststatus) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
-| | [Tid för upphörande](#tid-for-grundande) | |
-| | [Verksamhetsområde](#tid-for-grundande) | |
-| | [Språk](#tid-for-grundande) | |
-| | [Andra attribut för person- och organisationsnamn](#tid-for-grundande) | |
-| | [Organisatorisk tillhörighet](#tid-for-grundande) | |
- 
 
   
 ### Adminmetadata
@@ -349,16 +346,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Institutet för arbetslivsforskning```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
-#### Identifikator
-* Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
-#### Nationalitet
-* Nationalitet/verksamhetsland (nationality = 043 ‡a)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
-  <br/>```Exempel: e-uk---```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
 
   
 ### Valbara egenskaper att lägga till i Agent
