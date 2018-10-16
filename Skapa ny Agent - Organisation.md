@@ -1,4 +1,4 @@
-UNDER ARBETE 18-10-16, (överflyttad till skarpt 18-10-12)
+UNDER ARBETE 18-10-16, (överflyttad till skarpt 18-10-16)
 
 
 ## Skapa ny: Agent - Organisation
@@ -203,5 +203,3 @@ För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för 
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
-
-<br/>Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
