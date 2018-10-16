@@ -26,10 +26,11 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#har-yrke-eller-sysselsättning) |
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Nationalitet](#nationalitet) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Biografiska uppgifter](#biografiska-uppgifter) |
-| [Beskrivningsnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
+| [Beskrivningsnivå](#differentiering-av-person) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#fullständigare-namnform) | 
+| | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#titel-eller-övrig-beteckning) |
 | | [Andra attribut för person- och organisationsnamn](#andra-attribut-för-person-och-organisationsnamn) |
 | | [Ordningstal](#ordningstal) | 
