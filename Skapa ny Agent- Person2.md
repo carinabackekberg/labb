@@ -19,15 +19,15 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#förnamn) |
 | [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#födelse-och/eller-dödstid) |
 | [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#födelsedatum) |
-| [Marc:headingMain](#marc:headingmain) | [Dödsdatum](#dödsdatum) |
+| [Marc:headingMain](#marc-headingmain) | [Dödsdatum](#dödsdatum) |
 | [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
 | [Konsulterad källa](#poststatus) | [Se även](#variant) |
 | [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsområde) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#har-yrke-eller-sysselsättning) |
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
 | [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Nationalitet](#nationalitet) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) |  [Biografiska uppgifter](#biografiska uppgifter) |
-| [Beskrivningsnivå](#differentiering-av-person)  | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Biografiska uppgifter](#biografiska-uppgifter) |
+| [Beskrivningsnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#fullständigare-namnform) | 
 | | [Titel eller övrig beteckning](#titel-eller-övrig-beteckning) |
