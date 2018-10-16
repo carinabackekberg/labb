@@ -17,17 +17,17 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#förnamn) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Födelse- och/eller dödstid](#födelse-och/eller-dödstid) |
-| [Translitterering](#translitterering) | [Födelsedatum](#födelsedatum) |
-| [Poststatus](#poststatus) | [Dödsdatum](#dödsdatum) |
+| [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#födelse-och/eller-dödstid) |
+| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#födelsedatum) |
+| [Marc:headingMain](#marc:headingmain) | [Dödsdatum](#dödsdatum) |
 | [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
 | [Konsulterad källa](#poststatus) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Verksamhetsområde](#verksamhetsområde) |
-| [Differentiering av person](#differentiering-av-person) | [Har yrke eller sysselsättning](#har-yrke-eller-sysselsättning) |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [Identifikator](#identifikator) |
-| [Beskrivningsnivå](#differentiering-av-person) |  [Nationalitet](#nationalitet) |
-| | [Tid för upphörande](#tid-for-grundande) | [Biografiska uppgifter](#biografiska uppgifter) | 
-| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
+| [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsområde) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#har-yrke-eller-sysselsättning) |
+| [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
+| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Nationalitet](#nationalitet) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) |  [Biografiska uppgifter](#biografiska uppgifter) |
+| [Beskrivningsnivå](#differentiering-av-person)  | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#fullständigare-namnform) | 
 | | [Titel eller övrig beteckning](#titel-eller-övrig-beteckning) |
@@ -36,7 +36,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | | [Språk](#tid-for-grundande) | 
 | | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
  
-
+| [Poststatus](#poststatus) | [Dödsdatum](#dödsdatum) |
 
 ### Mall för beskrivning av Agent - Person
 Beskrivning av agenten som ska auktoriseras. 
