@@ -174,7 +174,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
 
-#### Tid for upphörande
+#### Tid för upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
 
