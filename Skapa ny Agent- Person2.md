@@ -35,8 +35,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#tid-for-grundande) | 
 | | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
- 
-| [Poststatus](#poststatus) | [Dödsdatum](#dödsdatum) |
+
 
 ### Mall för beskrivning av Agent - Person
 Beskrivning av agenten som ska auktoriseras. 
