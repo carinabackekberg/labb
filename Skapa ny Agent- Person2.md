@@ -126,13 +126,6 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
-#### Biografiska uppgifter
-* Biografiska uppgifter (hasBiographicalInformation = 678)
-  <br/>Används för att ange biografisk information är information om personens liv eller historia.
-  <br/>```Exempel:```
-  * ```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
-  <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
-
 
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
@@ -230,6 +223,13 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   * ```Efternamn: Smith```
   *<br/>```Förnamn: A. D.```
   *<br/>```Fullständigare namnform: Adam David```
+
+#### Biografiska uppgifter
+* Biografiska uppgifter (hasBiographicalInformation = 678)
+  <br/>Används för att ange biografisk information är information om personens liv eller historia.
+  <br/>```Exempel:```
+  * ```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
+  <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
 #### Titel eller övrig beteckning
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
