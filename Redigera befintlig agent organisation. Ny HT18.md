@@ -19,7 +19,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Tid för grundande](#namn) |
-| [Auktoritetskontrollnivå](#katalogiseringsregler) | [Variant](#variant) |
+| [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Variant](#variant) |
 | [**Tillagda egenskaper i Adminmetadata**](#tillagda-egenskaper-i-adminmetadata) | [**Tillagda egenskaper i Agent**](#tillagda-egenskaper-i-agent) | |
 | [Konsulterad källa](#tillagda-egenskaper-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#tillagda-egenskaper-i-adminmetadata) | [Nationalitet](#nationalitet) | |
@@ -83,7 +83,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Typ av auktoritetspost (marc:kindOfRecord = 008/9)
  <br/>Ändras ej.
 
-#### Auktoritetskontrollniva
+#### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
  <br/>```Exempel: Kontrollerad/godkänd```
  <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
