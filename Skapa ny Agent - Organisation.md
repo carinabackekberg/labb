@@ -29,7 +29,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#grundande) | |
 | | [Tid för upphörande](#grundande) | |
 | | [Verksamhetsområde](#grundande) | |
-| | [Språk](#tid-for-grundande) | |
+| | [Språk](#grundande) | |
 | | [Andra attribut för person- och organisationsnamn](#grundande) | |
 | | [Organisatorisk tillhörighet](#grundande) | |
  
