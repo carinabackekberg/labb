@@ -1,0 +1,34 @@
+UNDER ARBETE (uppdaterad och överflyttad till skarpt 18-10-12)
+Skapa ny: Agent - Organisation
+
+Lathunden beskriver de egenskaper som finns representerade i mallen. Om något av egenskaperna i mallen inte behövs kan de raderas med hjälp av papperskorgen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Exemplen är fiktiva.
+
+För information om katalogiseringsregler som gäller vid auktorisering, se Anvisningar för katalogisering (RDA) - Auktoritetsarbete.
+
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t ex avseende ordning på egenskaper kan förekomma.
+Innehåll
+Adminmetadata 	Agent
+Skapad av 	Namn
+Katalogiseringsregler 	Namn i två led
+Katalogiseringsspråk 	Verksamhtens starttid
+Translitterering 	Verksamhetens sluttid
+Poststatus 	Administrativ historik
+Katalogisatörens anmärkning 	Variant
+Konsulterad källa 	Se även
+Uppdatering av posten 	Identifikator
+Differentiering av person 	Nationalitet
+Auktoritetskontrollnivå 	Valbara egenskaper att lägga till i Agent
+Beskrivningsnivå 	Tid för grundande
+	Tid för upphörande
+	Verksamhetsområde
+	Språk
+	Andra attribut för person- och organisationsnamn
+	Organisatorisk tillhörighet
+Adminmetadata
+
+Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
+Skapad av
+
+    Skapad av (descriptionCreator = 040 ‡a)
+    Förval: inloggad sigel. Ändras ej.
+    Exempel: library/S
