@@ -23,7 +23,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [**Tillagda egenskaper i Adminmetadata**](#tillagda-egenskaper-i-adminmetadata) | [**Tillagda egenskaper i Agent**](#tillagda-egenskaper-i-agent) | |
 | [Konsulterad källa](#tillagda-egenskaper-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#tillagda-egenskaper-i-adminmetadata) | [Nationalitet](#nationalitet) | |
-| |[Verksamhetsområde](#tillagda-egenskaper-i-adminmetadata) |
+| |[Verksamhetsområde](#nationalitet) |
 | | [Identifikator](#identifikator) | |
 | | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#ytterligare-egenskaper-att-lagga-till-i-agent-vid-behov) |
 | | [Tid för upphörande](#ytterligare-egenskaper-att-lagga-till-i-agent-vid-behov) |
