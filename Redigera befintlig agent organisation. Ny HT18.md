@@ -25,8 +25,8 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Katalogisatörens anmärkning](#tillagda-egenskaper-i-adminmetadata) | [Nationalitet](#nationalitet) | |
 | |[Verksamhetsområde](#nationalitet) |
 | | [Identifikator](#identifikator) | |
-| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#ytterligare-egenskaper-att-lagga-till-i-agent-vid-behov) |
-| | [Tid för upphörande](#ytterligare-egenskaper-att-lagga-till-i-agent-vid-behov) |
+| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#identifikator) |
+| | [Tid för upphörande](#identifikator) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
 | | [Se även](#verksamhetens-sluttid) | |
@@ -211,7 +211,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
 
-### Ytterligare egenskaper att lagga till i Agent vid behov
+### Ytterligare egenskaper att lägga till i Agent vid behov
 
 #### Tid för upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
