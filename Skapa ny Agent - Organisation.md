@@ -26,12 +26,12 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#grundande) | |
-| | [Tid för upphörande](#grundande) | |
-| | [Verksamhetsområde](#grundande) | |
-| | [Språk](#grundande) | |
-| | [Andra attribut för person- och organisationsnamn](#grundande) | |
-| | [Organisatorisk tillhörighet](#grundande) | |
+| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
+| | [Tid för upphörande](#tid-for-grundande) | |
+| | [Verksamhetsområde](#tid-for-grundande) | |
+| | [Språk](#tid-for-grundande) | |
+| | [Andra attribut för person- och organisationsnamn](#tid-for-grundande) | |
+| | [Organisatorisk tillhörighet](#tid-for-grundande) | |
  
 
   
