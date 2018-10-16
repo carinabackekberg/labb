@@ -13,28 +13,31 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 ### Innehåll
 
-| [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
+| [Adminmetadata](#adminmetadata) | [Mall för beskrivning av Agent - Person](#Mall-for-beskrivning-av-Agent-Person) | 
 | ------ | ----------- |
-| [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
+| [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#förnamn) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Födelse- och/eller dödstid](#födelse-och/eller-dödstid) |
+| [Translitterering](#translitterering) | [Födelsedatum](#födelsedatum) |
+| [Poststatus](#poststatus) | [Dödsdatum](#dödsdatum) |
 | [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
 | [Konsulterad källa](#poststatus) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
-| | [Tid för upphörande](#tid-for-grundande) | |
-| | [Verksamhetsområde](#tid-for-grundande) | |
-| | [Språk](#tid-for-grundande) | |
-| | [Andra attribut för person- och organisationsnamn](#tid-for-grundande) | |
-| | [Organisatorisk tillhörighet](#tid-for-grundande) | |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Verksamhetsområde](#verksamhetsområde) |
+| [Differentiering av person](#differentiering-av-person) | [Har yrke eller sysselsättning](#har-yrke-eller-sysselsättning) |
+| [Auktoritetskontrollnivå](#differentiering-av-person) | [Identifikator](#identifikator) |
+| [Beskrivningsnivå](#differentiering-av-person) |  [Nationalitet](#nationalitet) |
+| | [Tid för upphörande](#tid-for-grundande) | [Biografiska uppgifter](#biografiska uppgifter) | 
+| | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
+| | [Namn](#namn) | 
+| | [Fullständigare namnform](#fullständigare-namnform) | 
+| | [Titel eller övrig beteckning](#titel-eller-övrig-beteckning) |
+| | [Andra attribut för person- och organisationsnamn](#andra-attribut-för-person-och-organisationsnamn) |
+| | [Ordningstal](#ordningstal) | 
+| | [Språk](#tid-for-grundande) | 
+| | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
  
 
 
-#### Agent
 ### Mall för beskrivning av Agent - Person
 Beskrivning av agenten som ska auktoriseras. 
 
