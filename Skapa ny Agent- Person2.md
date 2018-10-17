@@ -28,10 +28,10 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
 | [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#beskrivningsniva) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Namn](#namn) | 
-| | [Fullständigare namnform](##namn) | 
+| | [Fullständigare namnform](#namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#biografiska-uppgifter) |
-| | [Andra attribut för person- och organisationsnamn](#andra-attribut-för-person-och-organisationsnamn) |
+| | [Andra attribut för person- och organisationsnamn](#biografiska-uppgifter) |
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) | |
@@ -252,7 +252,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 #### Språk
 * Språk (associatedLanguage = 377 ‡a)
-  <br/>Ange språk som organisation använder vid behov.
+  <br/>Ange språk som personen använder vid behov.
   <br/>```Exempel: Engelska```
   <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
