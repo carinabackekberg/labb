@@ -18,8 +18,8 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
-| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#födelsedatum) |
-| [Marc:headingMain](#typ-av-auktoritetspost) | [Dödsdatum](#dödsdatum) |
+| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
+| [Marc:headingMain](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
 | [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Variant](#variant) |
 | [Konsulterad källa](#typ-av-auktoritetspost) | [Se även](#variant) |
 | [Poststatus](#poststatus) |[Verksamhetsområde](#variant) |
