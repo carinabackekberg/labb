@@ -6,7 +6,8 @@ Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktorise
 
 Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
-För information om katalogiseringsregler som gäller vid auktorisering, se Anvisningar för katalogisering (RDA) - Auktoritetsarbete.
+För information om katalogiseringsregler som gäller vid auktorisering, se 
+[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
