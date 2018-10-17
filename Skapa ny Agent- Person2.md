@@ -13,7 +13,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 ### Innehåll
 
-| [Adminmetadata](#adminmetadata) | [Agent Person](#agent-person) | 
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
@@ -37,7 +37,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | | [Organisatorisk tillhörighet](#ordningstal) | |
 
 
-### Agent Person
+### Agent
 
 ### Mall för beskrivning av Agent - Person
 Beskrivning av agenten som ska auktoriseras. 
