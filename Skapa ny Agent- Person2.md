@@ -187,8 +187,8 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
 
-#### Differentiering av posten
-* Differentiering av posten (marc:personalName = 008/32)
+#### Differentiering av person
+* Differentiering av person (marc:personalName = 008/32)
   <br/>Ändras ej.
 
 #### Auktoritetskontrollnivå
