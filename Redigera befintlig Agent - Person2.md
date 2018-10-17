@@ -22,13 +22,13 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Födelse- och/eller dödstid](#efternamn) |
 | [Konsulterad källa](#poststatus) | [Biografiska uppgifter](#biografiska-uppgifter) |
-| [**Egenskaper att lägga till i Adminmetadata**](#typ-av-auktoritetspost) | [Nationalitet](#nationalitet) |
-| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
-| | [Födelsedatum](#fodelsedatum) |
-| | [Dödsdatum](#verksamhetsomrade) |
-| | [Variant](#verksamhetsomrade) |
+| [**Egenskaper att lägga till i Adminmetadata**](#poststatus) | [Nationalitet](#nationalitet) |
+| [Katalogisatörens anmärkning](#poststatus) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
+| | [Födelsedatum](#nationalitet) |
+| | [Dödsdatum](#nationalitet) |
+| | [Variant](#variant) |
 | | [Identifikator](#identifikator) |
-| | [Har yrke eller sysselsättning](#nationalitet) |
+| | [Har yrke eller sysselsättning](#identifikator) |
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [**Valbara egenskaper att lägga till i Agent**](#biografiska-uppgifter) |
 | | [Namn](#namn) | 
