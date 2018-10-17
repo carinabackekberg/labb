@@ -21,7 +21,7 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#efternamn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Födelse- och/eller dödstid](#efternamn) |
-| [Konsulterad källa](#Samma sak som) | [Biografiska uppgifter](#biografiska-uppgifter) |
+| [Konsulterad källa](#samma-sak-som) | [Biografiska uppgifter](#biografiska-uppgifter) |
 | [**Egenskaper att lägga till i Adminmetadata**](#typ-av-auktoritetspost) | [Nationalitet](#nationalitet) |
 | [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
 | | [Födelsedatum](#fodelsedatum) |
