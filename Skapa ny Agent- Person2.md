@@ -13,7 +13,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 ### Innehåll
 
-| [Adminmetadata](#adminmetadata) | [Mall för beskrivning av Agent - Person](#Mall-for-beskrivning-av-Agent-Person) | 
+| [Adminmetadata](#adminmetadata) | [Mall för beskrivning av Agent Person](#Mall-for-beskrivning-av-Agent-Person) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
@@ -26,8 +26,8 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
-| [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Namn](#namn) | 
+| [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#Beskrivningsniva) |
+| [Beskrivningsnivå](#Beskrivningsniva) | [Namn](#namn) | 
 | | [Fullständigare namnform](##namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#biografiska-uppgifter) |
