@@ -21,14 +21,14 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#efternamn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Födelse- och/eller dödstid](#efternamn) |
-| [Konsulterad källa](#poststatus) | [Biografiska uppgifter](#biografiska-uppgifter) |
-| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [Nationalitet](#nationalitet) |
-| [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
-| | [Födelsedatum](#nationalitet) |
+| [Konsulterad källa](#poststatus) | [Nationalitet](#nationalitet) |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
+| [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Födelsedatum](#nationalitet) |
 | | [Dödsdatum](#nationalitet) |
 | | [Variant](#variant) |
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
+| | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [**Valbara egenskaper relevanta för Agent Person**](#valbara-egenskaper-relevanta-for-agent-person) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
@@ -108,7 +108,7 @@ Beskrivning av den auktoriserade agenten.
 
 #### Biografiska uppgifter
 * Biografiska uppgifter (hasBiographicalInformation = 678)
-  <br/>Används för att ange biografisk information är information om personens liv eller historia.
+  <br/>Används för att ange biografisk information är om personens liv eller historia.
   <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
   <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
