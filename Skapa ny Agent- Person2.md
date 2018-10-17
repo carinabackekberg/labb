@@ -27,7 +27,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
 | [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#beskrivningsniva) |
-| [Beskrivningsniva](#beskrivningsniva) | [Namn](#namn) | 
+| [Beskrivningsnivå](#beskrivningsniva) | [Namn](#namn) | 
 | | [Fullständigare namnform](##namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#biografiska-uppgifter) |
@@ -201,7 +201,7 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   <br/>Förval: language/swe. Ändras ej.
 
-#### Beskrivningsnivå
+#### Beskrivningsniva
 * Beskrivningsnivå
   <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först har sparats.**
   <br/>För att lägga till: Skapa och spara agenten, klicka på plustecknet i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
