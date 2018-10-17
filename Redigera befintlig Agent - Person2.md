@@ -16,14 +16,14 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 
 ### Innehåll
 
-| [Befintliga egenskaper i Adminmetadata](#befintliga-egenskaper-i-adminmetadata) | [Befintliga egenskaper i beskrivningen](#befintliga-egenskaper-i-beskrivningen) | 
+| [**Befintliga egenskaper i Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Befintliga egenskaper i beskrivningen**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
 | [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Biografiska uppgifter](#biografiska-uppgifter) |
 | [Marc:headingMain](#typ-av-auktoritetspost) | [Nationalitet](#nationalitet) |
-| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Egenskaper att lägga till i beskrivningen](#nationalitet) |
+| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
 | [Konsulterad källa](#typ-av-auktoritetspost) | [Födelsedatum](#nationalitet) |
 | [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsomrade) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
