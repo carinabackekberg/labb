@@ -27,7 +27,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
 | [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#beskrivningsniva) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Namn](#namn) | 
+| [Beskrivningsniva](#beskrivningsniva) | [Namn](#namn) | 
 | | [Fullständigare namnform](##namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#biografiska-uppgifter) |
