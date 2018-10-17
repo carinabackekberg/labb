@@ -29,7 +29,6 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | | [Variant](#variant) |
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
-| | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [**Valbara egenskaper relevanta för Agent Person**](#valbara-egenskaper-relevanta-for-agent-person) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
