@@ -1,12 +1,45 @@
 
-UNDER ARBETE (uppdaterad och flyttad till skarpt 2018-10-09)
+UNDER ARBETE 18-10-17 (uppdaterad och flyttad till skarpt 2018-10-09)
 
 ## Redigera befintlig Agent - Person
 Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
 
+Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
+
+För information om katalogiseringsregler som gäller vid auktorisering, se Anvisningar för katalogisering (RDA) - Auktoritetsarbete.
+
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t.ex. avseende ordning på egenskaper kan förekomma.
 
 Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart för att exemplifiera.
+
+
+### Innehåll
+
+| [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
+| ------ | ----------- |
+| [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
+| [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
+| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
+| [Marc:headingMain](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
+| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Variant](#variant) |
+| [Konsulterad källa](#typ-av-auktoritetspost) | [Se även](#variant) |
+| [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsomrade) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
+| [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
+| [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
+| [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#beskrivningsniva) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Namn](#namn) | 
+| | [Fullständigare namnform](#namn) | 
+| | [Biografiska uppgifter](#biografiska-uppgifter) |
+| | [Titel eller övrig beteckning](#biografiska-uppgifter) |
+| | [Andra attribut för person- och organisationsnamn](#biografiska-uppgifter) |
+| | [Ordningstal](#ordningstal) | 
+| | [Språk](#ordningstal) | 
+| | [Organisatorisk tillhörighet](#ordningstal) | |
+
+
+### Agent
 
 ### Befintliga egenskaper i beskrivningen
 Beskrivning av den auktoriserade agenten. 
