@@ -16,8 +16,8 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Adminmetadata](#adminmetadata) | [Mall för beskrivning av Agent - Person](#Mall-for-beskrivning-av-Agent-Person) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#förnamn) |
-| [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#födelse-och/eller-dödstid) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
+| [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
 | [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#födelsedatum) |
 | [Marc:headingMain](#marc-headingmain) | [Dödsdatum](#dödsdatum) |
 | [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
