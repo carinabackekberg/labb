@@ -82,7 +82,7 @@ Beskrivning av den auktoriserade agenten.
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/>```Exempel: 19201209```
 
-#### Samma sak som
+#### Variant
 * Variant (hasVariant = 400 ‡a ‡d)
   <br/>Här anges variantnamn och alternativa namnformer samt födelse och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i de bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till.
   <br/>```Exempel:``` 
@@ -92,13 +92,13 @@ Beskrivning av den auktoriserade agenten.
   * ```Förnamn: Erik Gustaf```
     <br/>För att lägga till ytterligare Variant: Klicka på plustecknet under egenskapen Variant, och välj typ (Person). Klicka på plustecknet inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid).
   
-#### Samma sak som
+#### Identifikator
 * Identifikator (identifiedBy = 024 ‡a)
   <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
   <br/>```Exempel: 0000000121339888 ```
   <br/>För att lägga till: Klicka på plustecknet under Identifikator, välj typ (ISNI). Klicka på plustecknet inom det tillagda Identifikator, sök efter och lägg till Värde.
 
-#### Samma sak som
+#### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
    <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
    <br/>```Exempel:```
@@ -106,7 +106,7 @@ Beskrivning av den auktoriserade agenten.
    * ```Översättare```
    <br/>För att lägga till: Klicka på plustecknet under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
-#### Samma sak som
+#### Biografiska uppgifter
 * Biografiska uppgifter (hasBiographicalInformation = 678)
   <br/>Används för att ange biografisk information är information om personens liv eller historia.
   <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
@@ -115,57 +115,57 @@ Beskrivning av den auktoriserade agenten.
 #### Befintliga egenskaper i Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig och inte är direkt förknippad med den auktoriserade namnformen.
 
-#### Samma sak som
+#### Kontrollnummer
 * Kontrollnummer (controlNumber = 001)
   <br/>LibrisID. Ändras ej.
 
-#### Samma sak som
+#### Skapad av
 * Skapad av (descriptionCreator = 040 ‡a)
   <br/>Förval: Sigel för skapare av agenten. Ändras ej.  
   <br/>```Exempel: Organisation: S```
 
-#### Samma sak som
+#### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Förval: rda. Ändra vid behov. 
   <br/>```Exempel: Kod: rda``` 
 
-#### Samma sak som
+#### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
   <br/>Förval: Svenska
 
-#### Samma sak som
+#### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)  
   <br/>Förval: Sigel som gjort senaste ändring. Ändras automatiskt vid sparande.  
 
-#### Samma sak som
+#### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
   <br/>Ändras ej.
 
-#### Samma sak som
+#### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)
   <br/>Ändras ej.
 
-#### Samma sak som
+#### Marc:headingMain
 * Marc:headingMain (marc:headingMain = 008/14)
   <br/>Ändras ej.
  
-#### Samma sak som 
+#### Typ av auktoritetspost 
 * Typ av auktoritetspost (marc:kindOfRecord = 008/9)
   <br/>Ändras ej.
 
-#### Samma sak som
+#### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Ändras ej.
 
-#### Samma sak som
-* Differentiering av posten (marc:personalName = 008/32)
+#### Differentiering av person
+* Differentiering av person (marc:personalName = 008/32)
   <br/>Ändras ej.
 
-#### Samma sak som
+#### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
 
-#### Samma sak som
+#### Poststatus
 * Poststatus (recordStatus = 000)
   <br/>Ändras ej. Vid uppdatering ändras status automatiskt.
 
@@ -173,7 +173,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Samma sak som 
   <br/>Ändras ej.
  
-#### Samma sak som
+#### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
   <br/>```Exempel på obligatorisk källa:``` 
@@ -190,7 +190,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 ### Egenskaper att lägga till i adminmetadata
 
-#### Samma sak som
+#### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. 
   <br/>```Exempel:``` 
@@ -200,44 +200,44 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Valbara egenskaper relevanta för Agent - Person
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
-#### Samma sak som
+#### Namn
 * Namn (name = 100 0/- ‡a)
   <br/>Används för namn i rak följd istället för Förnamn och Efternamn. **Kan användas i kombination med Förnamn och Efternamn endast för att ange variantnamn.**
   <br/>```Exempel: Namn: Bang``` 
   <br/>Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
   <br/>För att lägga till: Klicka på plustecknet under egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
-#### Samma sak som
+#### Fullständigare namnform
 * Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
   <br/>```Exempel: 
   * ```Efternamn: Smith```
   * ```Förnamn: A. D.```
   * ```Fullständigare namnform: Adam David```
-
-#### Samma sak som 
+  
+#### Verksamhetsområde 
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
    <br/>```Exempel: Fågelskådning```
    <br/>För att lägga till: Klicka på plustecknet under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
   
-#### Samma sak som
+#### Titel eller övrig beteckning
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
   <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. 
   <br/>```Exempel: påve```
   
-#### Samma sak som
+#### Andra attribut för person- och organisationsnamn
 * Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
   <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
   <br/>```Exempel: Professorer```
   <br/>För att lägga till: Klicka på plustecknet under egenskapen Andra attribut för person- och organisationsnamn, välj       Allmänt ämnesord som typ och sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
-#### Samma sak som
+#### Ordningstal
 * Ordningstal (marc:numeration = 100 ‡b)
   <br/>Används som särskiljande tillägg till den auktoriserade namnformen för kungligheter samt för påvar, biskopar och andra personer med religiösa yrken.
   <br/>```Exempel:```
   * ```XXII```
-  * ```2```
+  * ```2```  
 
 #### Språk
 * Språk (associatedLanguage = 377 ‡a)
