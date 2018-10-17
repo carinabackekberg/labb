@@ -113,7 +113,7 @@ Beskrivning av den auktoriserade agenten.
   <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
   <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
-#### Befintliga egenskaper i Adminmetadata
+### Befintliga egenskaper i Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig och inte är direkt förknippad med den auktoriserade namnformen.
 
 #### Kontrollnummer
@@ -189,7 +189,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet under Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Egenskaper att lägga till i adminmetadata
+### Egenskaper att lägga till i Adminmetadata
 
 #### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
