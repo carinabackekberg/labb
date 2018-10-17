@@ -1,4 +1,4 @@
-UNDER ARBETE 18-10-16 (överflyttad till skarpt 18-10-X)
+UNDER ARBETE 18-10-17 (överflyttad till skarpt 18-10-X)
 
 ## Skapa ny: Agent - Person
 Lathunden beskriver de egenskaper och klasser som finns representerade i mallen. Om något av inmatningsfälten i mallen inte behövs kan de raderas med hjälp av papperskorgen intill. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
