@@ -22,8 +22,8 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Födelse- och/eller dödstid](#efternamn) |
 | [Konsulterad källa](#poststatus) | [Biografiska uppgifter](#biografiska-uppgifter) |
-| [**Egenskaper att lägga till i Adminmetadata**](#poststatus) | [Nationalitet](#nationalitet) |
-| [Katalogisatörens anmärkning](#poststatus) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [Nationalitet](#nationalitet) |
+| [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
 | | [Födelsedatum](#nationalitet) |
 | | [Dödsdatum](#nationalitet) |
 | | [Variant](#variant) |
@@ -189,7 +189,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet under Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
-### Egenskaper att lägga till i Adminmetadata
+### Egenskaper att lagga till i Adminmetadata
 
 #### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
