@@ -16,15 +16,15 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 
 ### Innehåll
 
-| [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
+| [Befintliga egenskaper i Adminmetadata](#befintliga-egenskaper-i-adminmetadata) | [Befintliga egenskaper i beskrivningen](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
-| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
-| [Marc:headingMain](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
-| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Variant](#variant) |
-| [Konsulterad källa](#typ-av-auktoritetspost) | [Se även](#variant) |
+| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Biografiska uppgifter](#biografiska uppgifter) |
+| [Marc:headingMain](#typ-av-auktoritetspost) | [Nationalitet](#nationalitet) |
+| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Egenskaper att lägga till i beskrivningen](#nationalitet) |
+| [Konsulterad källa](#typ-av-auktoritetspost) | [Födelsedatum](#nationalitet) |
 | [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsomrade) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
@@ -40,24 +40,28 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | | [Organisatorisk tillhörighet](#ordningstal) | |
 
 
-### Agent
 
 ### Befintliga egenskaper i beskrivningen
 Beskrivning av den auktoriserade agenten. 
 
+### Efternamn
 * Efternamn (FamilyName = 100 i1=1 ‡a)
   <br/>```Exempel: Jansson```
 
+### Förnamn
 * Förnamn (GivenName = = 100 ‡a)
   <br/>```Exempel: Erik```
 
+### Födelse- och/eller dödstid
 * Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
   <br/>```Exempel: 1848-1920```
 
+### Biografiska uppgifter
 * Biografiska uppgifter (hasBiographicalInformation = 678)
   <br/>```Exempel: Väckelsepredikant i Österbotten```
 
+### Nationalitet
 * Nationalitet/verksamhetsland (Nationality = 043 ‡a)
   <br/>Nationalitet/verksamhetsland förknippat med personen. Vid behov kan denna ändras eller raderas.
   <br/>För att lägga till: Klicka på plustecknet under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
