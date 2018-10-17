@@ -19,22 +19,22 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
 | [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#födelsedatum) |
-| [Marc:headingMain](#marc-headingmain) | [Dödsdatum](#dödsdatum) |
-| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
-| [Konsulterad källa](#poststatus) | [Se även](#se-även) |
-| [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsområde) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#har-yrke-eller-sysselsättning) |
+| [Marc:headingMain](#typ-av-auktoritetspost) | [Dödsdatum](#dödsdatum) |
+| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Variant](#variant) |
+| [Konsulterad källa](#typ-av-auktoritetspost) | [Se även](#variant) |
+| [Poststatus](#poststatus) |[Verksamhetsområde](#variant) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#variant) |
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
-| [Auktoritetskontrollnivå](#auktoritetskontrollnivå) | [Nationalitet](#nationalitet) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lägga-till-i-agent) |
+| [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
+| [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
 | [Beskrivningsnivå](#differentiering-av-person) | [Namn](#namn) | 
-| | [Fullständigare namnform](#fullständigare-namnform) | 
+| | [Fullständigare namnform](##namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [Titel eller övrig beteckning](#titel-eller-övrig-beteckning) |
+| | [Titel eller övrig beteckning](#biografiska-uppgifter) |
 | | [Andra attribut för person- och organisationsnamn](#andra-attribut-för-person-och-organisationsnamn) |
 | | [Ordningstal](#ordningstal) | 
-| | [Språk](#tid-for-grundande) | 
-| | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
+| | [Språk](#ordningstal) | 
+| | [Organisatorisk tillhörighet](#ordningstal) | |
 
 
 ### Mall för beskrivning av Agent - Person
