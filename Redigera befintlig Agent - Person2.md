@@ -32,9 +32,9 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | | [**Valbara egenskaper relevanta för Agent Person**](#valbara-egenskaper-relevanta-for-agent-person) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
-| | [Verksamhetsområde](#namn) |
-| | [Titel eller övrig beteckning](#namn) |
-| | [Andra attribut för person- och organisationsnamn](#namn) |
+| | [Verksamhetsområde](#verksamhetsomrade) |
+| | [Titel eller övrig beteckning](#verksamhetsomrade) |
+| | [Andra attribut för person- och organisationsnamn](#verksamhetsomrade) |
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) |
@@ -211,7 +211,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   * ```Förnamn: A. D.```
   * ```Fullständigare namnform: Adam David```
   
-#### Verksamhetsområde 
+#### Verksamhetsomrade 
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
    <br/>```Exempel: Fågelskådning```
