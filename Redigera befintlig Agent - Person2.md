@@ -21,7 +21,7 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
-| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Biografiska uppgifter](#biografiska uppgifter) |
+| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Biografiska uppgifter](#biografiska-uppgifter) |
 | [Marc:headingMain](#typ-av-auktoritetspost) | [Nationalitet](#nationalitet) |
 | [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Egenskaper att lägga till i beskrivningen](#nationalitet) |
 | [Konsulterad källa](#typ-av-auktoritetspost) | [Födelsedatum](#nationalitet) |
