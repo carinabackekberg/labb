@@ -22,8 +22,8 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Marc:headingMain](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
 | [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Variant](#variant) |
 | [Konsulterad källa](#typ-av-auktoritetspost) | [Se även](#variant) |
-| [Poststatus](#poststatus) |[Verksamhetsområde](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#variant) |
+| [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsomrade) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
 | [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
@@ -101,7 +101,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Födelse- och/eller dödstid: 1938-``` 
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
-#### Verksamhetsområde
+#### Verksamhetsomrade
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. 
    <br/>```Exempel: Fågelskådning```
