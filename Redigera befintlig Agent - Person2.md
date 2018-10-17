@@ -121,7 +121,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Skapad av
 * Skapad av (descriptionCreator = 040 ‡a)
-  <br/>Förval: Sigel för skapare av agenten. Ändras ej.  
+  <br/>Förval: Sigel för skapare av agenten. Ändras ej.
   <br/>```Exempel: Organisation: S```
 
 #### Katalogiseringsregler
@@ -134,7 +134,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Förval: Svenska
 
 #### Senast ändrad av
-* Senast ändrad av (descriptionLastModifier)  
+* Senast ändrad av (descriptionLastModifier)
   <br/>Förval: Sigel som gjort senaste ändring. Ändras automatiskt vid sparande.  
 
 #### Beskrivningsnivå
