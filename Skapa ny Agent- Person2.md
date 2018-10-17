@@ -21,7 +21,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#födelsedatum) |
 | [Marc:headingMain](#marc-headingmain) | [Dödsdatum](#dödsdatum) |
 | [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
-| [Konsulterad källa](#poststatus) | [Se även](#variant) |
+| [Konsulterad källa](#poststatus) | [Se även](#se-även) |
 | [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsområde) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#har-yrke-eller-sysselsättning) |
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
