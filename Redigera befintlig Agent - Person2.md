@@ -30,7 +30,7 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [**Valbara egenskaper att lägga till i Agent**](#biografiska-uppgifter) |
+| | [**### Valbara egenskaper relevanta för Agent Person**](#valbara-egenskaper-relevanta-for-agent-person) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Verksamhetsområde](#namn) |
@@ -198,7 +198,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/marjan```
 
-#### Valbara egenskaper relevanta för Agent - Person
+### Valbara egenskaper relevanta för Agent - Person
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 #### Namn
