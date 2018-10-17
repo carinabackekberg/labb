@@ -18,26 +18,27 @@ Exemplet nedan baseras på Jansson, Erik, f. 1848. Tillägg är fiktiva, enbart 
 
 | [**Befintliga egenskaper i Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Befintliga egenskaper i beskrivningen**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
-| [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
-| [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
-| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Biografiska uppgifter](#biografiska-uppgifter) |
-| [Marc:headingMain](#typ-av-auktoritetspost) | [Nationalitet](#nationalitet) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#efternamn) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
+| [Auktoritetskontrollnivå](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
+| [Konsulterad källa](#katalogiseringsregler) | [Biografiska uppgifter](#biografiska-uppgifter) |
+| [**Egenskaper att lägga till i Adminmetadata**](#typ-av-auktoritetspost) | [Nationalitet](#nationalitet) |
 | [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
-| [Konsulterad källa](#typ-av-auktoritetspost) | [Födelsedatum](#nationalitet) |
-| [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsomrade) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
-| [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
-| [Katalogiseringsspråk](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#beskrivningsniva) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Namn](#namn) | 
-| | [Fullständigare namnform](#namn) | 
+| | [Födelsedatum](#fodelsedatum) |
+| | [Dödsdatum](#verksamhetsomrade) |
+| | [Variant](#verksamhetsomrade) |
+| | [Identifikator](#identifikator) |
+| | [Har yrke eller sysselsättning](#nationalitet) |
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [Titel eller övrig beteckning](#biografiska-uppgifter) |
-| | [Andra attribut för person- och organisationsnamn](#biografiska-uppgifter) |
+| | [**Valbara egenskaper att lägga till i Agent**](#biografiska-uppgifter) |
+| | [Namn](#namn) | 
+| | [Fullständigare namnform](#namn) | 
+| | [Verksamhetsområde](#namn) |
+| | [Titel eller övrig beteckning](#namn) |
+| | [Andra attribut för person- och organisationsnamn](#namn) |
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#ordningstal) | 
-| | [Organisatorisk tillhörighet](#ordningstal) | |
+| | [Organisatorisk tillhörighet](#ordningstal) |
 
 
 
