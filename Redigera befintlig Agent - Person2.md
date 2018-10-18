@@ -123,11 +123,13 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Förval: rda. Ändra vid behov. 
-  <br/>```Exempel: Kod: rda``` 
-
-#### Katalogiseringsspråk
+  <br/>```Exempel: Kod: rda```
+  
+#### Katalogiseringsspråk  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
-  <br/>Förval: Svenska
+ <br/>```Exempel: Svenska```Ändras ej.
+ <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
+
 
 #### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
@@ -151,7 +153,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej.
+ <br/>```Exempel: Kontrollerad/godkänd```
+ <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
 
 #### Differentiering av person
 * Differentiering av person (marc:personalName = 008/32)
