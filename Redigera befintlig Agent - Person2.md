@@ -1,5 +1,5 @@
 
-UNDER ARBETE 18-10-17 (uppdaterad och flyttad till skarpt 2018-10-09)
+UNDER ARBETE 18-10-18 (uppdaterad och flyttad till skarpt 2018-10-09)
 
 ## Redigera befintlig Agent - Person
 Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. 
