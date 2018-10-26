@@ -140,7 +140,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel:```
    * ```ALC```
    * ```Swedish Centre for Working Life```
-   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn.
+   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation.
    
   ```Exempel på organisation i två led:```
   * ```Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies ```
