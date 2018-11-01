@@ -21,8 +21,8 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Tid för grundande](#namn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Variant](#variant) |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lagga-till-i-agent) | |
-| [Konsulterad källa](#tillagda-egenskaper-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#tillagda-egenskaper-i-adminmetadata) | [Nationalitet](#nationalitet) | |
+| [Konsulterad källa](#egenskaper-att-lagga-till-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
+| [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Nationalitet](#nationalitet) | |
 | |[Verksamhetsområde](#nationalitet) |
 | | [Identifikator](#identifikator) | |
 | | [**Ytterligare egenskaper att lägga till vid behov**](#identifikator) |
