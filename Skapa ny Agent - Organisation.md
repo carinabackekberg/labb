@@ -197,7 +197,6 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-
 <br/>Obs! Det fungerar inte att länka i nuläget.
 
 #### Organisatorisk tillhörighet
