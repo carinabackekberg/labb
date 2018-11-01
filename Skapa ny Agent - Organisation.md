@@ -84,7 +84,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
  
- #### Uppdatering av posten
+#### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
 
@@ -114,7 +114,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Namn i två led 
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- ‡a)
-  <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Egenskapen används endast tillsammans med Namn på underordnad enhet.
+  <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Stockholms universitet```
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
