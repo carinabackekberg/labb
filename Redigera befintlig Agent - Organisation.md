@@ -20,12 +20,12 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Tid för grundande](#namn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Variant](#variant) |
-| [**Tillagda egenskaper i Adminmetadata**](#tillagda-egenskaper-i-adminmetadata) | [**Tillagda egenskaper i Agent**](#tillagda-egenskaper-i-agent) | |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lagga-till-i-agent) | |
 | [Konsulterad källa](#tillagda-egenskaper-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#tillagda-egenskaper-i-adminmetadata) | [Nationalitet](#nationalitet) | |
 | |[Verksamhetsområde](#nationalitet) |
 | | [Identifikator](#identifikator) | |
-| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#identifikator) |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#identifikator) |
 | | [Tid för upphörande](#identifikator) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
@@ -130,7 +130,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: auth/394287```.
   
 
-### Tillagda egenskaper i Adminmetadata
+### Egenskaper att lagga till i Adminmetadata
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
@@ -185,7 +185,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: resource/auth/394287```
     
     
-### Tillagda egenskaper i Agent
+### Egenskaper att lagga till i Agent
 
 
   #### Administrativ historik
@@ -212,7 +212,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
 
-### Ytterligare egenskaper att lägga till i Agent vid behov
+### Ytterligare egenskaper att lägga till vid behov
 
 #### Tid för upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
@@ -244,6 +244,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+Obs! Det fungerar inte att länka i nuläget.
 
 #### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
