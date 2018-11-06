@@ -18,19 +18,13 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 | [**Olänkad Medverkan**](#katalogiseringsregler) | [**Olänkat Ämne**](#namn)
 | [Olänkad Person](#person) | [Olänkad Person](#namn) |
 | [Olänkad Organisation i ett led](#katalogiseringsregler) | [Fiktivgestalt](#verksamhetens-starttid) |
-| [Olänkad Organisation i flera led](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
-| [Konsulterad källa](#poststatus) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
-| | [Tid för upphörande](#tid-for-grundande) | |
-| | [Verksamhetsområde](#tid-for-grundande) | |
-| | [Språk](#tid-for-grundande) | |
-| | [Andra attribut för person- och organisationsnamn](#tid-for-grundande) | |
-| | [Organisatorisk tillhörighet](#tid-for-grundande) | |
+| [Olänkad Organisation i flera led](#translitterering) | [Olänkad Organisation i ett led](#verksamhetens-sluttid) |
+| [Olänkad Jurisdiktion i ett led](#poststatus) | [Olänkad Organisation i flera led](#administrativ-historik) |
+| [Olänkad Jurisdiktion i flera led](#poststatus) | [Olänkad Jurisdiktion i ett led](#variant) |
+| [Olänkad Släkt](#poststatus) | [Olänkad Jurisdiktion i flera led](#variant) |
+| [Olänkat Möte](#uppdatering-av-posten) | [Olänkad Släkt](#identifikator) |
+| [X](#differentiering-av-person) | [Olänkat Möte](#nationalitet) | |
+| | [X](#tid-for-grundande) | |
  
 
 
