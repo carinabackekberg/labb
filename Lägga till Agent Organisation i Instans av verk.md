@@ -10,7 +10,7 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 
 ### Innehåll
 
-| [Medverkan och funktion](#medverkan-och-funktion) | [Ämne](#amne) | 
+| [Medverkan och funktion](#medverkan-och-funktion) | [Ämne](#amne) | [Relationer](#amne)
 | ------ | ----------- |
 | [Länka Agent](#skapad-av) | [Länka Ämne](#namn) |
 | [Olänkad Person](#katalogiseringsregler) | [Olänkad Person](#namn) |
