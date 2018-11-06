@@ -12,10 +12,11 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 
 | [Medverkan och funktion](#medverkan-och-funktion) | [Ämne](#amne) | 
 | ------ | ----------- |
-| [Länkad Person](#skapad-av) | [Länkad Person](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| [Länka Agent](#skapad-av) | [Länka Ämne](#namn) |
+| [Olänkad Person](#katalogiseringsregler) | [Olänkad Person](#namn) |
+| [Olänkad Person](#katalogiseringsregler) | [Olänkad Fiktivgestalt](#namn) |
+| [Olänkad Organisation i ett led](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Olänkad Organisation i flera led](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
 | [Konsulterad källa](#poststatus) | [Se även](#variant) |
