@@ -10,35 +10,14 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 
 ### Innehåll
 
-| [Länka Agent i Medverkan och funktion](#medverkan-och-funktion) | [Länka Ämne](#amne) | [Länka relaterat verk](#amne)
+
+| [Medverkan och funktion](#medverkan-och-funktion) | [Ämne](#amne) | [Relaterat verk](#amne)
 | ------ | ----------- | ----------------- |
-| [Länka Agent](#skapad-av) | [Länka Ämne](#namn) |
-| [Olänkad Person](#katalogiseringsregler) | [Olänkad Person](#namn) |
-| [Olänkad Person](#katalogiseringsregler) | [Olänkad Fiktivgestalt](#namn) |
-| [Olänkad Organisation i ett led](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Olänkad Organisation i flera led](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
-| [Konsulterad källa](#poststatus) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
-| | [Tid för upphörande](#tid-for-grundande) | |
-| | [Verksamhetsområde](#tid-for-grundande) | |
-| | [Språk](#tid-for-grundande) | |
-| | [Andra attribut för person- och organisationsnamn](#tid-for-grundande) | |
-| | [Organisatorisk tillhörighet](#tid-for-grundande) | |
-
-
-
-| [Medverkan och funktion](#medverkan-och-funktion) | [Ämne](#amne) | [Relationer](#amne)
-| ------ | ----------- | ----------------- |
-| [Länka Agent](#skapad-av) | [Länka Ämne](#namn) |
-| [Olänkad Person](#katalogiseringsregler) | [Olänkad Person](#namn) |
-| [Olänkad Person](#katalogiseringsregler) | [Olänkad Fiktivgestalt](#namn) |
-| [Olänkad Organisation i ett led](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Olänkad Organisation i flera led](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| [Länka Agent](#skapad-av) | [Länka Ämne](#namn) | [Länka Relaterat verk](#namn) |
+| [**Olänkad Agent**](#katalogiseringsregler) | [**Olänkat Ämne**](#namn) |[**Olänkat Relaterat verk](#namn) |
+| [Person](#person) | [Person](#namn) |
+| [Organisation i ett led](#katalogiseringsregler) | [Fiktivgestalt](#verksamhetens-starttid) |
+| [Organisation i flera led](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
 | [Konsulterad källa](#poststatus) | [Se även](#variant) |
