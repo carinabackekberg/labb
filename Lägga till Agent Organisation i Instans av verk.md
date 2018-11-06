@@ -21,18 +21,28 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 | [Olänkad Organisation i flera led](#translitterering) | [Olänkad Organisation i ett led](#verksamhetens-sluttid) |
 | [Olänkad Jurisdiktion i ett led](#poststatus) | [Olänkad Organisation i flera led](#administrativ-historik) |
 | [Olänkad Jurisdiktion i flera led](#poststatus) | [Olänkad Jurisdiktion i ett led](#variant) |
-| [Olänkad Släkt](#poststatus) | [Olänkad Jurisdiktion i flera led](#variant) |
-| [Olänkat Möte](#uppdatering-av-posten) | [Olänkad Släkt](#identifikator) |
-| [X](#differentiering-av-person) | [Olänkat Möte](#nationalitet) | |
+| [Släkt som Medverkan](#poststatus) | [Olänkad Jurisdiktion i flera led](#variant) |
+| [X](#uppdatering-av-posten) | [Släkt som Ämne](#identifikator) |
+| [X](#differentiering-av-person) | [Möte som Ämne](#nationalitet) | |
 | | [X](#tid-for-grundande) | |
  
 
 
-### Medverkan och funktion
+### Agenter som Medverkan
 
-#### Länkad Organisation
-Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka därefter på plustecknet intill den tillagda egenskapen t ex Primär medverkan/Medverkan och välj Agent. Klicka på plustecknet intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på plustecknet vid Organisationen.
+#### Länka Medverkan (100,110,111,700,710,711)
+Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet intill Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en auktoritetspost kommer det nu bli möjligt att länka genom att klicka på plustecknet vid Agenten.
+  <br/>```Exempel: Lindgren, Astrid, 1907-2002```
   <br/>```Exempel: Arbetslivscentrum```
+  <br/>```Exempel: Windsor (kungahus:, 1917-)```
+  <br/>```Exempel: Sverige. Landsbygdsdepartementet```
+  
+
+#### Länka Funktion (100,110,700,710 ‡4)
+Lägg till en funktionskod genom att klicka på plustecknet intill Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
+   <br/>```Exempel: Författare, aut)```
+   <br/>```Exempel: Illustratör, ill)```
+   <br/>```Exempel: Utgivare, pbl)```
 
 #### Olänkad Organisation i ett led (710 ‡a)
 Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på plustecknet intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på plustecknet vid Organisation och lägg till egenskapen Namn. Fyll i organisationens namn och spara posten.
@@ -42,24 +52,16 @@ Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på pluste
 Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på plustecknet intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till. Fyll sedan i organisationens namn och spara posten.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
 
-#### Funktionskod (710 ‡4)
-Lägg även till en funktionskod genom att klicka på plustecknet vid Primär medverkan/Medverkan och välj Funktion. Klicka på plustecknet intill Funktion. Sök efter funktionskod t ex Utgivare. Länka funktionskoden genom att klicka på plustecknet.
-
-### Organisation som Medverkan och funktion (contribution)
-
-#### Länkad Jurisdiktion
-Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka därefter på plustecknet intill den tillagda egenskapen t ex Primär medverkan/Medverkan och välj Agent. Klicka på plustecknet intill Agent. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på plustecknet vid Organisationen.
-  <br/>```Exempel: Sverige. Landsbygdsdepartementet```
-
 
 #### Olänkad Jurisdiktion som består av underordnad enhet (710 ‡a ‡b)
 Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på plustecknet intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till. Fyll sedan i organisationens namn och spara posten.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Högsta domstolen```
 
 
-### Organisation som Ämne (subject)
+### Agenter som Ämne
 
-#### Länkad Organisation
+#### Länka Ämne
+
 Klicka på plustecknet vid Ämne. Sök efter Organisationen. För att begränsa sökningen välj Organisation under Alla typer. Om det finns en auktoritetspost för organisationen kommer det nu bli möjligt att länka genom att klicka på plustecknet vid Organisationen.
   <br/>```Exempel: Arbetslivscentrum```
 
