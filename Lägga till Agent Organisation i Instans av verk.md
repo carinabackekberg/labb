@@ -15,7 +15,7 @@ Var noggrann vid sökning efter Agenten och länka om möjligt. Vid behov skapa 
 | ------ | ----------- |
 | [Länka Medverkan](#lanka-medverkan) | [Länka Ämne](#lanka-amne) |
 | [Länka Funktion](#lanka-funktion) |
-| [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitete**](#skapa-lokal-entitet)
+| [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet)
 | [Person som Medverkan](#person) | [Person som Ämne](#namn) |
 | [Organisation i ett led som Medverkan](#katalogiseringsregler) | [Fiktiv gestalt som Ämne](#verksamhetens-starttid) |
 | [Organisation i flera led som Medverkan](#translitterering) | [Organisation i ett led som Ämne](#verksamhetens-sluttid) |
