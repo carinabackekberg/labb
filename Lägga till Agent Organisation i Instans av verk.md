@@ -1,5 +1,5 @@
 
-UNDER ARBETE (uppdaterad 2018-10-12)
+UNDER ARBETE (uppdaterad 2018-11-06)
 
 ## Lägga till Agent - Organisation i Instans av Verk
 
