@@ -22,7 +22,7 @@ Var noggrann vid sökning efter Agenten och länka om möjligt. Vid behov skapa 
 | [Jurisdiktion i ett led som Medverkan](#poststatus) | [Organisation i flera led som Ämne](#administrativ-historik) |
 | [Jurisdiktion i flera led som Medverkan](#poststatus) | [Jurisdiktion i ett led som Ämne](#variant) |
 | [Släkt som Medverkan](#poststatus) | [Jurisdiktion i flera led som Ämne](#variant) |
-| [Möten som Medverkan](#uppdatering-av-posten) | [Släkt som Ämne](#identifikator) |
+| [Möte som Medverkan](#uppdatering-av-posten) | [Släkt som Ämne](#identifikator) |
 | [X](#differentiering-av-person) | [Möte som Ämne](#nationalitet) | |
 | | [X](#tid-for-grundande) | |
  
