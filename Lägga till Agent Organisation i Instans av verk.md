@@ -31,7 +31,7 @@ Var noggrann vid sökning efter Agenten och länka om möjligt. Vid behov skapa 
 ### Agenter som Medverkan
 
 #### Länka Medverkan (100,110,111,700,710,711)
-Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet intill Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en auktoritetspost kommer det nu bli möjligt att länka genom att klicka på plustecknet vid Agenten.
+Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet intill Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en agentpost länka genom att klicka på plustecknet vid Agenten.
   <br/>```Exempel: Lindgren, Astrid, 1907-2002```
   <br/>```Exempel: Arbetslivscentrum```
   <br/>```Exempel: Windsor (kungahus:, 1917-)```
