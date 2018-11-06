@@ -11,10 +11,10 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 ### Innehåll
 
 
-| [Medverkan och funktion](#medverkan-och-funktion) | [Ämne](#amne)
+| [Agenter som Medverkan och funktion](#medverkan-och-funktion) | [Agenter som Ämne](#amne)
 | ------ | ----------- |
-| [Länka Agent](#skapad-av) | [Länka Ämne](#namn) |
-| [**Olänkad Agent**](#katalogiseringsregler) | [**Olänkat Ämne**](#namn)
+| [Länka Medverkan](#skapad-av) | [Länka Ämne](#namn) |
+| [**Olänkad Medverkan**](#katalogiseringsregler) | [**Olänkat Ämne**](#namn)
 | [Person](#person) | [Person](#namn) |
 | [Organisation i ett led](#katalogiseringsregler) | [Fiktivgestalt](#verksamhetens-starttid) |
 | [Organisation i flera led](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
