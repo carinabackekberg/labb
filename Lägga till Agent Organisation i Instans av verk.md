@@ -15,7 +15,7 @@ Om det inte finns en Agent att länka mot finns två val. Gå till mallen för A
 | ------ | ----------- |
 | [Länka Medverkan](#skapad-av) | [Länka Ämne](#namn) |
 | [Länka Funktion](#skapad-av) |
-| | | |
+
 | [**Olänkad Medverkan**](#katalogiseringsregler) | [**Olänkat Ämne**](#namn)
 | [Olänkad Person](#person) | [Olänkad Person](#namn) |
 | [Olänkad Organisation i ett led](#katalogiseringsregler) | [Olänkad Fiktiv gestalt](#verksamhetens-starttid) |
