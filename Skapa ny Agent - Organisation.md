@@ -3,12 +3,12 @@ UNDER ARBETE 18-11-01, (överflyttad till skarpt 18-11-01)
 
 ## Skapa ny: Agent - Organisation
 
-Lathunden beskriver de egenskaper som finns representerade i mallen. Om något av egenskaperna i mallen inte behövs kan de raderas med hjälp av papperskorgen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av lathunden. Exemplen är fiktiva.
+Hjälptexten beskriver de egenskaper som finns representerade i mallen. Om något av egenskaperna i mallen inte behövs kan de raderas med hjälp av papperskorgen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten. Exemplen är fiktiva.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från lathunden, t ex avseende ordning på egenskaper kan förekomma.
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, t ex avseende ordning på egenskaper kan förekomma.
 
 
 
