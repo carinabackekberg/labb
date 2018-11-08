@@ -42,15 +42,16 @@ Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på 
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Arbetslivscentrum```
-  * ```indsor (kungahus:, 1917-)```
+  * ```Windsor (kungahus:, 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
 
-#### Lanka Funktion)
+#### Lanka Funktion
 * Länka Funktion (100 ‡4,110 ‡4,700 ‡4,710 ‡4)
 Lägg till en funktionskod genom att klicka på plustecknet intill Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
-   <br/>```Exempel: Författare, aut```
-   <br/>```Exempel: Illustratör, ill```
-   <br/>```Exempel: Utgivare, pbl```
+<br/>```Exempel:```
+  * ```Författare, aut```
+  * ```Illustratör, ill```
+  * ```Utgivare, pbl```
 
 ### Skapa lokal entitet
 
