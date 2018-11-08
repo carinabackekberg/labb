@@ -69,6 +69,7 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 <br/>```Exempel:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
   * ```Organisation/Är del av/Organisation/Namn: Svenska kyrkan samt Organisation/Namn på underordnad enhet: Högalids församling```
+<br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
 #### Jurisdiktion i ett led som medverkan
 * Jurisdiktion i ett led som medverkan (710 ‡a)
@@ -81,6 +82,7 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 <br/>```Exempel:```
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Högsta domstolen```
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Stockholms stad (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Idrottsförvaltningen```
+<br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
 ### Agenter som Ämne
 
