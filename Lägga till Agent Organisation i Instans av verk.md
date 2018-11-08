@@ -66,7 +66,9 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 #### Organisation i flera led som Medverkan
 * Organisation i flera led som Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
-<br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
+<br/>```Exempel:```
+  * ```Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
+  * ```Organisation/Är del av/Organisation/Namn: Svenska kyrkan samt Organisation/Namn på underordnad enhet: Högalids församling```
 
 #### Jurisdiktion i ett led som medverkan
 * Jurisdiktion i ett led som medverkan (710 ‡a)
@@ -75,7 +77,7 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 
 #### Jurisdiktion i flera led som medverkan
 * Jurisdiktion i flera led som medverkan (710 ‡a ‡b)
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
 <br/>```Exempel:```
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Högsta domstolen```
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Stockholms stad (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Idrottsförvaltningen```
