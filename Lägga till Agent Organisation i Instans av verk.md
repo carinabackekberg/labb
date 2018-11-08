@@ -44,7 +44,7 @@ Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på 
   <br/>```Exempel: Sverige. Landsbygdsdepartementet```
   
 
-#### Länka Funktion (100,110,700,710 ‡4)
+#### Länka Funktion (100 ‡4,110 ‡4,700 ‡4,710 ‡4)
 Lägg till en funktionskod genom att klicka på plustecknet intill Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
    <br/>```Exempel: Författare, aut```
    <br/>```Exempel: Illustratör, ill```
