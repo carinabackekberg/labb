@@ -171,7 +171,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel:```
    * ```Släktforskarförbundet```
    * ```Federation of Swedish Genealogical Societies```
-   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex Organisation.
+   <br/>För att lägga till namn: Klicka på plustecknet vid egenskapen Variant, och välj typ t ex Organisation.
    
    ```Exempel på namn i två led:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
