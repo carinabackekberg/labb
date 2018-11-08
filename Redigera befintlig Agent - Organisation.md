@@ -167,18 +167,17 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Variant
 * Variant (hasVariant = 410 ‡a ‡b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar.
   <br/>```Exempel:```
    * ```Släktforskarförbundet```
    * ```Federation of Swedish Genealogical Societies```
-   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation.
+   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex Organisation.
    
-  ```Exempel på organisation i två led:```
-  * ```Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies ```
-  * ```Är del av/Jurisdiktion/Namn: Sverige samt Namn på underordnad enhet: Smittskyddsinstitutet```
-  <br/>För att ange auktoriserad namnform som består av underordnad enhet: klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Till organisation läggs, genom att klicka på plustecknet längst ut till höger vid organisation, egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till.
-  
-  OBS! Varianter ska inte göras till sökbara länkar.
+   ```Exempel på namn i två led:```
+  * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
+  * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Smittskyddsinstitutet```
+  <br/>För att ange namnform i två led: klicka på plustecknet vid egenskapen variant, och välj typ t ex Organisation. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj Organisation i rullmenyn för Skapa lokal entitet.
+<br/>OBS! Det fungerar inte att göra Variant med namn i fler än två led i nuläget.
 
 #### Samma sak som
 * Samma sak som (sameAs)
