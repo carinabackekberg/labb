@@ -120,8 +120,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av. Om dessa två egenskaper används måste egenskapen Namn raderas. Klicka i så fall på papperskorgen vid egenskapen Namn. 
   <br/>```Exempel: Centrum för medeltidsstudier```
-  
-  <br/>OBS! Det fungerar inte att göra agentposter med namn i fler än två led i nuläget.
+<br/>OBS! Det fungerar inte att göra agentposter med namn i fler än två led i nuläget.
   
  #### Verksamhetens starttid  
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 ‡s)
@@ -148,7 +147,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Smittskyddsinstitutet```
   <br/>För att ange auktoriserad namnform som består av underordnad enhet: klicka på plustecknet vid egenskapen variant, och välj typ t ex Organisation. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj Organisation i rullmenyn för Skapa lokal entitet.
-  
 <br/>OBS! Det fungerar inte att göra agentposter med namn i fler än två led i nuläget.
 
 #### Se även
@@ -199,7 +197,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-<br/>Obs! Det fungerar inte att länka i nuläget.
+<br/>OBS! Det fungerar inte att länka i nuläget.
 
 #### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
