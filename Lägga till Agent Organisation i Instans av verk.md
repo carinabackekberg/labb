@@ -60,19 +60,25 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 
 #### Organisation i ett led som Medverkan
 * Organisation i ett led som medverkan (110 ‡a, 710 ‡a)
-Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på plustecknet intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på plustecknet vid Organisation och lägg till egenskapen Namn. Fyll i organisationens namn och spara posten.
-  <br/>```Exempel: Organisation/Namn: Landsnora kvarn och såg```
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+  <br/>```Exempel: Landsnora kvarn och såg```
 
 #### Organisation i flera led som Medverkan
 * Organisation i flera led som Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
-Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på plustecknet intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till. Fyll sedan i organisationens namn och spara posten.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
 
+#### Jurisdiktion i ett led som medverkan
+* Jurisdiktion i ett led som medverkan (710 ‡a)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+  <br/>```Exempel: Stockholms stad (Sverige)```
 
-#### Olänkad Jurisdiktion som består av underordnad enhet (710 ‡a ‡b)
-Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill den tillagda egenskapen för t ex Primär medverkan/Medverkan och välj Agent. Klicka på plustecknet intill Agent, välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till. Fyll sedan i organisationens namn och spara posten.
-<br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Högsta domstolen```
-
+#### Jurisdiktion i flera led som medverkan
+* Jurisdiktion i flera led som medverkan (710 ‡a ‡b)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet intill Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
+<br/>```Exempel:```
+  * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Högsta domstolen```
+  * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Stockholms stad (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Idrottsförvaltningen```
 
 ### Agenter som Ämne
 
