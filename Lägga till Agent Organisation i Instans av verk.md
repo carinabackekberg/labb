@@ -19,8 +19,8 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 
 | [Agenter som Medverkan](#agenter-som-medverkan) | [Agenter som Ämne](#agenter-som-amne)
 | ------ | ----------- |
-| [Länka Medverkan](#lanka-medverkan) | [Länka Ämne](#lanka-amne) |
-| [Länka Funktion](#lanka-funktion) |
+| [Länka Medverkan](#agenter-som-medverkan) | [Länka Ämne](#lanka-amne) |
+| [Länka Funktion](#agenter-som-medverkan) |
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet)
 | [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#namn) |
 | [Organisation i ett led som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#verksamhetens-starttid) |
@@ -36,7 +36,7 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 
 ### Agenter som Medverkan
 
-#### Lanka Medverkan
+#### Länka Medverkan
 * Länka Medverkan (100,110,111,700,710,711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet intill Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en agentpost länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
@@ -45,7 +45,7 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
   * ```Windsor (kungahus:, 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
 
-#### Lanka Funktion
+#### Länka Funktion
 * Länka Funktion (100 ‡4,110 ‡4,700 ‡4,710 ‡4)
 <br/>Lägg till en funktionskod genom att klicka på plustecknet intill Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
 <br/>```Exempel:```
