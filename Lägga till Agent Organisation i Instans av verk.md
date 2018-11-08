@@ -40,9 +40,9 @@ Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på 
 
 #### Länka Funktion (100,110,700,710 ‡4)
 Lägg till en funktionskod genom att klicka på plustecknet intill Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
-   <br/>```Exempel: Författare, aut)```
-   <br/>```Exempel: Illustratör, ill)```
-   <br/>```Exempel: Utgivare, pbl)```
+   <br/>```Exempel: Författare, aut```
+   <br/>```Exempel: Illustratör, ill```
+   <br/>```Exempel: Utgivare, pbl```
 
 ### Skapa lokal entitet
 
