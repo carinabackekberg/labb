@@ -37,7 +37,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Länka Medverkan
 * Länka Medverkan (100,110,111,700,710,711)
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en agentpost länka genom att klicka på plustecknet vid Agenten.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Arbetslivscentrum```
@@ -60,14 +60,14 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Organisation i ett led som Medverkan
 * Organisation i ett led som medverkan (110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
-  <br/>```Exempel: Landsnora kvarn och såg```
+  <br/>```Exempel: Riksarkivet```
 
 #### Organisation i flera led som Medverkan
 * Organisation i flera led som Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
 <br/>```Exempel:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
-  * ```Organisation/Är del av/Organisation/Namn: Svenska kyrkan samt Organisation/Namn på underordnad enhet: Högalids församling```
+  * ```Organisation/Är del av/Organisation/Namn: Sveriges mekanförbund samt Organisation/Namn på underordnad enhet: Energisparkommitén```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
 #### Jurisdiktion i ett led som medverkan
@@ -87,7 +87,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Länka Ämne
 * Länka Ämne (600,610,611)
-<br/>Klicka sedan på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en agentpost länka genom att klicka på plustecknet vid Agenten.
+<br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Arbetslivscentrum```
@@ -95,12 +95,30 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Sverige. Landsbygdsdepartementet```
 
 #### Organisation i ett led som Ämne
-* Organisation i ett led som medverkan (610)
+* Organisation i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Organisation/Namn: Landsnora kvarn och såg```
 
-#### Olänkad Organisation som består av underordnad enhet (610 ‡a ‡b)
-Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka därefter på plustecknet vid  Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Vid Är del av skapas lokal entitet Organisation och egenskapen Namn läggs till. Fyll sedan i organisationens namn och spara posten.
-<br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholms universitet samt Organisation/Namn på underordnad enhet: Institutionen för folkhälsovetenskap```
+#### Organisation i flera led som Ämne
+* Organisation i flera led som Ämne (610 ‡a ‡b)
+<br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
+<br/>```Exempel:```
+  * ```Organisation/Är del av/Organisation/Namn: Handelshögskolan i Stockholm samt Organisation/Namn på underordnad enhet: Biblioteket```
+  * ```Organisation/Är del av/Organisation/Namn: Svenska kyrkan samt Organisation/Namn på underordnad enhet: Uppsala stift```
+<br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
+
+#### Jurisdiktion i ett led som Ämne
+* Jurisdiktion i ett led som Ämne (610)
+<br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+  <br/>```Exempel: Jurisdiktion/Namn: Luleå kommun (Sverige)```
+
+#### Jurisdiktion i flera led som Ämne
+* Jurisdiktion i flera led som Ämne (610 ‡a ‡b)
+<br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
+<br/>```Exempel:```
+  * ```Organisation/Är del av/Organisation/Namn: Sverige samt Organisation/Namn på underordnad enhet: Riksdagen```
+  * ```Organisation/Är del av/Organisation/Namn: Svenska kyrkan samt Organisation/Namn på underordnad enhet: Uppsala stift```
+<br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
+
 
 
