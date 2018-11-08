@@ -38,7 +38,7 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 
 #### Lanka Medverkan
 * Länka Medverkan (100,110,111,700,710,711)
-Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet intill Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en agentpost länka genom att klicka på plustecknet vid Agenten.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet intill Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en agentpost länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Arbetslivscentrum```
@@ -47,7 +47,7 @@ Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på 
 
 #### Lanka Funktion
 * Länka Funktion (100 ‡4,110 ‡4,700 ‡4,710 ‡4)
-Lägg till en funktionskod genom att klicka på plustecknet intill Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
+<br/>Lägg till en funktionskod genom att klicka på plustecknet intill Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
 <br/>```Exempel:```
   * ```Författare, aut```
   * ```Illustratör, ill```
