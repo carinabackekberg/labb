@@ -1,5 +1,5 @@
 
-UNDER ARBETE (uppdaterad 2018-11-06)
+UNDER ARBETE (uppdaterad 2018-11-08)
 
 ## Lägga till Agenter i Instans av verk
 
@@ -38,11 +38,12 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 
 #### Länka Medverkan (100,110,111,700,710,711)
 Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet intill Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Om det finns en agentpost länka genom att klicka på plustecknet vid Agenten.
-  <br/>```Exempel: Lindgren, Astrid, 1907-2002```
-  <br/>```Exempel: Arbetslivscentrum```
-  <br/>```Exempel: Windsor (kungahus:, 1917-)```
-  <br/>```Exempel: Sverige. Landsbygdsdepartementet```
-  
+
+ <br/>```Exempel:```
+  * ```Lindgren, Astrid, 1907-2002```
+  * ```Arbetslivscentrum```
+  * ```indsor (kungahus:, 1917-)```
+  * ```Sverige. Landsbygdsdepartementet```
 
 #### Länka Funktion (100 ‡4,110 ‡4,700 ‡4,710 ‡4)
 Lägg till en funktionskod genom att klicka på plustecknet intill Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
