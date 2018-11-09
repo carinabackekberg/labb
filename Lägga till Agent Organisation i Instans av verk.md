@@ -1,5 +1,5 @@
 
-UNDER ARBETE (uppdaterad 2018-11-08)
+UNDER ARBETE (uppdaterad 2018-11-09)
 
 ## Lägga till Agenter i Instans av verk
 
@@ -79,6 +79,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Vänersborgs kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Socialförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
+#### Släkt som Medverkan
+* Släkt som Medverkan (600)
+
 ### Agenter som Ämne
 
 #### Länka Ämne
@@ -89,6 +92,12 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Arbetslivscentrum```
   * ```Windsor (kungahus:, 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
+
+#### Person som Ämne
+* Person som medverkan (600)
+
+#### Fiktiv gestalt som Ämne
+* Fiktiv gestalt som Ämne (600)
 
 #### Organisation i ett led som Ämne
 * Organisation i ett led som Ämne (610)
@@ -112,5 +121,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Åmåls kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Utbildningsförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-
+#### Släkt som Ämne
+* Släkt som Ämne (600)
 
