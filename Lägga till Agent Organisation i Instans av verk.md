@@ -18,11 +18,11 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 | [Agenter som Medverkan](#agenter-som-medverkan) | [Agenter som Ämne](#agenter-som-amne)
 | ------ | ----------- |
-| [Länka Medverkan](#agenter-som-medverkan) | [Länka Ämne](#lanka-amne) |
+| [Länka Medverkan](#agenter-som-medverkan) | [Länka Ämne](#agenter-som-amne) |
 | [Länka Funktion](#agenter-som-medverkan) |
-| [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet)
-| [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#namn) |
-| [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#verksamhetens-starttid) |
+| [**Skapa lokal entitet**](#) | [**Skapa lokal entitet**](#)
+| [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#person som amne) |
+| [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#fiktiv-gestalt-som-amne) |
 | [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
 | [Släkt som Medverkan](#slakt-som-medverkan) | [Jurisdiktion som Ämne](#jurisdiktion-som-amne) |
 | [Möte som Medverkan](#mote-som-medverkan) | [Släkt som Ämne](#slakt-som-amne) |
@@ -59,6 +59,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
  <br/>```Exempel: Karlsson, Dag, 1940-```
  
 #### Organisation som Medverkan
+
 * Organisation i ett led som medverkan (110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Västerbottens läns hushållningssällskap```
@@ -69,6 +70,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
 #### Jurisdiktion som medverkan
+
 * Jurisdiktion i ett led som medverkan (710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Luleå kommun (Sverige)```
@@ -83,7 +85,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>Klicka på plustecknet vid Medverkan och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Ibsen (släkt)```
 
-### Agenter som Ämne
+### Agenter som amne
 
 #### Länka Ämne
 * Länka Ämne (600,610,611)
