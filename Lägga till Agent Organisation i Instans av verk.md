@@ -20,8 +20,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | ------ | ----------- |
 | [Länka Medverkan](#agenter-som-medverkan) | [Länka Ämne](#agenter-som-amne) |
 | [Länka Funktion](#agenter-som-medverkan) |
-| [**Skapa lokal entitet**](#) | [**Skapa lokal entitet**](#)
-| [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#person som amne) |
+| [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet)
+| [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#person-som-amne) |
 | [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#fiktiv-gestalt-som-amne) |
 | [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
 | [Släkt som Medverkan](#slakt-som-medverkan) | [Jurisdiktion som Ämne](#jurisdiktion-som-amne) |
@@ -87,7 +87,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Agenter som amne
 
-#### Länka Ämne
+#### Länka amne
 * Länka Ämne (600,610,611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
@@ -97,19 +97,19 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Windsor (kungahus: 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
 
-#### Person som Ämne
+#### Person som amne
 * Person som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in namnet.
  <br/>```Exempel: Karlsson, Dag, 1940-```
 
-#### Fiktiv gestalt som Ämne
+#### Fiktiv gestalt som amne
 * Fiktiv gestalt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ta bort de egenskaper som inte används med papperskorgen t ex Födelse och/eller dödstid. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in namnet.
   <br/>```Exempel:```
   * ```Namn: Bambi samt Titel eller övrig beteckning: (fiktiv gestalt)```
   * ```Efternamn/Förnamn: Granger, Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
 
-#### Organisation som Ämne
+#### Organisation som amne
 * Organisation i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Organisation/Namn: Landsnora kvarn och såg```
@@ -119,7 +119,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Göteborgs universitet samt Organisation/Namn på underordnad enhet: Rättsvetenskapliga institutionen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-#### Jurisdiktion som Ämne
+#### Jurisdiktion som amne
 * Jurisdiktion i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Jurisdiktion/Namn: Luleå kommun (Sverige)```
@@ -129,7 +129,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Åmåls kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Utbildningsförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-#### Släkt som Ämne
+#### Släkt som amne
 * Släkt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Tiger (släkt), 1600-talet```
