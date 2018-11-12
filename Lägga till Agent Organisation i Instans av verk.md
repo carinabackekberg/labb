@@ -22,12 +22,10 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Länka Funktion](#agenter-som-medverkan) |
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet)
 | [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#namn) |
-| [Organisation i ett led som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#verksamhetens-starttid) |
-| [Organisation i flera led som Medverkan](#organisation-i-flera-led-som-medverkan) | [Organisation i ett led som Ämne](#organisation-i-ett-led-som-amne) |
-| [Jurisdiktion i ett led som Medverkan](#jurisdiktion-i-ett-led-som-medverkan) | [Organisation i flera led som Ämne](#organisation-i-flera-led-som-amne) |
-| [Jurisdiktion i flera led som Medverkan](#jurisdiktion-i-flera-led-som-medverkan) | [Jurisdiktion i ett led som Ämne](#jurisdiktion-i-ett-led-som-amne) |
-| [Släkt som Medverkan](#slakt-som-medverkan) | [Jurisdiktion i flera led som Ämne](#jurisdiktion-i-flera-led-som-amne) |
-| [Möte som Medverkan](#mote-som-medverkan) | [Släkt som Ämne](#slakt-som-amne) |
+| [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#verksamhetens-starttid) |
+| [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
+| [Släkt som Medverkan](#slakt-som-medverkan) | [Jurisdiktion som Ämne](#jurisdiktion-som-amne) |
+| [Möte som Medverkan](#mote-som-medverkan) | [Släkt som Ämne](#slakt-som-amne |
 | [X](#x) | [Möte som Ämne](#mote-som-amne) | |
 | | [X](#x) | |
  
@@ -57,23 +55,21 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Person som Medverkan
 * Person som medverkan (100 ‡a, 700 ‡a)
 
-#### Organisation i ett led som Medverkan
+#### Organisation som Medverkan
 * Organisation i ett led som medverkan (110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Västerbottens läns hushållningssällskap```
 
-#### Organisation i flera led som Medverkan
 * Organisation i flera led som Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Karolinska universitetssjukhuset samt Organisation/Namn på underordnad enhet: Ekonomiavdelningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-#### Jurisdiktion i ett led som medverkan
+#### Jurisdiktion som medverkan
 * Jurisdiktion i ett led som medverkan (710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Luleå kommun (Sverige)```
 
-#### Jurisdiktion i flera led som medverkan
 * Jurisdiktion i flera led som medverkan (710 ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Vänersborgs kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Socialförvaltningen```
@@ -99,23 +95,21 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Fiktiv gestalt som Ämne
 * Fiktiv gestalt som Ämne (600)
 
-#### Organisation i ett led som Ämne
+#### Organisation som Ämne
 * Organisation i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Organisation/Namn: Landsnora kvarn och såg```
 
-#### Organisation i flera led som Ämne
 * Organisation i flera led som Ämne (610 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Göteborgs universitet samt Organisation/Namn på underordnad enhet: Rättsvetenskapliga institutionen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-#### Jurisdiktion i ett led som Ämne
+#### Jurisdiktion som Ämne
 * Jurisdiktion i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Jurisdiktion/Namn: Luleå kommun (Sverige)```
 
-#### Jurisdiktion i flera led som Ämne
 * Jurisdiktion i flera led som Ämne (610 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Åmåls kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Utbildningsförvaltningen```
