@@ -24,7 +24,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#person-som-amne) |
 | [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#fiktiv-gestalt-som-amne) |
 | [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
-| [Släkt som Medverkan](#slakt-som-medverkan) | [Jurisdiktion som Ämne](#jurisdiktion-som-amne) |
+| [Släkt som Medverkan](#slakt-som-medverkan) | [Jurisdiktion som Ämne](#organisation-som-amne) |
 | [Möte som Medverkan](#mote-som-medverkan) | [Släkt som Ämne](#jurisdiktion-som-amne) |
 | [X](#x) | [Möte som Ämne](#mote-som-amne) | |
 | | [X](#x) | |
@@ -119,7 +119,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Göteborgs universitet samt Organisation/Namn på underordnad enhet: Rättsvetenskapliga institutionen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-#### Jurisdiktion som amne
+#### Jurisdiktion som Ämne
 * Jurisdiktion i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Jurisdiktion/Namn: Luleå kommun (Sverige)```
