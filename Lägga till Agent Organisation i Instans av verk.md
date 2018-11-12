@@ -38,8 +38,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
+  * ```Potter, Harry, (fiktiv gestalt)```
   * ```Arbetslivscentrum```
-  * ```Windsor (kungahus:, 1917-)```
+  * ```Windsor (kungahus: 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
 
 #### Länka Funktion
@@ -54,7 +55,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Person som Medverkan
 * Person som medverkan (100 ‡a, 700 ‡a)
-
+<br/>Klicka på plustecknet vid Medverkan och välj Person i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+ <br/>```Exempel: Karlsson, Dag, 1940-```
+ 
 #### Organisation som Medverkan
 * Organisation i ett led som medverkan (110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
@@ -77,6 +80,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Släkt som Medverkan
 * Släkt som Medverkan (600)
+<br/>Klicka på plustecknet vid Medverkan och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+  <br/>```Exempel: Ibsen (släkt)```
 
 ### Agenter som Ämne
 
@@ -85,15 +90,22 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
+  * ```Potter, Harry, (fiktiv gestalt)```
   * ```Arbetslivscentrum```
-  * ```Windsor (kungahus:, 1917-)```
+  * ```Windsor (kungahus: 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
 
 #### Person som Ämne
-* Person som medverkan (600)
+* Person som Ämne (600)
+<br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+ <br/>```Exempel: Karlsson, Dag, 1940-```
 
 #### Fiktiv gestalt som Ämne
 * Fiktiv gestalt som Ämne (600)
+<br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ta bort de egenskaper som inte används med papperskorgen t ex Födelse och/eller dödstid. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in namnet.
+  <br/>```Exempel:```
+  * ```Namn: Bambi samt Titel eller övrig beteckning: (fiktiv gestalt)```
+  * ```Efternamn/Förnamn: Granger, Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
 
 #### Organisation som Ämne
 * Organisation i ett led som Ämne (610)
@@ -117,4 +129,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Släkt som Ämne
 * Släkt som Ämne (600)
-
+<br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+  <br/>```Exempel: Tiger (släkt), 1600-talet```
+  
