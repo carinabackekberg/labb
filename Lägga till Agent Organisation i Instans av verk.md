@@ -25,7 +25,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#fiktiv-gestalt-som-amne) |
 | [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
 | [Släkt som Medverkan](#slakt-som-medverkan) | [Jurisdiktion som Ämne](#jurisdiktion-som-amne) |
-| [Möte som Medverkan](#mote-som-medverkan) | [Släkt som Ämne](#slakt-som-amne) |
+| [Möte som Medverkan](#mote-som-medverkan) | [Släkt som Ämne](#jurisdiktion-som-amne) |
 | [X](#x) | [Möte som Ämne](#mote-som-amne) | |
 | | [X](#x) | |
  
@@ -129,7 +129,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Åmåls kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Utbildningsförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-#### Släkt som amne
+#### Släkt som Ämne
 * Släkt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Tiger (släkt), 1600-talet```
