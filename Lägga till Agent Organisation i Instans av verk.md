@@ -21,8 +21,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Länka Medverkan](#agenter-som-medverkan) | [Länka Ämne](#agenter-som-amne) |
 | [Länka Funktion](#agenter-som-medverkan) |
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet)
-| [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#person-som-amne) |
-| [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#fiktiv-gestalt-som-amne) |
+| [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#agenter-som-amne) |
+| [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#agenter-som-amne) |
 | [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
 | [Släkt som Medverkan](#slakt-som-medverkan) | [Jurisdiktion som Ämne](#organisation-som-amne) |
 | [Möte som Medverkan](#mote-som-medverkan) | [Släkt som Ämne](#jurisdiktion-som-amne) |
@@ -87,7 +87,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Agenter som amne
 
-#### Länka amne
+#### Länka Ämne
 * Länka Ämne (600,610,611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
@@ -97,12 +97,12 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Windsor (kungahus: 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
 
-#### Person som amne
+#### Person som Ämne
 * Person som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in namnet.
  <br/>```Exempel: Karlsson, Dag, 1940-```
 
-#### Fiktiv gestalt som amne
+#### Fiktiv gestalt som Ämne
 * Fiktiv gestalt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ta bort de egenskaper som inte används med papperskorgen t ex Födelse och/eller dödstid. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in namnet.
   <br/>```Exempel:```
