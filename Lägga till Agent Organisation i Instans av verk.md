@@ -1,5 +1,5 @@
 
-UNDER ARBETE (uppdaterad 2018-11-09)
+UNDER ARBETE (uppdaterad 2018-11-12)
 
 ## Lägga till Agenter i Instans av verk
 
