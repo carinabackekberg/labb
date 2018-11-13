@@ -1,7 +1,7 @@
 
 UNDER ARBETE (uppdaterad 2018-11-13)
 
-## Lägga till Agenter i Instans av verk
+## Agenter i Instans av verk
 
 Hjälptexten beskriver hur man lägger till Agenter vid Medverkan och funktion samt som Ämne. Saknas egenskaper för Medverkan och Funktion eller Ämne läggs de till genom att klicka på plustecknet vid Text.
 
