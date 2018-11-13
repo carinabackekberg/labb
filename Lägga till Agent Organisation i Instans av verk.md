@@ -119,7 +119,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Organisation som amne
 * Organisation i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
-  <br/>```Exempel: Organisation/Namn: Landsnora kvarn och såg```
+  <br/>```Exempel: Landsnora kvarn och såg```
 
 * Organisation i flera led som Ämne (610 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
@@ -129,7 +129,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Jurisdiktion som Ämne
 * Jurisdiktion i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
-  <br/>```Exempel: Jurisdiktion/Namn: Luleå kommun (Sverige)```
+  <br/>```Exempel: Luleå kommun (Sverige)```
 
 * Jurisdiktion i flera led som Ämne (610 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
