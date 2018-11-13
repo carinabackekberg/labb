@@ -90,7 +90,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 * Möte som Medverkan (111, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Datum: 2006 samt Ordningstal: 21```
-  <br/>OBS! I nuläget går det inte att lägga till Plats för mötet.
+  <br/>OBS! Det fungerar inte att lägga till Plats för mötet i nuläget.
 
 ### Agenter som amne
 
@@ -145,5 +145,5 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 * Möte som Ämne (611)
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in namnet.
  <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1995 samt Ordningstal: 2```
-  <br/>OBS! I nuläget går det inte att lägga till Plats för mötet.
+  <br/>OBS! Det fungerar inte att lägga till Plats för mötet i nuläget.
   
