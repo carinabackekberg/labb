@@ -41,8 +41,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Lindgren, Astrid, 1907-2002```
   * ```Potter, Harry, (fiktiv gestalt)```
   * ```Arbetslivscentrum```
-  * ```Windsor (kungahus: 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
+  * ```Windsor (kungahus: 1917-)```
+  * ```Olympiska spelen. 2012```
 
 #### Länka Funktion
 * Länka Funktion (100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
@@ -98,12 +99,13 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 * Länka Ämne (600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
-  * ```Lindgren, Astrid, 1907-2002```
+   * ```Lindgren, Astrid, 1907-2002```
   * ```Potter, Harry, (fiktiv gestalt)```
   * ```Arbetslivscentrum```
-  * ```Windsor (kungahus: 1917-)```
   * ```Sverige. Landsbygdsdepartementet```
-
+  * ```Windsor (kungahus: 1917-)```
+  * ```Olympiska spelen. 2012```
+  
 #### Person som Ämne
 * Person som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in namnet.
@@ -144,6 +146,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Möte som Ämne
 * Möte som Ämne (611)
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in namnet.
- <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1995 samt Ordningstal: 2```
+ <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1999 samt Ordningstal: 2```
   <br/>OBS! Det fungerar inte att lägga till Plats för mötet i nuläget.
   
