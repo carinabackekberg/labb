@@ -43,7 +43,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Arbetslivscentrum```
   * ```Sverige. Landsbygdsdepartementet```
   * ```Windsor (kungahus: 1917-)```
-  * ```Olympiska spelen. 2012```
+  * ```Olympiska spelen, 2012```
 
 #### Länka Funktion
 * Länka Funktion (100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
@@ -104,7 +104,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Arbetslivscentrum```
   * ```Sverige. Landsbygdsdepartementet```
   * ```Windsor (kungahus: 1917-)```
-  * ```Olympiska spelen. 2012```
+  * ```Olympiska spelen, 2012```
   
 #### Person som Ämne
 * Person som Ämne (600)
