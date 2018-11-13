@@ -27,8 +27,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#agenter-som-amne) |
 | [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
 | [Släkt som Medverkan](#jurisdiktion-som-medverkan) | [Jurisdiktion som Ämne](#organisation-som-amne) |
-| [Möte som Medverkan](#jurisdiktion-som-medverkan) | [Släkt som Ämne](#jurisdiktion-som-amne) |
-| | [Möte som Ämne](#jurisdiktion-som-amne) |
+| [Möte som Medverkan](#jurisdiktion-som-medverkan) | [Släkt som Ämne](#organisation-som-amne) |
+| | [Möte som Ämne](#organisation-som-amne) |
  
 
 
