@@ -22,7 +22,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | ------ | ----------- |
 | [Länka Medverkan](#agenter-som-medverkan) | [Länka Ämne](#agenter-som-amne) |
 | [Länka Funktion](#agenter-som-medverkan) |
-| [**Skapa olänkad agent**](#skapa-olänkad-agent) | [**Skapa olänkad agent**](#skapa-olänkad-agent)
+| [**Skapa olänkad Agent**](#skapa-olänkad-agent) | [**Skapa olänkad Agent**](#skapa-olänkad-agent)
 | [Person som Medverkan](#person-som-medverkan) | [Person som Ämne](#agenter-som-amne) |
 | [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#agenter-som-amne) |
 | [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
@@ -52,7 +52,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Illustratör, ill```
   * ```Utgivare, pbl```
 
-### Skapa olänkad agent
+### Skapa olänkad Agent
 
 #### Person som Medverkan
 * Person som medverkan (100 ‡a, 700 ‡a)
