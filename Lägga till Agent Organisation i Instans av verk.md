@@ -71,7 +71,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Karolinska universitetssjukhuset samt Organisation/Namn på underordnad enhet: Ekonomiavdelningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-#### Jurisdiktion som medverkan
+#### Jurisdiktion som Medverkan
 
 * Jurisdiktion i ett led som medverkan (110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
@@ -93,7 +93,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Datum: 2006 samt Ordningstal: 21```
   <br/>OBS! Det fungerar inte att lägga till Plats för mötet i nuläget.
 
-### Agenter som amne
+### Agenter som Amne
 
 #### Länka Ämne
 * Länka Ämne (600, 610, 611)
@@ -118,7 +118,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Namn: Bambi samt Titel eller övrig beteckning: (fiktiv gestalt)```
   * ```Efternamn/Förnamn: Granger, Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
 
-#### Organisation som amne
+#### Organisation som Amne
 * Organisation i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Landsnora kvarn och såg```
