@@ -5,9 +5,9 @@ UNDER ARBETE (uppdaterad 2018-11-13)
 
 Hjälptexten beskriver hur man lägger till Agenter vid Medverkan och funktion samt som Ämne. Saknas egenskaper för Medverkan och Funktion eller Ämne läggs de till genom att klicka på plustecknet vid Text.
 
-Var noggrann vid sökning efter Agenten och länka om möjligt. Vid behov skapa ny Agent. Använd de mallar som finns vid Skapa ny - Agent tillsammans med de hjälptexter för Agenter som finns i Hjälpsektion.
+Var noggrann vid sökning efter Agenten och länka om möjligt. Vid behov skapa ny Agent. Använd de mallar som finns vid Skapa ny - Agent tillsammans med de hjälptexter för Agenter som finns i Hjälpsektion. OBS! I nuläget finns det endast mallar för Agent Person och Agent Organisation.
 
-Enligt de riktlinjer som finns för det löpande auktoritetsarbetet i Libris skapas inte alltid auktoritetsposter, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). För dessa fall följ anvisningarna nedan för att skapa olika typer av olänkade agenter.
+Enligt de riktlinjer som finns för löpande auktoritetsarbetet i Libris skapas inte alltid auktoritetsposter, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). För dessa fall följ anvisningarna nedan för att skapa olika typer av olänkade agenter.
 
 För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
 
