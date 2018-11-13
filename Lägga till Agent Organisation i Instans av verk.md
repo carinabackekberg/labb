@@ -27,8 +27,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Organisation som Medverkan](#organisation-i-ett-led-som-medverkan) | [Fiktiv gestalt som Ämne](#agenter-som-amne) |
 | [Jurisdiktion som Medverkan](#jurisdiktion-som-medverkan) | [Organisation som Ämne](#organisation-som-amne) |
 | [Släkt som Medverkan](#jurisdiktion-som-medverkan) | [Jurisdiktion som Ämne](#organisation-som-amne) |
-| | [Släkt som Ämne](#jurisdiktion-som-amne) |
-
+| [Möte som Medverkan](#jurisdiktion-som-medverkan) | [Släkt som Ämne](#jurisdiktion-som-amne) |
+| | [Möte som Ämne](#jurisdiktion-som-amne) |
  
 
 
@@ -36,7 +36,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Länka Medverkan
 * Länka Medverkan (100,110,111,700,710,711)
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka sedan på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Potter, Harry, (fiktiv gestalt)```
@@ -56,7 +56,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Person som Medverkan
 * Person som medverkan (100 ‡a, 700 ‡a)
-<br/>Klicka på plustecknet vid Medverkan och välj Person i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in namnet.
  <br/>```Exempel: Karlsson, Dag, 1940-```
  
 #### Organisation som Medverkan
@@ -72,19 +72,25 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Jurisdiktion som medverkan
 
-* Jurisdiktion i ett led som medverkan (710 ‡a)
+* Jurisdiktion i ett led som medverkan (110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Luleå kommun (Sverige)```
 
-* Jurisdiktion i flera led som medverkan (710 ‡a ‡b)
+* Jurisdiktion i flera led som medverkan (110 ‡a ‡b, 710 ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Vänersborgs kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Socialförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
 #### Släkt som Medverkan
-* Släkt som Medverkan (600)
-<br/>Klicka på plustecknet vid Medverkan och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+* Släkt som Medverkan (100, 700)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Ibsen (släkt)```
+  
+#### Möte som Medverkan
+* Möte som Medverkan (111, 711)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+  <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Datum: 2006 samt Ordningstal: 21```
+  <br/>OBS! I nuläget går det inte att lägga till Plats för mötet.
 
 ### Agenter som amne
 
@@ -101,7 +107,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Person som Ämne
 * Person som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in namnet.
- <br/>```Exempel: Karlsson, Dag, 1940-```
+ <br/>```Exempel: Goodman, Amy```
 
 #### Fiktiv gestalt som Ämne
 * Fiktiv gestalt som Ämne (600)
@@ -134,4 +140,10 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 * Släkt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
   <br/>```Exempel: Tiger (släkt), 1600-talet```
+  
+#### Möte som Ämne
+* Möte som Ämne (611)
+<br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+ <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1995 samt Ordningstal: 2```
+  <br/>OBS! I nuläget går det inte att lägga till Plats för mötet.
   
