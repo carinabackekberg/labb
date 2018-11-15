@@ -33,7 +33,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Länka
 
-* Länka Primär medverkan/Medverkan (100, 110, 111, 700, 710, 711)
+* Primär medverkan/Medverkan (100, 110, 111, 700, 710, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
@@ -43,7 +43,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Windsor (kungahus: 1917-)```
   * ```Olympiska spelen, 2012```
 
-* Länka Funktion (100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
+* Funktion (100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
 <br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
 <br/>```Exempel:```
   * ```Författare, aut```
@@ -54,7 +54,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Länka
 
-* Länka Ämne (600, 610, 611)
+* Ämne (600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
    * ```Lindgren, Astrid, 1907-2002```
