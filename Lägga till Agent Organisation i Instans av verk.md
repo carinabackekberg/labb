@@ -19,7 +19,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 | [Agent som Medverkan och funktion](#agent-som-medverkan-och-funktion)  | [Agent som Ämne](#agent-som-amne)
 | ------ | ------- |
-| [Länka befintlig Agent](#agent-som-medverkan-och-funktion) | [Länka befintlig Agent](#agent-som-amne) |
+| [Länka till entitet](#agent-som-medverkan-och-funktion) | [Länka entitet](#agent-som-amne) |
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet) 
 | [Person](#person) | [Person](#person)
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
@@ -31,7 +31,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Agent som Medverkan och funktion
 
-#### Länka befintlig Agent
+#### Länka till entitet
 
 * Primär medverkan/Medverkan (100, 110, 111, 700, 710, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
@@ -52,7 +52,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Agent som Amne
 
-#### Länka befintlig Agent
+#### Länka till entitet
 
 * Ämne (600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
