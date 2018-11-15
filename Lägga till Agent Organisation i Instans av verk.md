@@ -29,14 +29,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Jurisdiktion](#jurisdiktion) | 
 | [Släkt](#jurisdiktion) 
 | [Möte](#jurisdiktion) | 
-
-
-| [Agenter som Medverkan](#agenter-som-medverkan) | [Agenter som Ämne](#agenter-som-amne)
-| ------ | ----------- |
-| [Länka Medverkan](#agenter-som-medverkan) | [Länka Ämne](#agenter-som-amne) |
-| [Länka Funktion](#agenter-som-medverkan) |
-| [**Skapa olänkad Agent**](#skapa-olänkad-agent) | [**Skapa olänkad Agent**](#skapa-olänkad-agent)
- 
  
 
 ### Lanka Agenter
