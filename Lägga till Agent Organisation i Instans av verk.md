@@ -17,7 +17,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Innehåll
 
-| [Länka befintlig agent](#lanka-befintlig-agent) |
+| [Länka befintlig Agent](#lanka-befintlig-agent) |
 | ------ |
 | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Ämne](#amne) |
