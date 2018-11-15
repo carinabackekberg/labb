@@ -30,7 +30,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Möte](#jurisdiktion) | 
  
 
-### Lanka befintlig agnet
+### Lanka befintlig agent
 
 #### Medverkan och funktion
 
