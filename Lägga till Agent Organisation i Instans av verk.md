@@ -17,9 +17,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Innehåll
 
-| [Agent som Medverkan och funktion](#agenter-som-medverkan-och-funktion)  | [Agent som Ämne](#agenter-som-amne)
+| [Agent som Medverkan och funktion](#agent-som-medverkan-och-funktion)  | [Agent som Ämne](#agent-som-amne)
 | ------ | ------- |
-| [Länka befintlig Agent](#agenter-som-medverkan-och-funktion) | [Länka befintlig Agent](#agenter-som-amne) |
+| [Länka befintlig Agent](#agent-som-medverkan-och-funktion) | [Länka befintlig Agent](#agent-som-amne) |
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet) 
 | [Person](#person) | [Person](#person)
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
@@ -29,7 +29,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | | [Möte](#jurisdiktion) |
 
 
-### Agenter som Medverkan och funktion
+### Agent som Medverkan och funktion
 
 #### Länka befintlig agent
 
@@ -50,7 +50,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Illustratör, ill```
   * ```Utgivare, pbl```
 
-#### Agenter som Amne
+#### Agent som Amne
 
 #### Länka befintlig agent
 
