@@ -17,9 +17,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Innehåll
 
-| [Agenter som Medverkan och funktion](#agenter-som-medverkan-och-fukntion)  | [Agenter som Ämne](#agenter-som-amne)
+| [Agenter som Medverkan och funktion](#agenter-som-medverkan-och-funntion)  | [Agenter som Ämne](#agenter-som-amne)
 | ------ | ------- |
-| [Länka Medverkan och funktion](#agenter-som-medverkan-och-fukntion) | [Länka Ämne](#agenter-som-amne) |
+| [Länka Medverkan och funktion](#agenter-som-medverkan-och-funktion) | [Länka Ämne](#agenter-som-amne) |
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet) 
 | [Person](#person) | [Person](#person)
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
