@@ -17,22 +17,21 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Innehåll
 
-| [Länka befintlig Agent](#lanka-befintlig-agent) |
-| ------ |
-| [Medverkan och funktion](#medverkan-och-funktion) |
-| [Ämne](#amne) |
-| [**Skapa lokal entitet**](#skapa-lokal-entitet) |
-| [Person](#person) |
-| [Fiktiv gestalt](#fiktiv-gestalt) |
-| [Organisation](#organisation) |
-| [Jurisdiktion](#jurisdiktion) | 
-| [Släkt](#jurisdiktion) 
-| [Möte](#jurisdiktion) | 
- 
+| [Agenter som Medverkan och funktion](#agenter-som-medverkan-och-fukntion)  | [Agenter som Ämne](#agenter-som-amne)
+| ------ | ------- |
+| [Länka Medverkan och funktion](#lanka-medverkan-och-funktion) | [Länka Ämne](#lanka-amne) |
+| [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet) 
+| [Person](#person) | [Person](#person)
+| [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
+| [Jurisdiktion](#jurisdiktion) | [Organisation](#organisation) |
+| [Släkt](#jurisdiktion) | [Jurisdiktion](#jurisdiktion) |
+| [Möte](#jurisdiktion) | [Släkt](#jurisdiktion)
+| | [Möte](#jurisdiktion) |
 
-### Lanka befintlig agent
 
-#### Medverkan och funktion
+### Agenter som Medverkan och funktion
+
+#### Länka Medverkan och funktion
 
 * Länka Primär medverkan/Medverkan (100, 110, 111, 700, 710, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
@@ -51,7 +50,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Illustratör, ill```
   * ```Utgivare, pbl```
 
-#### Amne
+#### Agenter som Amne
+
+#### Länka Ämne
 
 * Länka Ämne (600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
@@ -76,7 +77,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet.
  <br/>```Exempel: Goodman, Amy```
 
-
 #### Fiktiv gestalt
 
 * Fiktiv gestalt som Ämne (600)
@@ -84,7 +84,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   <br/>```Exempel:```
   * ```Namn: Bambi samt Titel eller övrig beteckning: (fiktiv gestalt)```
   * ```Efternamn/Förnamn: Granger, Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
-
 
 #### Organisation
 
@@ -106,7 +105,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Göteborgs universitet samt Organisation/Namn på underordnad enhet: Rättsvetenskapliga institutionen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-
 #### Jurisdiktion
 
 * Jurisdiktion i ett led som Primär medverkan/Medverkan (110, 710)
@@ -127,7 +125,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Åmåls kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Utbildningsförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-
 #### Släkt
 
 * Släkt som Primär medverkan/Medverkan (100, 700)
@@ -137,8 +134,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 * Släkt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet.
   <br/>```Exempel: Tiger (släkt), 1600-talet```
-    
-  
+
 #### Möte
 
 * Möte som Primär medverkan/Medverkan (111, 711)
