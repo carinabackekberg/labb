@@ -17,7 +17,6 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Innehåll
 
-
 | [Länka](#lanka) |
 | ------ |
 | [Medverkan och funktion](#medverkan-och-funktion) |
