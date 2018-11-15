@@ -18,11 +18,11 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 ### Innehåll
 
 
-| [Länka Agenter](#lanka-agenter) |
+| [Länka](#lanka) |
 | ------ |
 | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Ämne](#amne) |
-| [**Skapa lokal entitet Agenter**](#skapa-lokal-entitet-agenter) |
+| [**Skapa lokal entitet**](#skapa-lokal-entitet) |
 | [Person](#person) |
 | [Fiktiv gestalt](#fiktiv-gestalt) |
 | [Organisation](#organisation) |
@@ -31,7 +31,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Möte](#jurisdiktion) | 
  
 
-### Lanka Agenter
+### Lanka
 
 #### Medverkan och funktion
 
@@ -65,7 +65,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Olympiska spelen, 2012```
     
 
-### Skapa lokal entitet Agenter
+### Skapa lokal entitet
 
 #### Person
 
