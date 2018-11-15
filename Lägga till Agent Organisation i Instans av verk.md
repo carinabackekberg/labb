@@ -22,7 +22,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | ------ |
 | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Ämne](#amne) |
-| [**Skapa lokal entitet - Agenter**](#skapa-lokal-entitet-agenter) |
+| [**Skapa lokal entitet Agenter**](#skapa-lokal-entitet-agenter) |
 | [Person](#person) |
 | [Fiktiv gestalt](#fiktiv-gestalt) |
 | [Organisation](#organisation) |
@@ -65,7 +65,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Olympiska spelen, 2012```
     
 
-### Skapa lokal entitet - Agenter
+### Skapa lokal entitet Agenter
 
 #### Person
 
