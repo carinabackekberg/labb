@@ -17,7 +17,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Innehåll
 
-| [Länka](#lanka) |
+| [Länka befintlig agent](#lanka-befintlig-agent) |
 | ------ |
 | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Ämne](#amne) |
@@ -30,7 +30,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Möte](#jurisdiktion) | 
  
 
-### Lanka
+### Lanka befintlig agnet
 
 #### Medverkan och funktion
 
@@ -102,7 +102,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   <br/>```Exempel: Landsnora kvarn och såg```
 
 * Organisation i flera led som Ämne (610 ‡a ‡b)
-<br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet..
+<br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Göteborgs universitet samt Organisation/Namn på underordnad enhet: Rättsvetenskapliga institutionen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
@@ -114,16 +114,16 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   <br/>```Exempel: Löddeköping kommun (Sverige)```
 
 * Jurisdiktion i flera led som Primär medverkan/Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Vänersborgs kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Socialförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
 * Jurisdiktion i ett led som Ämne (610)
-<br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+<br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet.
    <br/>```Exempel: Löddeköping kommun (Sverige)```
 
 * Jurisdiktion i flera led som Ämne (610 ‡a ‡b)
-<br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv sedan in namnet.
+<br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Ta bort egenskapen Namn med papperkorgen. Klicka istället på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Åmåls kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Utbildningsförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
@@ -131,23 +131,23 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Släkt
 
 * Släkt som Primär medverkan/Medverkan (100, 700)
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet.
   <br/>```Exempel: Ibsen (släkt)```
   
 * Släkt som Ämne (600)
-<br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+<br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet.
   <br/>```Exempel: Tiger (släkt), 1600-talet```
     
   
 #### Möte
 
 * Möte som Primär medverkan/Medverkan (111, 711)
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet.
   <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Datum: 2006 samt Ordningstal: 21```
   <br/>OBS! Det fungerar inte att lägga till Plats för mötet i nuläget.
 
 * Möte som Ämne (611)
-<br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in namnet.
+<br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet.
  <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1999 samt Ordningstal: 2```
   <br/>OBS! Det fungerar inte att lägga till Plats för mötet i nuläget.
   
