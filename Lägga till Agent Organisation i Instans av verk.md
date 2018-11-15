@@ -31,7 +31,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Agenter som Medverkan och funktion
 
-#### Länka Medverkan och funktion
+#### Länka
 
 * Länka Primär medverkan/Medverkan (100, 110, 111, 700, 710, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
@@ -52,7 +52,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Agenter som Amne
 
-#### Länka Ämne
+#### Länka
 
 * Länka Ämne (600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
