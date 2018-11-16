@@ -84,7 +84,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ta bort de egenskaper som inte används med papperskorgen t ex Födelse och/eller dödstid. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Namn: Bambi samt Titel eller övrig beteckning: (fiktiv gestalt)```
-  * ```Efternamn/Förnamn: Granger, Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
+  * ```Efternamn/Förnamn: Granger, Hermione samt Titel eller övrig beteckning: (fiktiv gestalt)```
 
 #### Organisation
 
