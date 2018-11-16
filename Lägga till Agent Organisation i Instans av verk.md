@@ -15,6 +15,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). 
 
 
+
 ### Innehåll
 
 | [Agent som Medverkan och funktion](#agent-som-medverkan-och-funktion)  | [Agent som Ämne](#agent-som-amne)
