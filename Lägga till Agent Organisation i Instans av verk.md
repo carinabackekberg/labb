@@ -1,7 +1,7 @@
 
 UNDER ARBETE (uppdaterad 2018-11-16)
 
-## Lägga till Agenter (byta rubrik???)
+## Lägga till Agenter (byta rubrik?)
 
 Hjälptexten beskriver hur man lägger till Agenter vid Medverkan och funktion samt som Ämne i Instans av Verk. Saknas egenskaper för Medverkan och Funktion eller Ämne läggs de till genom att klicka på plustecknet vid Text.
 
