@@ -1,9 +1,9 @@
 
 UNDER ARBETE (uppdaterad 2018-11-20)
 
-## Lägga till Agenter (byta rubrik?)
+## Lägga till Agent (byta rubrik?)
 
-Hjälptexten beskriver hur man lägger till Agenter vid Medverkan och funktion samt som Ämne i Instans av Verk. Saknas egenskaper för Medverkan och Funktion eller Ämne läggs de till genom att klicka på plustecknet vid Text.
+Hjälptexten beskriver hur man lägger till Agent vid Medverkan och funktion samt som Ämne i Instans av Verk. Saknas egenskaper för Medverkan och Funktion eller Ämne läggs de till genom att klicka på plustecknet vid Text.
 
 Var noggrann vid sökning efter Agenten och länka om möjligt. Vid behov skapa ny Agent. Använd de mallar som finns vid Skapa ny - Agent tillsammans med de hjälptexter för Agenter som finns i Hjälpsektion. OBS! I nuläget finns det endast mallar för Agent Person och Agent Organisation. Om ny Agent inte skapas använd Skapa lokal entitet.
 
