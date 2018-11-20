@@ -74,7 +74,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Wigg, Susan```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
- <br/>```Exempel: Arnaldur Indriðason, 1961-```
+ <br/>```Exempel: Arnaldur Indriðason```
   
 * Person som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
@@ -138,7 +138,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
   
 * Släkt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-  <br/>```Exempel: Tiger (släkt), 1600-talet```
+  <br/>```Exempel: Tiger (släkt) samt Födelsetid och/eller dödstid: 1600-talet```
 
 #### Möte
 
