@@ -72,15 +72,15 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 * Person som Primär medverkan/Medverkan (100, 700)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
- <br/>```Exempel: Wigg, Susan```
+ <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
- <br/>```Exempel: Arnaldur Indriðason```
+ <br/>```Exempel: Namn: Arnaldur Indriðason```
   
 * Person som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
- <br/>```Exempel: Goodman, Amy```
+ <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
- <br/>```Exempel: Leila K```
+ <br/>```Exempel: Namn: Leila K```
 
 #### Fiktiv gestalt
 
@@ -88,13 +88,13 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Namn: Bambi samt Titel eller övrig beteckning: (fiktiv gestalt)```
-  * ```Efternamn/Förnamn: Granger, Hermione samt Titel eller övrig beteckning: (fiktiv gestalt)```
+  * ```Efternamn: Granger samt Förnamn: Hermione samt Titel eller övrig beteckning: (fiktiv gestalt)```
 
 #### Organisation
 
 * Organisation i ett led som Primär medverkan/Medverkan (110, 710)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-  <br/>```Exempel: Västerbottens läns hushållningssällskap```
+  <br/>```Exempel: Namn: Västerbottens läns hushållningssällskap```
 
 * Organisation i flera led som Primär medverkan/Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
@@ -103,7 +103,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 * Organisation i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-  <br/>```Exempel: Landsnora kvarn och såg```
+  <br/>```Exempel: Namn: Landsnora kvarn och såg```
 
 * Organisation i flera led som Ämne (610 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
@@ -114,7 +114,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 * Jurisdiktion i ett led som Primär medverkan/Medverkan (110, 710)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-  <br/>```Exempel: Löddeköping kommun (Sverige)```
+  <br/>```Exempel: Namn: Löddeköping kommun (Sverige)```
 
 * Jurisdiktion i flera led som Primär medverkan/Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
@@ -123,7 +123,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 * Jurisdiktion i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-   <br/>```Exempel: Norra Råda kommun (Sverige)```
+   <br/>```Exempel: Namn: Norra Råda kommun (Sverige)```
 
 * Jurisdiktion i flera led som Ämne (610 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
@@ -134,11 +134,11 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 * Släkt som Primär medverkan/Medverkan (100, 700)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-  <br/>```Exempel: Ibsen (släkt)```
+  <br/>```Exempel: Namn: Ibsen (släkt)```
   
 * Släkt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-  <br/>```Exempel: Tiger (släkt) samt Födelsetid och/eller dödstid: 1600-talet```
+  <br/>```Exempel: Namn: Tiger (släkt) samt Födelsetid och/eller dödstid: 1600-talet```
 
 #### Möte
 
