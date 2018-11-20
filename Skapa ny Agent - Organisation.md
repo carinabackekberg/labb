@@ -157,8 +157,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Identifikator
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. Om ingen Identifikator läggs till behöver egenskapen raderas med papperskorgen.
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+ <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas med papperskorgen.
   
 
 #### Nationalitet
