@@ -73,10 +73,14 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 * Person som Primär medverkan/Medverkan (100, 700)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Wigg, Susan```
- 
+ <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
+ <br/>```Exempel: Arnaldur Indriðason, 1961-```
+  
 * Person som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Goodman, Amy```
+ <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
+ <br/>```Exempel: Leila K```
 
 #### Fiktiv gestalt
 
@@ -119,11 +123,11 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 * Jurisdiktion i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-   <br/>```Exempel: Löddeköping kommun (Sverige)```
+   <br/>```Exempel: Norra Råda kommun (Sverige)```
 
 * Jurisdiktion i flera led som Ämne (610 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-<br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Åmåls kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Utbildningsförvaltningen```
+<br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Riksdagen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
 #### Släkt
