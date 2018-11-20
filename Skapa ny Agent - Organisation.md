@@ -1,9 +1,9 @@
-UNDER ARBETE 18-11-09, (överflyttad till skarpt 18-11-09)
+UNDER ARBETE 18-11-20, (överflyttad till skarpt 18-11-09)
 
 
 ## Skapa ny: Agent - Organisation
 
-Hjälptexten beskriver de egenskaper som finns representerade i mallen. Om något av egenskaperna i mallen inte behövs kan de raderas med hjälp av papperskorgen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten. Exemplen är fiktiva.
+Hjälptexten beskriver de egenskaper som finns representerade i mallen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten. Exemplen är fiktiva.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
@@ -109,7 +109,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>(name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Arbetslivscentrum```
-  <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet. Om egenskapen Namn används måste egenskaperna Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgen vid respektive egenskap.
+  <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
 #### Namn i två led 
 * Är del av/Namn
@@ -118,7 +118,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Stockholms universitet```
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Kännetecknande kan vara att namnet är osjälvständigt och det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av. Om dessa två egenskaper används måste egenskapen Namn raderas. Klicka i så fall på papperskorgen vid egenskapen Namn. 
+  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
   <br/>```Exempel: Centrum för medeltidsstudier```
 <br/>OBS! Det fungerar inte att göra Agent med namn i fler än två led i nuläget.
   
@@ -157,8 +157,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Identifikator
 * Identifikator (identifiedBy = 024 ‡a ‡2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. Om ingen Identifikator läggs till behöver egenskapen raderas med papperskorgen.
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+  
 
 #### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043 ‡a)
