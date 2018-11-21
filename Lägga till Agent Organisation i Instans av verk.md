@@ -92,40 +92,40 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Organisation
 
-* Organisation i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
+* Organisation med namnformen i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Västerbottens läns hushållningssällskap```
 
-* Organisation i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
+* Organisation med namnformen i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Karolinska universitetssjukhuset samt Organisation/Namn på underordnad enhet: Ekonomiavdelningen```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
-* Organisation i ett led som Ämne (Subject/agent/Organization = 610 2/4)
+* Organisation med namnformen i ett led som Ämne (Subject/agent/Organization = 610 2/4)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Kastelholms slott```
 
-* Organisation i flera led som Ämne (Subject/agent/Organization = 610 2/4)
+* Organisation med namnformen i flera led som Ämne (Subject/agent/Organization = 610 2/4)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Göteborgs universitet samt Organisation/Namn på underordnad enhet: Rättsvetenskapliga institutionen```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
 #### Jurisdiktion
 
-* Jurisdiktion i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
+* Jurisdiktion med namnform i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Löddeköping kommun (Sverige)```
 
-* Jurisdiktion i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
+* Jurisdiktion med namnformen i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Vänersborgs kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Socialförvaltningen```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
-* Jurisdiktion i ett led som Ämne (Subject/agent/Jurisdiction = 610 1/4)
+* Jurisdiktion med namnformen i ett led som Ämne (Subject/agent/Jurisdiction = 610 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
    <br/>```Exempel: Namn: Norra Råda kommun (Sverige)```
 
-* Jurisdiktion i flera led som Ämne (Subject/agent/Jurisdiction = 610 1/4)
+* Jurisdiktion med namnformen i flera led som Ämne (Subject/agent/Jurisdiction = 610 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Storbritannien samt Jurisdiktion/Namn på underordnad enhet: Foreign Office```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
