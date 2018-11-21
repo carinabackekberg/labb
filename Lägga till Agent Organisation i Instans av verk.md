@@ -34,7 +34,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Länka till entitet
 
-* Primär medverkan/Medverkan (100, 110, 111, 700, 710, 711)
+* Primär medverkan/Medverkan/Agent (contribution/PrimaryContribution/agent = 100, 110, 111, 700, 710, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
@@ -44,7 +44,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
   * ```Windsor (kungahus: 1917-)```
   * ```Olympiska spelen, 2012```
 
-* Funktion (100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
+* Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
 <br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
 <br/>```Exempel:```
   * ```Författare, aut```
@@ -55,7 +55,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Länka till entitet
 
-* Ämne (600, 610, 611)
+* Ämne/Agent (subject/agent = 600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter Agenten som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
 <br/>```Exempel:```
    * ```Lindgren, Astrid, 1907-2002```
@@ -70,13 +70,13 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Person
 
-* Person som Primär medverkan/Medverkan (100 ‡a ‡d, 700 ‡a ‡d)
+* Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 ‡a, 700 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
  <br/>```Exempel: Namn: Sigfús Daðason```
   
-* Person som Ämne (600 ‡a ‡d)
+* Person som Ämne (Subject/agent/Person = 600 ‡a)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
@@ -84,7 +84,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
  
  #### Fiktiv gestalt
 
-* Fiktiv gestalt som Ämne (600 ‡a ‡c)
+* Fiktiv gestalt som Ämne (Subject/agent/Person = 600 ‡a)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Namn: Bambi samt Titel eller övrig beteckning (fiktiv gestalt)```
@@ -92,7 +92,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Organisation
 
-* Organisation i ett led som Primär medverkan/Medverkan (110 ‡a, 710 ‡a)
+* Organisation i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Västerbottens läns hushållningssällskap```
 
