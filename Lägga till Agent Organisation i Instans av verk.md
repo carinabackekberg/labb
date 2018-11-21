@@ -70,13 +70,13 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Person
 
-* Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 ‡a, 700 ‡a)
+* Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 1/ ‡a, 700 1/ ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
  <br/>```Exempel: Namn: Sigfús Daðason```
   
-* Person som Ämne (Subject/agent/Person = 600 ‡a)
+* Person som Ämne (Subject/agent/Person = 600 1/4 ‡a)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
@@ -84,7 +84,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
  
  #### Fiktiv gestalt
 
-* Fiktiv gestalt som Ämne (Subject/agent/Person = 600 ‡a)
+* Fiktiv gestalt som Ämne (Subject/agent/Person = 1/4 600 ‡a)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Namn: Bambi samt Titel eller övrig beteckning (fiktiv gestalt)```
@@ -92,40 +92,40 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Organisation
 
-* Organisation i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 ‡a, 710 ‡a)
+* Organisation i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ ‡a, 710 2/ ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Västerbottens läns hushållningssällskap```
 
-* Organisation i flera led som Primär medverkan/Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
+* Organisation i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ ‡a ‡b, 710 2/ ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Karolinska universitetssjukhuset samt Organisation/Namn på underordnad enhet: Ekonomiavdelningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-* Organisation i ett led som Ämne (610 ‡a)
+* Organisation i ett led som Ämne (Subject/agent/Organization = 610 2/4 ‡a)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Kastelholms slott```
 
-* Organisation i flera led som Ämne (610 ‡a ‡b)
+* Organisation i flera led som Ämne (Subject/agent/Organization = 610 2/4 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Göteborgs universitet samt Organisation/Namn på underordnad enhet: Rättsvetenskapliga institutionen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
 #### Jurisdiktion
 
-* Jurisdiktion i ett led som Primär medverkan/Medverkan (110 ‡a, 710 ‡a)
+* Jurisdiktion i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ ‡a, 710 1/ ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Löddeköping kommun (Sverige)```
 
-* Jurisdiktion i flera led som Primär medverkan/Medverkan (110 ‡a ‡b, 710 ‡a ‡b)
+* Jurisdiktion i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ ‡a ‡b, 710 1/ ‡a ‡b)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Vänersborgs kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Socialförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-* Jurisdiktion i ett led som Ämne (610 ‡a)
+* Jurisdiktion i ett led som Ämne (Subject/agent/Jurisdiction = 610 1/4 ‡a)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
    <br/>```Exempel: Namn: Norra Råda kommun (Sverige)```
 
-* Jurisdiktion i flera led som Ämne (610 ‡a ‡b)
+* Jurisdiktion i flera led som Ämne (Subject/agent/Jurisdiction = 610 1/4 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Storbritannien samt Jurisdiktion/Namn på underordnad enhet: Foreign Office```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
