@@ -70,13 +70,13 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Person
 
-* Person som Primär medverkan/Medverkan (100, 700)
+* Person som Primär medverkan/Medverkan (100 ‡a ‡d, 700 ‡a ‡d)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
  <br/>```Exempel: Namn: Sigfús Daðason```
   
-* Person som Ämne (600)
+* Person som Ämne (600 ‡a ‡d)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
@@ -84,7 +84,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
  
  #### Fiktiv gestalt
 
-* Fiktiv gestalt som Ämne (600)
+* Fiktiv gestalt som Ämne (600 ‡a ‡c)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Namn: Bambi samt Titel eller övrig beteckning (fiktiv gestalt)```
@@ -92,7 +92,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Organisation
 
-* Organisation i ett led som Primär medverkan/Medverkan (110, 710)
+* Organisation i ett led som Primär medverkan/Medverkan (110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Västerbottens läns hushållningssällskap```
 
@@ -101,7 +101,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Karolinska universitetssjukhuset samt Organisation/Namn på underordnad enhet: Ekonomiavdelningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-* Organisation i ett led som Ämne (610)
+* Organisation i ett led som Ämne (610 ‡a)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Kastelholms slott```
 
@@ -112,7 +112,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Jurisdiktion
 
-* Jurisdiktion i ett led som Primär medverkan/Medverkan (110, 710)
+* Jurisdiktion i ett led som Primär medverkan/Medverkan (110 ‡a, 710 ‡a)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Löddeköping kommun (Sverige)```
 
@@ -121,7 +121,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Vänersborgs kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Socialförvaltningen```
 <br/>OBS! Det fungerar inte att göra namn i fler än två led i nuläget.
 
-* Jurisdiktion i ett led som Ämne (610)
+* Jurisdiktion i ett led som Ämne (610 ‡a)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
    <br/>```Exempel: Namn: Norra Råda kommun (Sverige)```
 
@@ -132,22 +132,22 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 #### Släkt
 
-* Släkt som Primär medverkan/Medverkan (100, 700)
+* Släkt som Primär medverkan/Medverkan (100 ‡a ‡d, 700 ‡a ‡d)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Ibsen (släkt)```
   
-* Släkt som Ämne (600)
+* Släkt som Ämne (600 ‡a ‡d)
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: Tiger (släkt) samt Födelsetid och/eller dödstid: 1600-talet```
 
 #### Möte
 
-* Möte som Primär medverkan/Medverkan (111, 711)
+* Möte som Primär medverkan/Medverkan (111 ‡a ‡d ‡n, 711 ‡a ‡d ‡n)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
   <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Datum: 2006 samt Ordningstal: 21```
   <br/>OBS! Det fungerar inte att lägga till Plats för mötet i nuläget.
 
-* Möte som Ämne (611)
+* Möte som Ämne (611 ‡a ‡d ‡n)
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1999 samt Ordningstal: 2```
   <br/>OBS! Det fungerar inte att lägga till Plats för mötet i nuläget.
