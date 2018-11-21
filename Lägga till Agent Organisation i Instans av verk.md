@@ -81,8 +81,8 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
  <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
  <br/>```Exempel: Namn: Madonna samt Födelsetid och/eller dödstid: 1958-```
-
-#### Fiktiv gestalt
+ 
+ #### Fiktiv gestalt
 
 * Fiktiv gestalt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in uppgiften.
