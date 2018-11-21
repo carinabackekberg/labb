@@ -42,8 +42,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Potter, Harry, (fiktiv gestalt)```
   * ```Arbetslivscentrum```
   * ```Sverige. Landsbygdsdepartementet```
-  * ```Hamrin (släkt: 1841-)```
-  * ```Olympiska spelen, 2012```
+  * ```Kommunikationer i gränsland (konferens)```
 
 * Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
 <br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
