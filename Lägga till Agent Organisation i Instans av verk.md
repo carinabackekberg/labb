@@ -1,19 +1,20 @@
 
 UNDER ARBETE (uppdaterad 2018-11-21)
 
-## Lägga till Agent (byta rubrik?)
+## Relationer till Agent i verksbeskrivningen
 
-Hjälptexten beskriver hur man lägger till Agent vid Medverkan och funktion samt som Ämne i Instans av Verk. Saknas egenskaper för Medverkan och Funktion eller Ämne läggs de till genom att klicka på plustecknet vid Text.
+Hjälptexten innehåller instruktioner för hur man beskriver någon eller något som en typ Agent kopplad till egenskaperna Medverkan och funktion och/eller Ämne i resursens verksbeskrivning.
 
-Var noggrann vid sökning efter Agenten och länka om möjligt. Vid behov skapa ny Agent. Använd de mallar som finns vid Skapa ny - Agent tillsammans med de hjälptexter för Agenter som finns i Hjälpsektion. OBS! I nuläget finns det endast mallar för Agent Person och Agent Organisation. Om ny Agent inte skapas använd Skapa lokal entitet.
+Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid instanstypen.
+
+Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
+
+I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Skapa ny Agent. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation.
 
 För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
 
 För information om katalogiseringsregler som gäller vid auktoritetsarbete, se 
-[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
-
-För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). 
-
+[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete").
 
 
 ### Innehåll
