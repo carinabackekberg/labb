@@ -74,13 +74,13 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
- <br/>```Exempel: Namn: Arnaldur Indriðason```
+ <br/>```Exempel: Namn: Sigfús Daðason```
   
 * Person som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
  <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
- <br/>```Exempel: Namn: Leila K```
+ <br/>```Exempel: Namn: Madonna samt Födelsetid och/eller dödstid: 1958-```
 
 #### Fiktiv gestalt
 
@@ -103,7 +103,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 
 * Organisation i ett led som Ämne (610)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
-  <br/>```Exempel: Namn: Landsnora kvarn och såg```
+  <br/>```Exempel: Namn: Kastelholms slott```
 
 * Organisation i flera led som Ämne (610 ‡a ‡b)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in uppgiften.
