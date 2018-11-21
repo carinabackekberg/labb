@@ -87,7 +87,7 @@ För riktlinjer för löpande auktoritetsarbetet i Libris, se [Riktlinjer för d
 * Fiktiv gestalt som Ämne (600)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Lägg till Egenskapen Titel eller övrig beteckning för att ange (fiktiv gestalt) samt eventuellt egenskapen Namn istället för egenskaperna Efternamn samt Förnamn. Skriv in uppgiften.
   <br/>```Exempel:```
-  * ```Namn: Bambi samt Titel eller övrig beteckning: (fiktiv gestalt)```
+  * ```Namn: Bambi samt samt Titel eller övrig beteckning: (fiktiv gestalt)```
   * ```Efternamn: Granger samt Förnamn: Hermione samt Titel eller övrig beteckning: (fiktiv gestalt)```
 
 #### Organisation
