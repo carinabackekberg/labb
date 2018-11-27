@@ -168,13 +168,13 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Variant
 * Variant (hasVariant = 410 ‡a ‡b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar. 
-<br/>OBS! Det fungerar inte att göra Variant med namn i fler än två led i nuläget.
+<br/>OBS! Det fungerar inte att göra Variant med namnformer i fler än två led i nuläget.
   <br/>```Exempel:```
    * ```Släktforskarförbundet```
    * ```Federation of Swedish Genealogical Societies```
    <br/>För att lägga till namn: Klicka på plustecknet vid egenskapen Variant, och välj typ t ex Organisation.
    
-   ```Exempel på namn i två led:```
+   ```Exempel på namnform i två led:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Smittskyddsinstitutet```
   <br/>För att ange namnform i två led: klicka på plustecknet vid egenskapen Variant, och välj typ t ex Organisation. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj Organisation i rullmenyn för Skapa lokal entitet.
