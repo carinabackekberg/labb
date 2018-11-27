@@ -1,4 +1,4 @@
-UNDER ARBETE uppdaterad 2018-11-22 (överflyttad till skarpt 18-11-22)
+UNDER ARBETE uppdaterad 2018-11-27 (överflyttad till skarpt 18-11-22)
 
 
 ## Redigera befintlig: Agent - Organisation
