@@ -1,5 +1,5 @@
 
-UNDER ARBETE (uppdaterad 2018-11-27)(överflyttad till utvecklingsmiljö 2018-11-23)
+UNDER ARBETE (uppdaterad 2018-11-28)(överflyttad till utvecklingsmiljö 2018-11-28)
 
 ## Relationer till Agent i verksbeskrivningen
 
@@ -7,9 +7,9 @@ Hjälptexten innehåller instruktioner för hur man beskriver någon eller någo
 
 Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid instanstypen.
 
-Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). För ytterligare instruktioner, se [Redigering - Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
+Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
 
-I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Skapa ny Agent. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation.
+I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Skapa ny Agent. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation. För ytterligare instruktioner, se [Redigering - Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
 För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
 
