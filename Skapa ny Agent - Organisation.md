@@ -1,4 +1,4 @@
-UNDER ARBETE 18-11-27, (överflyttad till skarpt 18-11-22)
+UNDER ARBETE 18-11-28, (överflyttad till skarpt 18-11-28)
 
 
 ## Skapa ny: Agent - Organisation
@@ -17,7 +17,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namnform i två led](#namn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
