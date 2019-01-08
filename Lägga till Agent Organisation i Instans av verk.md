@@ -1,11 +1,11 @@
 
-UNDER ARBETE (uppdaterad 2018-11-28)(överflyttad till utvecklingsmiljö 2018-11-28)
+UNDER ARBETE (uppdaterad 2019-01-08)(överflyttad till utvecklingsmiljö 2018-11-28)
 
 ## Relationer till Agent i verksbeskrivningen
 
 Hjälptexten innehåller instruktioner för hur man beskriver någon eller något som en typ Agent kopplad till egenskaperna Medverkan och funktion och/eller Ämne i resursens verksbeskrivning.
 
-Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid instanstypen.
+Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid verkstypen.
 
 Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
 
