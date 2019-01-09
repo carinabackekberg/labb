@@ -35,7 +35,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 ### Agent som Primar medverkan eller Medverkan
 
-#### Länka till entitet
+### Länka till entitet
 
 #### Agent
 
@@ -60,7 +60,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 ### Agent som Amne
 
-#### Länka till entitet
+### Länka till entitet
 
 #### Ämne
 
