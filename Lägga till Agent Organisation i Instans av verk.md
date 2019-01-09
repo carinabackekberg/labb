@@ -9,7 +9,7 @@ Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk.
 
 Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
 
-I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Skapa ny Agent. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation.
+I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Hjälptexter Agenter. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation.
 
 För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
 
@@ -27,8 +27,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
 | [Jurisdiktion](#jurisdiktion) | [Organisation](#organisation) |
 | [Släkt](#jurisdiktion) | [Jurisdiktion](#jurisdiktion) |
-| [Möte](#jurisdiktion) | [Släkt](#jurisdiktion)
-| | [Möte](#jurisdiktion) |
+| [Möte](#mote) | [Släkt](#jurisdiktion)
+| | [Möte](#mote) |
 
 
 ### Agent som Primar medverkan eller Medverkan
@@ -142,7 +142,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: Funkti
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Hilton (släkt) samt Födelsetid och/eller dödstid: 1900-talet-```
 
-#### Möte
+#### Mote
 
 * Möte som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/ , 711 2/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
