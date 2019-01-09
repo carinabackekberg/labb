@@ -57,6 +57,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * ```Författare, aut```
   * ```Illustratör, ill```
   * ```Utgivare, pbl```
+OBS! Funktion länkas vid behov även vid Skapa lokal entitet.  
 
 ### Agent som Amne
 
