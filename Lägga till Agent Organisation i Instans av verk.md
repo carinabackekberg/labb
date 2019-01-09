@@ -1,7 +1,7 @@
 
-UNDER ARBETE (uppdaterad 2019-01-08)(överflyttad till utvecklingsmiljö 2018-11-28)
+UNDER ARBETE (uppdaterad 2019-01-09)(överflyttad till utvecklingsmiljö 2018-11-28)
 
-## Relationer till Agent i verksbeskrivningen
+## Relationer till Agent
 
 Hjälptexten innehåller instruktioner för hur man beskriver någon eller något som en typ Agent kopplad till egenskaperna Medverkan och funktion och/eller Ämne i resursens verksbeskrivning.
 
@@ -45,7 +45,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Kommunikationer i gränsland (konferens)```
 
 * Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
-<br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
+<br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion och sök fram en funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod och länka.
+För en sorterad lista på koder, se Formathandboken för Libris/Voyager: Funktions- och relationskoder
+
 <br/>```Exempel:```
   * ```Författare, aut```
   * ```Illustratör, ill```
