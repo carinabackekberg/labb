@@ -56,7 +56,52 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * ```Författare, aut```
   * ```Illustratör, ill```
   * ```Utgivare, pbl```
-OBS! Funktion länkas vid behov även vid Skapa lokal entitet.  
+OBS! Funktion länkas vid behov även om lokal entitet skapas.
+
+#### Skapa lokal entitet
+
+##### Person
+
+* Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 1/ , 700 1/ )
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+ <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
+ <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
+ <br/>```Exempel: Namn: Sigfús Daðason```
+
+##### Organisation
+
+* Organisation med namnformen i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+  <br/>```Exempel: Namn: Vikingeskibsmuseet (Roskilde)```
+
+* Organisation med namnformen i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+<br/>```Exempel: Organisation/Är del av/Organisation/Namn: British Library samt Organisation/Namn på underordnad enhet: Department of Oriental Manuscripts and Printed Books```
+<br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
+
+##### Jurisdiktion
+
+* Jurisdiktion med namnform i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+  <br/>```Exempel: Namn: Region Hovedstaden (Danmark)```
+
+* Jurisdiktion med namnformen i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+<br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Danmark samt Jurisdiktion/Namn på underordnad enhet: Folketinget```
+<br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
+
+##### Släkt
+
+* Släkt som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Family = 100 3/ , 700 3/ )
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+  <br/>```Exempel: Namn: Ibsen (släkt)```
+  
+##### Mote
+
+* Möte som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/ , 711 2/ )
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+  <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Datum: 2006 samt Ordningstal: 21``` 
+  
 
 ### Agent som Amne
 
@@ -77,21 +122,15 @@ OBS! Funktion länkas vid behov även vid Skapa lokal entitet.
 
 ### Skapa lokal entitet
 
-#### Person
+##### Person
 
-* Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 1/ , 700 1/ )
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
- <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
- <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
- <br/>```Exempel: Namn: Sigfús Daðason```
-  
 * Person som Ämne (Subject/agent/Person = 600 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
  <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in korrekt namnform.
  <br/>```Exempel: Namn: Madonna samt Födelsetid och/eller dödstid: 1958-```
  
-#### Fiktiv gestalt
+##### Fiktiv gestalt
 
 * Fiktiv gestalt som Ämne (Subject/agent/Person = 600 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ange personnamnet enligt samma princip som för en verklig person. Tillägget "(fiktiv gestalt)" läggs till via egenskapen Titel eller övrig beteckning.
@@ -99,16 +138,7 @@ OBS! Funktion länkas vid behov även vid Skapa lokal entitet.
   * ```Namn: Bambi samt Titel eller övrig beteckning (fiktiv gestalt)```
   * ```Efternamn: Granger samt Förnamn: Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
 
-#### Organisation
-
-* Organisation med namnformen i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
-  <br/>```Exempel: Namn: Vikingeskibsmuseet (Roskilde)```
-
-* Organisation med namnformen i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
-<br/>```Exempel: Organisation/Är del av/Organisation/Namn: British Library samt Organisation/Namn på underordnad enhet: Department of Oriental Manuscripts and Printed Books```
-<br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
+##### Organisation
 
 * Organisation med namnformen i ett led som Ämne (Subject/agent/Organization = 610 2/4)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
@@ -119,16 +149,7 @@ OBS! Funktion länkas vid behov även vid Skapa lokal entitet.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Library of Congress samt Organisation/Namn på underordnad enhet: Federal Research Division```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
-#### Jurisdiktion
-
-* Jurisdiktion med namnform i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
-  <br/>```Exempel: Namn: Region Hovedstaden (Danmark)```
-
-* Jurisdiktion med namnformen i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
-<br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Danmark samt Jurisdiktion/Namn på underordnad enhet: Folketinget```
-<br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
+##### Jurisdiktion
 
 * Jurisdiktion med namnformen i ett led som Ämne (Subject/agent/Jurisdiction = 610 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
@@ -139,21 +160,13 @@ OBS! Funktion länkas vid behov även vid Skapa lokal entitet.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Storbritannien samt Jurisdiktion/Namn på underordnad enhet: MI5```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
-#### Släkt
-
-* Släkt som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Family = 100 3/ , 700 3/ )
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
-  <br/>```Exempel: Namn: Ibsen (släkt)```
+##### Släkt
   
 * Släkt som Ämne (Subject/agent/Family = 600 3/ )
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Hilton (släkt) samt Födelsetid och/eller dödstid: 1900-talet-```
-
-#### Mote
-
-* Möte som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/ , 711 2/ )
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
-  <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Datum: 2006 samt Ordningstal: 21```
+  
+##### Mote   
 
 * Möte som Ämne (Subject/agent/Meeting = 611 2/ )
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
