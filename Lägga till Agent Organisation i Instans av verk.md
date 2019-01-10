@@ -40,7 +40,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Primär medverkan eller Medverkan
 
 * Primär medverkan/Medverkan/Agent (contribution/PrimaryContribution/agent = 100, 110, 111, 700, 710, 711)
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Potter, Harry, (fiktiv gestalt)```
@@ -51,7 +51,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Funktion 
 
 * Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
-<br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion och sök fram en funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod och länka.
+<br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion och sök fram en funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod och länka genom att klicka på plustecknet vid koden eller på koden.
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
 <br/>```Exempel:```
   * ```Författare, aut```
@@ -66,7 +66,7 @@ OBS! Funktion länkas vid behov även vid Skapa lokal entitet.
 #### Ämne
 
 * Ämne/Agent (subject/agent = 600, 610, 611)
-<br/>Klicka på plustecknet vid Ämne. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
+<br/>Klicka på plustecknet vid Ämne. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Potter, Harry, (fiktiv gestalt)```
