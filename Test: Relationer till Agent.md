@@ -24,11 +24,11 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan) | [Ämne](#agent-som-amne)
 | [Funktion](#funktion)
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#agent-som-amne) 
-| [Person](#person-som-primar-medverkan-eller-medverkan) | [Person](#person)
+| [Person](#person) | [Person](#agent-som-amne)
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
-| [Jurisdiktion](#jurisdiktion) | [Organisation](#organisation) |
-| [Släkt](#jurisdiktion) | [Jurisdiktion](#jurisdiktion) |
-| [Möte](#mote) | [Släkt](#jurisdiktion)
+| [Jurisdiktion](#jurisdiktion) | [Organisation](#fiktiv-gestalt) |
+| [Släkt](#jurisdiktion) | [Jurisdiktion](#fiktiv-gestalt) |
+| [Möte](#mote) | [Släkt](#fiktiv-gestalt)
 | | [Möte](#mote) |
 
 
@@ -59,7 +59,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Skapa lokal entitet
 
-##### Person som Primar medverkan eller Medverkan
+##### Person
 
 * Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 1/ , 700 1/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
