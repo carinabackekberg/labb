@@ -24,9 +24,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan) | [Ämne](#agent-som-amne)
 | [Funktion](#funktion)
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#agent-som-amne) 
-| [Person](#person) | [Person](#agent-som-amne)
-| [Organisation](#organisation) | [Fiktiv gestalt](#agent-som-amne) |
-| [Jurisdiktion](#jurisdiktion) | [Organisation](#agent-som-amne) |
+| [Person](#person) | [Person](#person-som-amne)
+| [Organisation](#organisation) | [Fiktiv gestalt](#person-som-amne) |
+| [Jurisdiktion](#jurisdiktion) | [Organisation](#person-som-amne) |
 | [Släkt](#jurisdiktion) | [Jurisdiktion](#jurisdiktion-som-amne) |
 | [Möte](#mote) | [Släkt](#jurisdiktion-som-amne)
 | | [Möte](#jurisdiktion-som-amne) |
@@ -129,7 +129,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in korrekt namnform.
  <br/>```Exempel: Namn: Madonna samt Födelsetid och/eller dödstid: 1958-```
  
-##### Fiktiv gestalt som Amne
+##### Fiktiv gestalt som Ämne
 
 * Fiktiv gestalt som Ämne (Subject/agent/Person = 600 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ange personnamnet enligt samma princip som för en verklig person. Tillägget "(fiktiv gestalt)" läggs till via egenskapen Titel eller övrig beteckning.
@@ -137,7 +137,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * ```Namn: Bambi samt Titel eller övrig beteckning (fiktiv gestalt)```
   * ```Efternamn: Granger samt Förnamn: Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
 
-##### Organisation som Amne
+##### Organisation som Ämne
 
 * Organisation med namnformen i ett led som Ämne (Subject/agent/Organization = 610 2/4)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
