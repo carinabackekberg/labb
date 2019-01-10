@@ -21,10 +21,10 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Agent som Medverkan och funktion](#agent-som-medverkan-och-funktion)  | [Agent som Ämne](#agent-som-amne)
 | ------ | ------- |
 | [**Länka till entitet**](#agent-som-medverkan-och-funktion) | [**Länka till entitet**](#agent-som-amne) |
-| [Primär medverkan eller Medverkan](#primär-medverkan-eller-medverkan) | [Ämne](#agent-som-amne)
+| [Primär medverkan eller Medverkan](#agent-som-medverkan-och-funktion) | [Ämne](#agent-som-amne)
 | [Funktion](#funktion)
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet) 
-| [Person](#person) | [Person](#person)
+| [Person](#person-som medverkan) | [Person](#person)
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
 | [Jurisdiktion](#jurisdiktion) | [Organisation](#organisation) |
 | [Släkt](#jurisdiktion) | [Jurisdiktion](#jurisdiktion) |
@@ -60,7 +60,7 @@ OBS! Funktion länkas vid behov även om lokal entitet skapas.
 
 #### Skapa lokal entitet
 
-##### Person
+##### Person som Primär medverkan eller Medverkan
 
 * Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 1/ , 700 1/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
