@@ -23,7 +23,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [**Länka till entitet**](#agent-som-primar-medverkan-eller-medverkan) | [**Länka till entitet**](#agent-som-amne) |
 | [Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan) | [Ämne](#agent-som-amne)
 | [Funktion](#funktion)
-| [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet) 
+| [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#agent-som-amne) 
 | [Person](#person-som-primar-medverkan-eller-medverkan) | [Person](#person)
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
 | [Jurisdiktion](#jurisdiktion) | [Organisation](#organisation) |
