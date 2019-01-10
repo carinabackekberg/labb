@@ -25,11 +25,11 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Funktion](#funktion)
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#agent-som-amne) 
 | [Person](#person) | [Person](#agent-som-amne)
-| [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
-| [Jurisdiktion](#jurisdiktion) | [Organisation](#fiktiv-gestalt) |
-| [Släkt](#jurisdiktion) | [Jurisdiktion](#fiktiv-gestalt) |
-| [Möte](#mote) | [Släkt](#fiktiv-gestalt)
-| | [Möte](#fiktiv-gestalt) |
+| [Organisation](#organisation) | [Fiktiv gestalt](#agent-som-amne) |
+| [Jurisdiktion](#jurisdiktion) | [Organisation](#agent-som-amne) |
+| [Släkt](#jurisdiktion) | [Jurisdiktion](#jurisdiktion-som-amne) |
+| [Möte](#mote) | [Släkt](#jurisdiktion-som-amne)
+| | [Möte](#jurisdiktion-som-amne) |
 
 
 ### Agent som Primar medverkan eller Medverkan
@@ -121,7 +121,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Skapa lokal entitet
 
-##### Person
+##### Person som Amne
 
 * Person som Ämne (Subject/agent/Person = 600 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
@@ -129,7 +129,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in korrekt namnform.
  <br/>```Exempel: Namn: Madonna samt Födelsetid och/eller dödstid: 1958-```
  
-##### Fiktiv gestalt
+##### Fiktiv gestalt som Amne
 
 * Fiktiv gestalt som Ämne (Subject/agent/Person = 600 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ange personnamnet enligt samma princip som för en verklig person. Tillägget "(fiktiv gestalt)" läggs till via egenskapen Titel eller övrig beteckning.
@@ -137,7 +137,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * ```Namn: Bambi samt Titel eller övrig beteckning (fiktiv gestalt)```
   * ```Efternamn: Granger samt Förnamn: Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
 
-##### Organisation
+##### Organisation som Amne
 
 * Organisation med namnformen i ett led som Ämne (Subject/agent/Organization = 610 2/4)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
@@ -148,7 +148,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Library of Congress samt Organisation/Namn på underordnad enhet: Federal Research Division```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
-##### Jurisdiktion
+##### Jurisdiktion som Amne
 
 * Jurisdiktion med namnformen i ett led som Ämne (Subject/agent/Jurisdiction = 610 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
@@ -159,13 +159,13 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Storbritannien samt Jurisdiktion/Namn på underordnad enhet: MI5```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
-##### Släkt
+##### Släkt som Ämne
   
 * Släkt som Ämne (Subject/agent/Family = 600 3/ )
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Hilton (släkt) samt Födelsetid och/eller dödstid: 1900-talet-```
   
-##### Mote   
+##### Möte som Ämne
 
 * Möte som Ämne (Subject/agent/Meeting = 611 2/ )
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
