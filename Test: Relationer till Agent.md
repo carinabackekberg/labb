@@ -21,7 +21,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Agent som Primär medverkan eller medverkan](#agent-som-primar-medverkan-eller-medverkan)  | [Agent som Ämne](#agent-som-amne)
 | ------ | ------- |
 | [**Länka till entitet**](#agent-som-primar-medverkan-eller-medverkan) | [**Länka till entitet**](#agent-som-amne) |
-| [Agent](#agent) | [Ämne](#agent-som-amne)
+| [Agent](#agent) | [Agent](#agent-som-amne)
 | [Funktion](#funktion)
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#agent-som-amne) 
 | [Person](#person-som-primar-medverkan-eller-medverkan) | [Person](#person-som-amne)
@@ -106,7 +106,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Länka till entitet
 
-##### Ämne
+##### Agent
 
 * Ämne/Agent (subject/agent = 600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
