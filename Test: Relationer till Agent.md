@@ -24,11 +24,11 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan) | [Ämne](#agent-som-amne)
 | [Funktion](#funktion)
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#agent-som-amne) 
-| [Person](#person) | [Person](#person-som-amne)
-| [Organisation](#organisation) | [Fiktiv gestalt](#person-som-amne) |
-| [Jurisdiktion](#jurisdiktion) | [Organisation](#person-som-amne) |
-| [Släkt](#jurisdiktion) | [Jurisdiktion](#jurisdiktion-som-amne) |
-| [Möte](#mote) | [Släkt](#jurisdiktion-som-amne)
+| [Person](#person-som-primar-medverkan-eller-medverkan) | [Person](#person-som-amne)
+| [Organisation](#person-som-primar-medverkan-eller-medverkan) | [Fiktiv gestalt](#person-som-amne) |
+| [Jurisdiktion](#jurisdiktion-som-primar-medverkan-eller-medverkan) | [Organisation](#person-som-amne) |
+| [Släkt](#jurisdiktion-som-primar-medverkan-eller-medverkan) | [Jurisdiktion](#jurisdiktion-som-amne) |
+| [Möte](#jurisdiktion-som-primar-medverkan-eller-medverkan) | [Släkt](#jurisdiktion-som-amne)
 | | [Möte](#jurisdiktion-som-amne) |
 
 
@@ -59,7 +59,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Skapa lokal entitet
 
-##### Person
+##### Person som Primar medverkan eller medverkan
 
 * Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 1/ , 700 1/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
@@ -67,7 +67,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
  <br/>```Exempel: Namn: Sigfús Daðason```
 
-##### Organisation
+##### Organisation som Primär medverkan eller medverkan
 
 * Organisation med namnformen i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/ , 710 2/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
@@ -78,7 +78,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: British Library samt Organisation/Namn på underordnad enhet: Department of Oriental Manuscripts and Printed Books```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
-##### Jurisdiktion
+##### Jurisdiktion som Primar medverkan eller medverkan
 
 * Jurisdiktion med namnform i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
@@ -89,13 +89,13 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Danmark samt Jurisdiktion/Namn på underordnad enhet: Folketinget```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
 
-##### Släkt
+##### Släkt som Primär medverkan eller medverkan
 
 * Släkt som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Family = 100 3/ , 700 3/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Ibsen (släkt)```
   
-##### Mote
+##### Möte som Primär medverkan eller medverkan
 
 * Möte som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/ , 711 2/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
