@@ -37,7 +37,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Länka till entitet
 
-##### Primär medverkan eller Medverkan
+##### Agent
 
 * Primär medverkan/Medverkan/Agent (contribution/PrimaryContribution/agent = 100, 110, 111, 700, 710, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
@@ -63,7 +63,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Länka till entitet
 
-##### Ämne
+##### Agent
 
 * Ämne/Agent (subject/agent = 600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
