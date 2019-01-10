@@ -80,14 +80,12 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Person
 
-Person som Primär medverkan eller Medverkan
 * Person som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Person = 100 1/ , 700 1/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
  <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
  <br/>```Exempel: Namn: Sigfús Daðason```
 
-##### Person som ämne
 * Person som Ämne (Subject/agent/Person = 600 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
  <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
