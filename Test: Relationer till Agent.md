@@ -21,7 +21,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Agent som Primär medverkan eller medverkan](#agent-som-primar-medverkan-eller-medverkan)  | [Agent som Ämne](#agent-som-amne)
 | ------ | ------- |
 | [**Länka till entitet**](#agent-som-primar-medverkan-eller-medverkan) | [**Länka till entitet**](#agent-som-amne) |
-| [Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan) | [Ämne](#agent-som-amne)
+| [Agent](#agent) | [Ämne](#agent-som-amne)
 | [Funktion](#funktion)
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#agent-som-amne) 
 | [Person](#person-som-primar-medverkan-eller-medverkan) | [Person](#person-som-amne)
@@ -36,7 +36,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Länka till entitet
 
-##### Primär medverkan eller Medverkan
+##### Agent
 
 * Primär medverkan/Medverkan/Agent (contribution/PrimaryContribution/agent = 100, 110, 111, 700, 710, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
