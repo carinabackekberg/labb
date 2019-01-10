@@ -29,7 +29,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Jurisdiktion](#jurisdiktion) | [Organisation](#fiktiv-gestalt) |
 | [Släkt](#jurisdiktion) | [Jurisdiktion](#fiktiv-gestalt) |
 | [Möte](#mote) | [Släkt](#fiktiv-gestalt)
-| | [Möte](#mote) |
+| | [Möte](#fiktiv-gestalt) |
 
 
 ### Agent som Primar medverkan eller Medverkan
