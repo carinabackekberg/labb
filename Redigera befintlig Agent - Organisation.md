@@ -56,8 +56,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Katalogiseringsspråk  
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
- <br/>```Exempel: Svenska```Ändras ej.
- <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
+ <br/>```Exempel: Svenska```
+ <br/>Ändras ej. Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
 
 #### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
