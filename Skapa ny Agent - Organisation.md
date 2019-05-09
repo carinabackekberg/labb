@@ -107,7 +107,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Namn på underordnad enhet (marc/subordinateUnit = 110 2/- #b och 110 2/- #b #b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
   <br/>```Exempel: Centrum för medeltidsstudier```
-<br/>Om namnformen består av fler än två led används plutecknet inom Namn på underordnad enhet för att skapa ytterligare rad. Här anges ytterligare led av namnformen.
+<br/>Om namnformen består av fler än två led används plutecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Biblioteket```
  
 #### Identifikator
@@ -119,18 +119,18 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Variant
 * Variant (hasVariant = 410 #a #b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar. 
-<br/>OBS! Det fungerar inte att göra Variant med namn i fler än två led i nuläget.
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar.
   <br/>```Exempel:```
    * ```ALC```
    * ```Swedish Centre for Working Life```
     <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
    
-  ```Exempel på namnform i två led:```
+  ```Exempel på namnform i flera led:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Smittskyddsinstitutet```
   <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
-  <br/>För att lägga till Jurisdiktion i två led: klicka på plustecknet vid egenskapen Variant, och välj Jurisdiktion. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj Jurisdiktion i rullmenyn för Skapa lokal entitet.
+<br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
+  <br/>```Exempel: Biblioteket```
 
 
 #### Se även
