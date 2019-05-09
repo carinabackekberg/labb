@@ -116,7 +116,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>(isPartOf/name = 110 2/- #a)
   <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Stockholms universitet```
-* Namn på underordnad enhet (marc/subordinateUnit =110 2/- #b)
+* Namn på underordnad enhet (marc/subordinateUnit = 110 2/- #b och 110 2/- #b #b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
   <br/>```Exempel: Centrum för medeltidsstudier```
 <br/>Om namnformen består av fler än två led används plutecknet inom Namn på underordnad enhet för att skapa ytterligare rad. Här anges ytterligare led av namnformen.
