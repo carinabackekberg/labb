@@ -100,8 +100,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 #### Ar del av och Namn på underordnad enhet
 <br/>Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på underordnad enhet
-* Är del av/Namn
-  <br/>(isPartOf/name = 110 2/- #a)
+* Är del av/Namn (isPartOf/name = 110 2/- #a)
   <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Stockholms universitet```
 * Namn på underordnad enhet (marc/subordinateUnit = 110 2/- #b och 110 2/- #b #b)
@@ -119,7 +118,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Variant
 * Variant (hasVariant = 410 #a #b och 410 #a #b #b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar.
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. 
+  <br/>OBS! Varianter ska inte göras till sökbara länkar.
   <br/>```Exempel:```
    * ```ALC```
    * ```Swedish Centre for Working Life```
