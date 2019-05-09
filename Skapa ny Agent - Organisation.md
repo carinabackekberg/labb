@@ -111,7 +111,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>För namnform som består av flera led används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
 #### Ar del av och Namn på underordnad enhet
-  <br/>Namnform i flera led består av egenskaperna Är del av och Namn på underordnad enhet
+<br/>Namnform i flera led består av egenskaperna Är del av och Namn på underordnad enhet
 
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- #a)
