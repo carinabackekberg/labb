@@ -11,22 +11,21 @@ För information om katalogiseringsregler som gäller vid auktorisering, se
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, t ex avseende ordning på egenskaper kan förekomma.
 
 
-
 ### Innehåll
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Är del av och Namn på underordnad enhet](#ar-del-av-och-namn-på-underordnad-enhet) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
-| [Konsulterad källa](#poststatus) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Ytterligare egenskaper att lägga till vid behov**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
+| [Beskrivningsnivå](#adminmetadata) | [Namn](#namn) |
+| [Skapad av](#skapad-av) | [Är del av och Namn på underordnad enhet](#ar-del-av-och-namn-på-underordnad-enhet) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Administrativ historik](#administrativ-historik) |
+| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Se även](#variant) |
+| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Identifikator](#identifikator) |
+| | [Nationalitet](#nationalitet) | |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#nationalitet) |
+| | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
 | | [Verksamhetsområde](#tid-for-grundande) | |
 | | [Språk](#tid-for-grundande) | |
@@ -53,16 +52,16 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  <br/>Förval: rda. Ändra vid behov.
  <br/>```Exempel: Kod: rda```
 
-#### Katalogiseringsspråk
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)
- <br/>Förval: language/swe. Ändras ej
-
 #### Katalogisatorens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
   <br/>```Exempel:```
   * ```2018-08-28/S/NB/carbac```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+
+#### Katalogiseringsspråk
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+ <br/>Förval: language/swe. Ändras ej
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
@@ -78,7 +77,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
-    
+   
+ 
 #### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
@@ -195,4 +195,3 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex Organisation. Lägg sedan till Benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länks.
-
