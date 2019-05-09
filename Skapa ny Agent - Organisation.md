@@ -110,12 +110,15 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Arbetslivscentrum```
   <br/>För namnform som består av flera led används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
-#### Namnform i flera led 
+#### Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på underordnad enhet
+
+#### Är del av
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- #a)
   <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Stockholms universitet```
   
+#### Namn på underordnad enhet  
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- #b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
   <br/>```Exempel: Centrum för medeltidsstudier```
