@@ -17,7 +17,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namnform i två led](#namn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namnform i flera led](#namn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
@@ -110,7 +110,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Arbetslivscentrum```
   <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
-#### Namnform i två led 
+#### Namnform i flera led 
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- #a)
   <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
@@ -119,7 +119,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- #b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
   <br/>```Exempel: Centrum för medeltidsstudier```
-<br/>OBS! Det fungerar inte att göra Organisation med namnform i fler än två led i nuläget.
+<br/>Om namnformen består av fler än två led används plutecknet inom Namn på underordnad enhet för att skapa ytterligare rad.
+  <br/>```Exempel: Biblioteket```
   
 #### Verksamhetens starttid  
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 #s)
