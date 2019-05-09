@@ -118,7 +118,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 
 #### Variant
-* Variant (hasVariant = 410 #a #b)
+* Variant (hasVariant = 410 #a #b och 410 #a #b #b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar.
   <br/>```Exempel:```
    * ```ALC```
@@ -127,10 +127,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
    
   ```Exempel på namnform i flera led:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
-  * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Smittskyddsinstitutet```
-  <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
 <br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Biblioteket```
+<br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
 
 
 #### Se även
