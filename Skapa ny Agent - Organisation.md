@@ -17,7 +17,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Är del av samt Namn på underordnad enhet](#namnform-i-flera-led) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Är del av och Namn på underordnad enhet](#namnform-i-flera-led) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
