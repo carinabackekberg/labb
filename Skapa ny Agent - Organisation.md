@@ -17,7 +17,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Är del av och Namn på underordnad enhet](#namn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Är del av och Namn på underordnad enhet](#ar-del-av-och-namn-på-underordnad-enhet) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
@@ -110,7 +110,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Arbetslivscentrum```
   <br/>För namnform som består av flera led används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
-#### Namnform i flera led består av egenskaperna Är del av och Namn på underordnad enhet
+#### Ar del av och Namn på underordnad enhet
+  <br/>Namnform i flera led består av egenskaperna Är del av och Namn på underordnad enhet
 
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- #a)
