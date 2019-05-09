@@ -18,14 +18,14 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | ------ | ----------- |
 | [Beskrivningsnivå](#adminmetadata) | [Namn](#namn) |
 | [Skapad av](#skapad-av) | [Är del av och Namn på underordnad enhet](#ar-del-av-och-namn-på-underordnad-enhet) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Administrativ historik](#administrativ-historik) |
-| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Se även](#variant) |
-| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| | [Nationalitet](#nationalitet) | |
-| | [**Ytterligare egenskaper att lägga till vid behov**](#nationalitet) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Se även](#variant) |
+| [Konsulterad källa](#katalogiseringsregler) | [Nationalitet](#nationalitet) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| | [Administrativ historik](#administrativ-historik) | |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#administrativ-historik) |
 | | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
 | | [Verksamhetsområde](#tid-for-grundande) | |
