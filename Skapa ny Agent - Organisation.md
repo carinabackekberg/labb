@@ -16,17 +16,17 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Är del av och Namn på underordnad enhet](#ar-del-av-och-namn-på-underordnad-enhet) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
-| [Konsulterad källa](#poststatus) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Ytterligare egenskaper att lägga till vid behov**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
+| [Beskrivningsnivå](#adminmetadata) | [Namn](#namn) |
+| [Skapad av](#skapad-av) | [Är del av och Namn på underordnad enhet](#ar-del-av-och-namn-på-underordnad-enhet) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Administrativ historik](#administrativ-historik) |
+| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Se även](#variant) |
+| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Identifikator](#identifikator) |
+| | [Nationalitet](#nationalitet) | |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#nationalitet) |
+| | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
 | | [Verksamhetsområde](#tid-for-grundande) | |
 | | [Språk](#tid-for-grundande) | |
@@ -38,7 +38,11 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 ### Adminmetadata
 
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
-
+ 
+#### Beskrivningsnivå 
+ * Beskrivningsnivå (encodingLevel)
+  <br/>Förval: Fullständig. Ändras ej.
+   
 #### Skapad av
 * Skapad av (descriptionCreator = 040 #a)
  <br/>Förval: inloggad sigel. Ändras ej.
@@ -49,24 +53,16 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  <br/>Förval: rda. Ändra vid behov.
  <br/>```Exempel: Kod: rda```
 
-#### Katalogiseringsspråk
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)
- <br/>Förval: language/swe. Ändras ej
-
-#### Translitterering
-* Translitterering (marc:romanization = 008/07)
- <br/>Ändras ej.
-
-#### Poststatus
-* Poststatus (recordStatus = 000)
-  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
-
 #### Katalogisatorens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
   <br/>```Exempel:```
   * ```2018-08-28/S/NB/carbac```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+
+#### Katalogiseringsspråk
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+ <br/>Förval: language/swe. Ändras ej
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
@@ -88,18 +84,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
 
-#### Differentiering av person
-* Differentiering av person (marc:personalName = 008/32)
-  <br/>Ändras ej.
-
 #### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Ändras ej.
- 
-#### Beskrivningsnivå 
- * Beskrivningsnivå (encodingLevel)
-  <br/>Förval: Fullständig. Ändras ej.
-   
+
 
 ### Agent
 
