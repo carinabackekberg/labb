@@ -119,7 +119,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- #b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
   <br/>```Exempel: Centrum för medeltidsstudier```
-<br/>Om namnformen består av fler än två led används plutecknet inom Namn på underordnad enhet för att skapa ytterligare rad.
+<br/>Om namnformen består av fler än två led används plutecknet inom Namn på underordnad enhet för att skapa ytterligare rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Biblioteket```
     
 #### Verksamhetens starttid  
