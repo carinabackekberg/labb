@@ -109,19 +109,13 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Centrum för medeltidsstudier```
 <br/>Om namnformen består av fler än två led används plutecknet inom Namn på underordnad enhet för att skapa ytterligare rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Biblioteket```
-    
-#### Verksamhetens starttid  
-* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 #s)
-  <br/>```Exempel: 1977```
-  
-#### Verksamhetens sluttid    
-* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate = 046 #t)
-  <br/>```Exempel: 1994```
-  
-#### Administrativ historik
-* Administativ historik (hasHistoricalData = 678 #a)
-  <br/>Anmärkning om administrativ historik.
-  <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
+ 
+#### Identifikator
+* Identifikator (identifiedBy = 024 #a #2)
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
+  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+ <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas. 
+
 
 #### Variant
 * Variant (hasVariant = 410 #a #b)
@@ -145,18 +139,26 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Institutet för arbetslivsforskning```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
   
-#### Identifikator
-* Identifikator (identifiedBy = 024 #a #2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
- <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas.
-  
 
 #### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043 #a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-uk---```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
+
+#### Verksamhetens starttid  
+* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 #s)
+  <br/>```Exempel: 1977```
+  
+#### Verksamhetens sluttid    
+* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate = 046 #t)
+  <br/>```Exempel: 1994```
+  
+#### Administrativ historik
+* Administativ historik (hasHistoricalData = 678 #a)
+  <br/>Anmärkning om administrativ historik.
+  <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
 
   
 ### Ytterligare egenskaper att lägga till vid behov
