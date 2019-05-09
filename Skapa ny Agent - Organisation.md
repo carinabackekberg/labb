@@ -110,7 +110,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Arbetslivscentrum```
   <br/>För namnform som består av flera led används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
-#### Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på underordnad enhet
+#### Namnform i flera led består av egenskaperna Är del av och Namn på underordnad enhet
 
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- #a)
@@ -122,8 +122,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Centrum för medeltidsstudier```
 <br/>Om namnformen består av fler än två led används plutecknet inom Namn på underordnad enhet för att skapa ytterligare rad.
   <br/>```Exempel: Biblioteket```
-  
-  
+    
 #### Verksamhetens starttid  
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 #s)
   <br/>```Exempel: 1977```
