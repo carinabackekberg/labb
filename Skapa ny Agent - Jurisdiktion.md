@@ -1,4 +1,4 @@
-UNDER ARBETE 19-05-09, (överflyttad till skarpt 19-05-XX)
+UNDER ARBETE 19-05-10, (överflyttad till skarpt 19-05-XX)
 
 
 ## Skapa ny: Agent - Jurisdiktion
@@ -172,7 +172,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 #a #2)
   <br/>Ange verksamhetsområde för en jurisdiktionen vid behov.
-  <br/>```Exempel: Design```
+  <br/>```Exempel: Miljörätt```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
