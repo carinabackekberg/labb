@@ -127,6 +127,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Riksdagen ```
 <br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Jordbruksutskottet```
+
 <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av Agent som behöver läggas till i rullmenyn.
 <br/>```Exempel: Organisation: Miljö- och jordbruksutskottet```
 
