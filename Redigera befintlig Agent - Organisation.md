@@ -1,4 +1,4 @@
-UNDER ARBETE uppdaterad 2019-04-16 (överflyttad till skarpt 19-04-16)
+UNDER ARBETE uppdaterad 2019-05-10 (överflyttad till skarpt 19-04-16)
 
 
 ## Redigera befintlig: Agent - Organisation
@@ -173,12 +173,14 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
    * ```Släktforskarförbundet```
    * ```Federation of Swedish Genealogical Societies```
    <br/>För att lägga till ytterligare variant: Duplicera entiteten och redigera uppgifterna.
-   
-   ```Exempel på namnform i två led:```
+  
+  ```Exempel på namnform i flera led:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
-  * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Smittskyddsinstitutet```
- <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
-  <br/>För att lägga till Variant i två led om inget exempel finns: klicka på plustecknet vid egenskapen Variant, och välj typ t ex Jurisdiktion. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj Jurisdiktion i rullmenyn för Skapa lokal entitet.
+<br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
+  <br/>```Exempel: Biblioteket```
+
+<br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av Agent som behöver läggas till i rullmenyn.
+
 
 #### Samma sak som
 * Samma sak som (sameAs)
@@ -250,5 +252,5 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
  * Organisatorisk tillhörighet (hasAffiliation = 373 #a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex Organisation. Lägg sedan till Benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länks.
+ <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet. Lägg sedan till Benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länks.
 
