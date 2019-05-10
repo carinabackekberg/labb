@@ -133,6 +133,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av Agent som behöver läggas till i rullmenyn.
 
 
+
 #### Se även
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
