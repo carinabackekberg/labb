@@ -172,7 +172,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel:```
    * ```Släktforskarförbundet```
    * ```Federation of Swedish Genealogical Societies```
-   <br/>För att lägga till ytterligare variant: Duplicera entiteten och redigera uppgifterna.
   
   ```Exempel på namnform i flera led:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
