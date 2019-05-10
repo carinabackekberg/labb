@@ -94,7 +94,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Namn 
   <br/>(name) (110 #a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
-  <br/>```Exempel: Åmåls kommun (Sverige)```
+  <br/>```Exempel: Göteborgs stad (Sverige)```
   <br/>För namnform som består av flera led används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
 #### Namnform i flera led
@@ -104,7 +104,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Sverige```
 
 * Namn på underordnad enhet (marc/subordinateUnit = 110 2/- #b och 110 2/- #b #b)
-  <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
+  <br/>Underordnade och relaterade jurisdiktioner som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
   <br/>```Exempel: Riksdagen```
 <br/>Om namnformen består av fler än två led används plustecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Miljö- och jordbruksutskottet```
@@ -121,28 +121,28 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. 
   <br/>OBS! Varianter ska inte göras till sökbara länkar.
   <br/>```Exempel:```
-   * ```ALC```
-   * ```Swedish Centre for Working Life```
-    <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
+   * ```Borås kommun (Sverige)``` 
    
   ```Exempel på namnform i flera led:```
-  * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
+  * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Riksdagen ```
 <br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
-  <br/>```Exempel: Biblioteket```
-<br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
+  <br/>```Exempel: Jordbruksutskottet```
+
+<br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av Agent som behöver läggas till i rullmenyn.
+<br/>```Exempel: Organisation: Miljö- och jordbruksutskottet```
 
 
 #### Se även
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
-  <br/>```Exempel: Institutet för arbetslivsforskning```
+  <br/>```Exempel: Göteborgs kommun (Sverige)```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
   
 
 #### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043 #a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
-  <br/>```Exempel: e-uk---```
+  <br/>```Exempel: e-no---```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 
@@ -157,7 +157,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Administrativ historik
 * Administativ historik (hasHistoricalData = 678 #a)
   <br/>Anmärkning om administrativ historik.
-  <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
+  <br/>```Exempel: Inrättat 1909. Bytte namn från jordbruksutskottet till miljö- och jordbruksutskottet från och med riksmötet 1989/99```
 
   
 ### Ytterligare egenskaper att lägga till vid behov
