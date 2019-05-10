@@ -130,7 +130,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
 <br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Biblioteket```
-<br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
+<br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av Agent som behöver läggas till i rullmenyn.
 
 
 #### Se även
