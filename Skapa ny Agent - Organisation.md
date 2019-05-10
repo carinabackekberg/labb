@@ -17,7 +17,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Beskrivningsnivå](#adminmetadata) | [Namn](#namn) |
-| [Skapad av](#skapad-av) | [Är del av och Namn på underordnad enhet](#ar-del-av-och-namn-på-underordnad-enhet) |
+| [Skapad av](#skapad-av) | [Namnform i flera led](#namnform-i-flera-led) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Variant](#variant) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Se även](#variant) |
@@ -98,7 +98,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Arbetslivscentrum```
   <br/>För namnform som består av flera led används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
-#### Ar del av och Namn på underordnad enhet
+#### Namnform i flera led
 <br/>Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på underordnad enhet
 * Är del av/Namn (isPartOf/name = 110 2/- #a)
   <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
