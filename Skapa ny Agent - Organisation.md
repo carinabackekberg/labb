@@ -79,10 +79,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
 
-#### Marc:headingMain 
-* Marc:headingMain (marc:headingMain = 008/14)
- <br/>Ändras ej.
-
 #### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
@@ -90,6 +86,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Ändras ej.
+
+#### Marc:headingMain 
+* Marc:headingMain (marc:headingMain = 008/14)
+ <br/>Ändras ej.
 
 
 ### Agent
