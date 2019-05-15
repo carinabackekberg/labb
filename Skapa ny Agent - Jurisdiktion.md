@@ -1,4 +1,4 @@
-UNDER ARBETE 19-05-10, (överflyttad till skarpt 19-05-XX)
+UNDER ARBETE 19-05-15, (överflyttad till skarpt 19-05-15)
 
 
 ## Skapa ny: Agent - Jurisdiktion
@@ -127,7 +127,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Jordbruksutskottet```
 
 <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av agent som behöver läggas till i rullmenyn.
-<br/>```Exempel: Organisation: Miljö- och jordbruksutskottet```
 
 
 #### Se även
