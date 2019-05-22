@@ -118,7 +118,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Variant
 * Variant (hasVariant = 410 #a #b och 410 #a #b #b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar.
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. 
+
   <br/>```Exempel:```
    * ```Borås kommun (Sverige)``` 
    
@@ -128,6 +129,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Jordbruksutskottet```
 
 <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av agent som behöver läggas till i rullmenyn.
+<br/>OBS! Varianter ska inte göras till sökbara länkar.
 
 #### Se även
 * Se även (seeAlso = 510)
