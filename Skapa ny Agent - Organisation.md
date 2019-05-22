@@ -121,7 +121,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Variant
 * Variant (hasVariant = 410 #a #b och 410 #a #b #b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar.
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
   <br/> OBS! Varianter ska inte göras till sökbara länkar.
   <br/>```Namnform i ett led:```
   <br/>```Exempel: Swedish Centre for Working Life```
@@ -130,7 +130,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
 <br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Biblioteket```
-
 <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av Agent som behöver läggas till i rullmenyn.
 
 #### Se även
