@@ -81,6 +81,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
     <br/>```Uppgift från källa: Datum för namnbyte: 1984```
  
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
+  
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
 
 #### Uppdatering av posten
