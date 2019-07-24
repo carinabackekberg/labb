@@ -79,7 +79,11 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
     <br/>```Uppgift från källa: Startår 1886```
   * ```Benämning: Landstingsförbundets webbplats 2018-08-17``` 
     <br/>```Uppgift från källa: Datum för namnbyte: 1984```
- 
+   
+  <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
+  <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
+
+
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
 
